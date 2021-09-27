@@ -1,0 +1,23 @@
+{
+  "images" : [
+    {
+      "filename" : "PrimeraSesionUsuarioN.png",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "filename" : "PrimeraSesionUsuarioN-1.png",
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "filename" : "PrimeraSesionUsuarioN-2.png",
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
