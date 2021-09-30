@@ -7,27 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		36C1CF262703CC2B00C20564 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36C1CF252703CC2B00C20564 /* AppDelegate.swift */; };
-		36C1CF282703CC2B00C20564 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36C1CF272703CC2B00C20564 /* SceneDelegate.swift */; };
-		36C1CF2A2703CC2B00C20564 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36C1CF292703CC2B00C20564 /* ViewController.swift */; };
-		36C1CF2D2703CC2B00C20564 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36C1CF2B2703CC2B00C20564 /* Main.storyboard */; };
-		36C1CF2F2703CC2C00C20564 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 36C1CF2E2703CC2C00C20564 /* Assets.xcassets */; };
-		36C1CF322703CC2C00C20564 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36C1CF302703CC2C00C20564 /* LaunchScreen.storyboard */; };
+		368AED2127053F31009EF4F3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 368AED2027053F31009EF4F3 /* AppDelegate.swift */; };
+		368AED2327053F31009EF4F3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 368AED2227053F31009EF4F3 /* SceneDelegate.swift */; };
+		368AED2527053F31009EF4F3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 368AED2427053F31009EF4F3 /* ViewController.swift */; };
+		368AED2827053F31009EF4F3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 368AED2627053F31009EF4F3 /* Main.storyboard */; };
+		368AED2A27053F34009EF4F3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 368AED2927053F34009EF4F3 /* Assets.xcassets */; };
+		368AED2D27053F34009EF4F3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 368AED2B27053F34009EF4F3 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		36C1CF222703CC2B00C20564 /* AplicaciónCETAC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AplicaciónCETAC.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		36C1CF252703CC2B00C20564 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		36C1CF272703CC2B00C20564 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		36C1CF292703CC2B00C20564 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		36C1CF2C2703CC2B00C20564 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		36C1CF2E2703CC2C00C20564 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		36C1CF312703CC2C00C20564 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		36C1CF332703CC2C00C20564 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		368AED1D27053F31009EF4F3 /* CETACApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CETACApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		368AED2027053F31009EF4F3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		368AED2227053F31009EF4F3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		368AED2427053F31009EF4F3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		368AED2727053F31009EF4F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		368AED2927053F34009EF4F3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		368AED2C27053F34009EF4F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		368AED2E27053F34009EF4F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		36C1CF1F2703CC2B00C20564 /* Frameworks */ = {
+		368AED1A27053F31009EF4F3 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -37,71 +37,71 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		36C1CF192703CC2B00C20564 = {
+		368AED1427053F31009EF4F3 = {
 			isa = PBXGroup;
 			children = (
-				36C1CF242703CC2B00C20564 /* AplicaciónCETAC */,
-				36C1CF232703CC2B00C20564 /* Products */,
+				368AED1F27053F31009EF4F3 /* CETACApp */,
+				368AED1E27053F31009EF4F3 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		36C1CF232703CC2B00C20564 /* Products */ = {
+		368AED1E27053F31009EF4F3 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				36C1CF222703CC2B00C20564 /* AplicaciónCETAC.app */,
+				368AED1D27053F31009EF4F3 /* CETACApp.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		36C1CF242703CC2B00C20564 /* AplicaciónCETAC */ = {
+		368AED1F27053F31009EF4F3 /* CETACApp */ = {
 			isa = PBXGroup;
 			children = (
-				36C1CF252703CC2B00C20564 /* AppDelegate.swift */,
-				36C1CF272703CC2B00C20564 /* SceneDelegate.swift */,
-				36C1CF292703CC2B00C20564 /* ViewController.swift */,
-				36C1CF2B2703CC2B00C20564 /* Main.storyboard */,
-				36C1CF2E2703CC2C00C20564 /* Assets.xcassets */,
-				36C1CF302703CC2C00C20564 /* LaunchScreen.storyboard */,
-				36C1CF332703CC2C00C20564 /* Info.plist */,
+				368AED2027053F31009EF4F3 /* AppDelegate.swift */,
+				368AED2227053F31009EF4F3 /* SceneDelegate.swift */,
+				368AED2427053F31009EF4F3 /* ViewController.swift */,
+				368AED2627053F31009EF4F3 /* Main.storyboard */,
+				368AED2927053F34009EF4F3 /* Assets.xcassets */,
+				368AED2B27053F34009EF4F3 /* LaunchScreen.storyboard */,
+				368AED2E27053F34009EF4F3 /* Info.plist */,
 			);
-			path = "AplicaciónCETAC";
+			path = CETACApp;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		36C1CF212703CC2B00C20564 /* AplicaciónCETAC */ = {
+		368AED1C27053F31009EF4F3 /* CETACApp */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 36C1CF362703CC2C00C20564 /* Build configuration list for PBXNativeTarget "AplicaciónCETAC" */;
+			buildConfigurationList = 368AED3127053F34009EF4F3 /* Build configuration list for PBXNativeTarget "CETACApp" */;
 			buildPhases = (
-				36C1CF1E2703CC2B00C20564 /* Sources */,
-				36C1CF1F2703CC2B00C20564 /* Frameworks */,
-				36C1CF202703CC2B00C20564 /* Resources */,
+				368AED1927053F31009EF4F3 /* Sources */,
+				368AED1A27053F31009EF4F3 /* Frameworks */,
+				368AED1B27053F31009EF4F3 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "AplicaciónCETAC";
-			productName = "AplicaciónCETAC";
-			productReference = 36C1CF222703CC2B00C20564 /* AplicaciónCETAC.app */;
+			name = CETACApp;
+			productName = CETACApp;
+			productReference = 368AED1D27053F31009EF4F3 /* CETACApp.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		36C1CF1A2703CC2B00C20564 /* Project object */ = {
+		368AED1527053F31009EF4F3 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1250;
 				LastUpgradeCheck = 1250;
 				TargetAttributes = {
-					36C1CF212703CC2B00C20564 = {
+					368AED1C27053F31009EF4F3 = {
 						CreatedOnToolsVersion = 12.5.1;
 					};
 				};
 			};
-			buildConfigurationList = 36C1CF1D2703CC2B00C20564 /* Build configuration list for PBXProject "AplicaciónCETAC" */;
+			buildConfigurationList = 368AED1827053F31009EF4F3 /* Build configuration list for PBXProject "CETACApp" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -109,55 +109,55 @@
 				en,
 				Base,
 			);
-			mainGroup = 36C1CF192703CC2B00C20564;
-			productRefGroup = 36C1CF232703CC2B00C20564 /* Products */;
+			mainGroup = 368AED1427053F31009EF4F3;
+			productRefGroup = 368AED1E27053F31009EF4F3 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				36C1CF212703CC2B00C20564 /* AplicaciónCETAC */,
+				368AED1C27053F31009EF4F3 /* CETACApp */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		36C1CF202703CC2B00C20564 /* Resources */ = {
+		368AED1B27053F31009EF4F3 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				36C1CF322703CC2C00C20564 /* LaunchScreen.storyboard in Resources */,
-				36C1CF2F2703CC2C00C20564 /* Assets.xcassets in Resources */,
-				36C1CF2D2703CC2B00C20564 /* Main.storyboard in Resources */,
+				368AED2D27053F34009EF4F3 /* LaunchScreen.storyboard in Resources */,
+				368AED2A27053F34009EF4F3 /* Assets.xcassets in Resources */,
+				368AED2827053F31009EF4F3 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		36C1CF1E2703CC2B00C20564 /* Sources */ = {
+		368AED1927053F31009EF4F3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				36C1CF2A2703CC2B00C20564 /* ViewController.swift in Sources */,
-				36C1CF262703CC2B00C20564 /* AppDelegate.swift in Sources */,
-				36C1CF282703CC2B00C20564 /* SceneDelegate.swift in Sources */,
+				368AED2527053F31009EF4F3 /* ViewController.swift in Sources */,
+				368AED2127053F31009EF4F3 /* AppDelegate.swift in Sources */,
+				368AED2327053F31009EF4F3 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		36C1CF2B2703CC2B00C20564 /* Main.storyboard */ = {
+		368AED2627053F31009EF4F3 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				36C1CF2C2703CC2B00C20564 /* Base */,
+				368AED2727053F31009EF4F3 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		36C1CF302703CC2C00C20564 /* LaunchScreen.storyboard */ = {
+		368AED2B27053F34009EF4F3 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				36C1CF312703CC2C00C20564 /* Base */,
+				368AED2C27053F34009EF4F3 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -165,7 +165,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		36C1CF342703CC2C00C20564 /* Debug */ = {
+		368AED2F27053F34009EF4F3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -226,7 +226,7 @@
 			};
 			name = Debug;
 		};
-		36C1CF352703CC2C00C20564 /* Release */ = {
+		368AED3027053F34009EF4F3 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -281,36 +281,36 @@
 			};
 			name = Release;
 		};
-		36C1CF372703CC2C00C20564 /* Debug */ = {
+		368AED3227053F34009EF4F3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "AplicaciónCETAC/Info.plist";
+				INFOPLIST_FILE = CETACApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.Placeholder.Aplicacio-nCETAC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Placeholder.CETACApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		36C1CF382703CC2C00C20564 /* Release */ = {
+		368AED3327053F34009EF4F3 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "AplicaciónCETAC/Info.plist";
+				INFOPLIST_FILE = CETACApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.Placeholder.Aplicacio-nCETAC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Placeholder.CETACApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -320,25 +320,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		36C1CF1D2703CC2B00C20564 /* Build configuration list for PBXProject "AplicaciónCETAC" */ = {
+		368AED1827053F31009EF4F3 /* Build configuration list for PBXProject "CETACApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				36C1CF342703CC2C00C20564 /* Debug */,
-				36C1CF352703CC2C00C20564 /* Release */,
+				368AED2F27053F34009EF4F3 /* Debug */,
+				368AED3027053F34009EF4F3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		36C1CF362703CC2C00C20564 /* Build configuration list for PBXNativeTarget "AplicaciónCETAC" */ = {
+		368AED3127053F34009EF4F3 /* Build configuration list for PBXNativeTarget "CETACApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				36C1CF372703CC2C00C20564 /* Debug */,
-				36C1CF382703CC2C00C20564 /* Release */,
+				368AED3227053F34009EF4F3 /* Debug */,
+				368AED3327053F34009EF4F3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 36C1CF1A2703CC2B00C20564 /* Project object */;
+	rootObject = 368AED1527053F31009EF4F3 /* Project object */;
 }

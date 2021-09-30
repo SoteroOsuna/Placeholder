@@ -1,8 +1,8 @@
 //
 //  ViewController.swift
-//  AplicaciónCETAC
+//  CETACApp
 //
-//  Created by Sotero Osuna on 28/09/21.
+//  Created by Sotero Osuna on 29/09/21.
 //
 
 import UIKit
