@@ -13,6 +13,22 @@
 		368AED2827053F31009EF4F3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 368AED2627053F31009EF4F3 /* Main.storyboard */; };
 		368AED2A27053F34009EF4F3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 368AED2927053F34009EF4F3 /* Assets.xcassets */; };
 		368AED2D27053F34009EF4F3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 368AED2B27053F34009EF4F3 /* LaunchScreen.storyboard */; };
+		368AED4527053F71009EF4F3 /* CETACLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 368AED3527053F71009EF4F3 /* CETACLogo.png */; };
+		368AED4627053F71009EF4F3 /* InformaciónCETACObjetivosBrindarButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 368AED3627053F71009EF4F3 /* InformaciónCETACObjetivosBrindarButton.png */; };
+		368AED4727053F71009EF4F3 /* InformaciónAlterButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 368AED3727053F71009EF4F3 /* InformaciónAlterButton.png */; };
+		368AED4827053F71009EF4F3 /* CETACFONDO.png in Resources */ = {isa = PBXBuildFile; fileRef = 368AED3827053F71009EF4F3 /* CETACFONDO.png */; };
+		368AED4927053F71009EF4F3 /* InformaciónCETACMisionButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 368AED3927053F71009EF4F3 /* InformaciónCETACMisionButton.png */; };
+		368AED4A27053F71009EF4F3 /* InformaciónCETACObjetivosAcompañamientoButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 368AED3A27053F71009EF4F3 /* InformaciónCETACObjetivosAcompañamientoButton.png */; };
+		368AED4B27053F71009EF4F3 /* InformaciónCetacButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 368AED3B27053F71009EF4F3 /* InformaciónCetacButton.png */; };
+		368AED4C27053F71009EF4F3 /* InformaciónCETACVisionButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 368AED3C27053F71009EF4F3 /* InformaciónCETACVisionButton.png */; };
+		368AED4D27053F71009EF4F3 /* InformaciónCETACObjetivosAtencionButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 368AED3D27053F71009EF4F3 /* InformaciónCETACObjetivosAtencionButton.png */; };
+		368AED4E27053F71009EF4F3 /* InformaciónAcompButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 368AED3E27053F71009EF4F3 /* InformaciónAcompButton.png */; };
+		368AED4F27053F71009EF4F3 /* InformaciónCETACObjetivosCoordinacionButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 368AED3F27053F71009EF4F3 /* InformaciónCETACObjetivosCoordinacionButton.png */; };
+		368AED5027053F71009EF4F3 /* InformaciónCETACObjetivosTrasladosButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 368AED4027053F71009EF4F3 /* InformaciónCETACObjetivosTrasladosButton.png */; };
+		368AED5127053F71009EF4F3 /* InformaciónCETACObjetivosButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 368AED4127053F71009EF4F3 /* InformaciónCETACObjetivosButton.png */; };
+		368AED5227053F71009EF4F3 /* InformaciónCETACObjetivosApoyoButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 368AED4227053F71009EF4F3 /* InformaciónCETACObjetivosApoyoButton.png */; };
+		368AED5327053F71009EF4F3 /* InformaciónCETACValoresButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 368AED4327053F71009EF4F3 /* InformaciónCETACValoresButton.png */; };
+		368AED5427053F71009EF4F3 /* InformaciónHolistButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 368AED4427053F71009EF4F3 /* InformaciónHolistButton.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +40,22 @@
 		368AED2927053F34009EF4F3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		368AED2C27053F34009EF4F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		368AED2E27053F34009EF4F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		368AED3527053F71009EF4F3 /* CETACLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CETACLogo.png; sourceTree = "<group>"; };
+		368AED3627053F71009EF4F3 /* InformaciónCETACObjetivosBrindarButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "InformaciónCETACObjetivosBrindarButton.png"; sourceTree = "<group>"; };
+		368AED3727053F71009EF4F3 /* InformaciónAlterButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "InformaciónAlterButton.png"; sourceTree = "<group>"; };
+		368AED3827053F71009EF4F3 /* CETACFONDO.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CETACFONDO.png; sourceTree = "<group>"; };
+		368AED3927053F71009EF4F3 /* InformaciónCETACMisionButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "InformaciónCETACMisionButton.png"; sourceTree = "<group>"; };
+		368AED3A27053F71009EF4F3 /* InformaciónCETACObjetivosAcompañamientoButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "InformaciónCETACObjetivosAcompañamientoButton.png"; sourceTree = "<group>"; };
+		368AED3B27053F71009EF4F3 /* InformaciónCetacButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "InformaciónCetacButton.png"; sourceTree = "<group>"; };
+		368AED3C27053F71009EF4F3 /* InformaciónCETACVisionButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "InformaciónCETACVisionButton.png"; sourceTree = "<group>"; };
+		368AED3D27053F71009EF4F3 /* InformaciónCETACObjetivosAtencionButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "InformaciónCETACObjetivosAtencionButton.png"; sourceTree = "<group>"; };
+		368AED3E27053F71009EF4F3 /* InformaciónAcompButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "InformaciónAcompButton.png"; sourceTree = "<group>"; };
+		368AED3F27053F71009EF4F3 /* InformaciónCETACObjetivosCoordinacionButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "InformaciónCETACObjetivosCoordinacionButton.png"; sourceTree = "<group>"; };
+		368AED4027053F71009EF4F3 /* InformaciónCETACObjetivosTrasladosButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "InformaciónCETACObjetivosTrasladosButton.png"; sourceTree = "<group>"; };
+		368AED4127053F71009EF4F3 /* InformaciónCETACObjetivosButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "InformaciónCETACObjetivosButton.png"; sourceTree = "<group>"; };
+		368AED4227053F71009EF4F3 /* InformaciónCETACObjetivosApoyoButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "InformaciónCETACObjetivosApoyoButton.png"; sourceTree = "<group>"; };
+		368AED4327053F71009EF4F3 /* InformaciónCETACValoresButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "InformaciónCETACValoresButton.png"; sourceTree = "<group>"; };
+		368AED4427053F71009EF4F3 /* InformaciónHolistButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "InformaciónHolistButton.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +88,7 @@
 		368AED1F27053F31009EF4F3 /* CETACApp */ = {
 			isa = PBXGroup;
 			children = (
+				368AED3427053F71009EF4F3 /* Assets */,
 				368AED2027053F31009EF4F3 /* AppDelegate.swift */,
 				368AED2227053F31009EF4F3 /* SceneDelegate.swift */,
 				368AED2427053F31009EF4F3 /* ViewController.swift */,
@@ -65,6 +98,29 @@
 				368AED2E27053F34009EF4F3 /* Info.plist */,
 			);
 			path = CETACApp;
+			sourceTree = "<group>";
+		};
+		368AED3427053F71009EF4F3 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				368AED3527053F71009EF4F3 /* CETACLogo.png */,
+				368AED3627053F71009EF4F3 /* InformaciónCETACObjetivosBrindarButton.png */,
+				368AED3727053F71009EF4F3 /* InformaciónAlterButton.png */,
+				368AED3827053F71009EF4F3 /* CETACFONDO.png */,
+				368AED3927053F71009EF4F3 /* InformaciónCETACMisionButton.png */,
+				368AED3A27053F71009EF4F3 /* InformaciónCETACObjetivosAcompañamientoButton.png */,
+				368AED3B27053F71009EF4F3 /* InformaciónCetacButton.png */,
+				368AED3C27053F71009EF4F3 /* InformaciónCETACVisionButton.png */,
+				368AED3D27053F71009EF4F3 /* InformaciónCETACObjetivosAtencionButton.png */,
+				368AED3E27053F71009EF4F3 /* InformaciónAcompButton.png */,
+				368AED3F27053F71009EF4F3 /* InformaciónCETACObjetivosCoordinacionButton.png */,
+				368AED4027053F71009EF4F3 /* InformaciónCETACObjetivosTrasladosButton.png */,
+				368AED4127053F71009EF4F3 /* InformaciónCETACObjetivosButton.png */,
+				368AED4227053F71009EF4F3 /* InformaciónCETACObjetivosApoyoButton.png */,
+				368AED4327053F71009EF4F3 /* InformaciónCETACValoresButton.png */,
+				368AED4427053F71009EF4F3 /* InformaciónHolistButton.png */,
+			);
+			path = Assets;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -124,9 +180,25 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				368AED5127053F71009EF4F3 /* InformaciónCETACObjetivosButton.png in Resources */,
+				368AED5227053F71009EF4F3 /* InformaciónCETACObjetivosApoyoButton.png in Resources */,
+				368AED4727053F71009EF4F3 /* InformaciónAlterButton.png in Resources */,
+				368AED4E27053F71009EF4F3 /* InformaciónAcompButton.png in Resources */,
 				368AED2D27053F34009EF4F3 /* LaunchScreen.storyboard in Resources */,
+				368AED4627053F71009EF4F3 /* InformaciónCETACObjetivosBrindarButton.png in Resources */,
+				368AED5027053F71009EF4F3 /* InformaciónCETACObjetivosTrasladosButton.png in Resources */,
+				368AED5327053F71009EF4F3 /* InformaciónCETACValoresButton.png in Resources */,
+				368AED4527053F71009EF4F3 /* CETACLogo.png in Resources */,
+				368AED4B27053F71009EF4F3 /* InformaciónCetacButton.png in Resources */,
 				368AED2A27053F34009EF4F3 /* Assets.xcassets in Resources */,
+				368AED5427053F71009EF4F3 /* InformaciónHolistButton.png in Resources */,
+				368AED4827053F71009EF4F3 /* CETACFONDO.png in Resources */,
+				368AED4927053F71009EF4F3 /* InformaciónCETACMisionButton.png in Resources */,
+				368AED4A27053F71009EF4F3 /* InformaciónCETACObjetivosAcompañamientoButton.png in Resources */,
+				368AED4D27053F71009EF4F3 /* InformaciónCETACObjetivosAtencionButton.png in Resources */,
 				368AED2827053F31009EF4F3 /* Main.storyboard in Resources */,
+				368AED4F27053F71009EF4F3 /* InformaciónCETACObjetivosCoordinacionButton.png in Resources */,
+				368AED4C27053F71009EF4F3 /* InformaciónCETACVisionButton.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
