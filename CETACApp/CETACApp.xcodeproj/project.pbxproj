@@ -3,10 +3,13 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		361E82C9270681B4005527F5 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 361E82C8270681B4005527F5 /* GoogleService-Info.plist */; };
+		364BD0EE2706CD75002A7002 /* ModuloInformacionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 364BD0ED2706CD75002A7002 /* ModuloInformacionController.swift */; };
+		364BD0F02706D06C002A7002 /* ModuloInformacionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 364BD0EF2706D06C002A7002 /* ModuloInformacionViewController.swift */; };
 		368AED2127053F31009EF4F3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 368AED2027053F31009EF4F3 /* AppDelegate.swift */; };
 		368AED2327053F31009EF4F3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 368AED2227053F31009EF4F3 /* SceneDelegate.swift */; };
 		368AED2527053F31009EF4F3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 368AED2427053F31009EF4F3 /* ViewController.swift */; };
@@ -29,9 +32,17 @@
 		368AED5227053F71009EF4F3 /* InformaciónCETACObjetivosApoyoButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 368AED4227053F71009EF4F3 /* InformaciónCETACObjetivosApoyoButton.png */; };
 		368AED5327053F71009EF4F3 /* InformaciónCETACValoresButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 368AED4327053F71009EF4F3 /* InformaciónCETACValoresButton.png */; };
 		368AED5427053F71009EF4F3 /* InformaciónHolistButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 368AED4427053F71009EF4F3 /* InformaciónHolistButton.png */; };
+		36F289E82709382A0052FB5E /* MenuInformacionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36F289E72709382A0052FB5E /* MenuInformacionViewController.swift */; };
+		36F289EA2709386F0052FB5E /* MenuInformacionCETACViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36F289E92709386F0052FB5E /* MenuInformacionCETACViewController.swift */; };
+		36F289EC270A88A00052FB5E /* Sesion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36F289EB270A88A00052FB5E /* Sesion.swift */; };
+		36F3926627068C7F0030A87F /* ModuloInformacion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36F3926527068C7F0030A87F /* ModuloInformacion.swift */; };
+		AD3870660D12B421DB319193 /* Pods_CETACApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C60F309B4049004E4A3682DE /* Pods_CETACApp.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		361E82C8270681B4005527F5 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		364BD0ED2706CD75002A7002 /* ModuloInformacionController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModuloInformacionController.swift; sourceTree = "<group>"; };
+		364BD0EF2706D06C002A7002 /* ModuloInformacionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModuloInformacionViewController.swift; sourceTree = "<group>"; };
 		368AED1D27053F31009EF4F3 /* CETACApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CETACApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		368AED2027053F31009EF4F3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		368AED2227053F31009EF4F3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -56,6 +67,13 @@
 		368AED4227053F71009EF4F3 /* InformaciónCETACObjetivosApoyoButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "InformaciónCETACObjetivosApoyoButton.png"; sourceTree = "<group>"; };
 		368AED4327053F71009EF4F3 /* InformaciónCETACValoresButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "InformaciónCETACValoresButton.png"; sourceTree = "<group>"; };
 		368AED4427053F71009EF4F3 /* InformaciónHolistButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "InformaciónHolistButton.png"; sourceTree = "<group>"; };
+		36F289E72709382A0052FB5E /* MenuInformacionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuInformacionViewController.swift; sourceTree = "<group>"; };
+		36F289E92709386F0052FB5E /* MenuInformacionCETACViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuInformacionCETACViewController.swift; sourceTree = "<group>"; };
+		36F289EB270A88A00052FB5E /* Sesion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sesion.swift; sourceTree = "<group>"; };
+		36F3926527068C7F0030A87F /* ModuloInformacion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModuloInformacion.swift; sourceTree = "<group>"; };
+		3A22F4984F60C3DA694BC69B /* Pods-CETACApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CETACApp.debug.xcconfig"; path = "Target Support Files/Pods-CETACApp/Pods-CETACApp.debug.xcconfig"; sourceTree = "<group>"; };
+		C325490D2262BB76C7A02680 /* Pods-CETACApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CETACApp.release.xcconfig"; path = "Target Support Files/Pods-CETACApp/Pods-CETACApp.release.xcconfig"; sourceTree = "<group>"; };
+		C60F309B4049004E4A3682DE /* Pods_CETACApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CETACApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,17 +81,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AD3870660D12B421DB319193 /* Pods_CETACApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2BDD7D6B491F31E4094033DE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3A22F4984F60C3DA694BC69B /* Pods-CETACApp.debug.xcconfig */,
+				C325490D2262BB76C7A02680 /* Pods-CETACApp.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		368AED1427053F31009EF4F3 = {
 			isa = PBXGroup;
 			children = (
 				368AED1F27053F31009EF4F3 /* CETACApp */,
 				368AED1E27053F31009EF4F3 /* Products */,
+				2BDD7D6B491F31E4094033DE /* Pods */,
+				CBD791E47AA26CE50073A2E7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -88,6 +118,8 @@
 		368AED1F27053F31009EF4F3 /* CETACApp */ = {
 			isa = PBXGroup;
 			children = (
+				36F3926327068B8B0030A87F /* Models */,
+				36F3926427068B930030A87F /* Controllers */,
 				368AED3427053F71009EF4F3 /* Assets */,
 				368AED2027053F31009EF4F3 /* AppDelegate.swift */,
 				368AED2227053F31009EF4F3 /* SceneDelegate.swift */,
@@ -96,6 +128,7 @@
 				368AED2927053F34009EF4F3 /* Assets.xcassets */,
 				368AED2B27053F34009EF4F3 /* LaunchScreen.storyboard */,
 				368AED2E27053F34009EF4F3 /* Info.plist */,
+				361E82C8270681B4005527F5 /* GoogleService-Info.plist */,
 			);
 			path = CETACApp;
 			sourceTree = "<group>";
@@ -123,6 +156,34 @@
 			path = Assets;
 			sourceTree = "<group>";
 		};
+		36F3926327068B8B0030A87F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				36F3926527068C7F0030A87F /* ModuloInformacion.swift */,
+				364BD0ED2706CD75002A7002 /* ModuloInformacionController.swift */,
+				36F289EB270A88A00052FB5E /* Sesion.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		36F3926427068B930030A87F /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				364BD0EF2706D06C002A7002 /* ModuloInformacionViewController.swift */,
+				36F289E72709382A0052FB5E /* MenuInformacionViewController.swift */,
+				36F289E92709386F0052FB5E /* MenuInformacionCETACViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		CBD791E47AA26CE50073A2E7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C60F309B4049004E4A3682DE /* Pods_CETACApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -130,9 +191,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 368AED3127053F34009EF4F3 /* Build configuration list for PBXNativeTarget "CETACApp" */;
 			buildPhases = (
+				3DB287EF4B24BB11A237CDAD /* [CP] Check Pods Manifest.lock */,
 				368AED1927053F31009EF4F3 /* Sources */,
 				368AED1A27053F31009EF4F3 /* Frameworks */,
 				368AED1B27053F31009EF4F3 /* Resources */,
+				B75ED4896160530E27908A9D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -197,6 +260,7 @@
 				368AED4A27053F71009EF4F3 /* InformaciónCETACObjetivosAcompañamientoButton.png in Resources */,
 				368AED4D27053F71009EF4F3 /* InformaciónCETACObjetivosAtencionButton.png in Resources */,
 				368AED2827053F31009EF4F3 /* Main.storyboard in Resources */,
+				361E82C9270681B4005527F5 /* GoogleService-Info.plist in Resources */,
 				368AED4F27053F71009EF4F3 /* InformaciónCETACObjetivosCoordinacionButton.png in Resources */,
 				368AED4C27053F71009EF4F3 /* InformaciónCETACVisionButton.png in Resources */,
 			);
@@ -204,14 +268,62 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3DB287EF4B24BB11A237CDAD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CETACApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B75ED4896160530E27908A9D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CETACApp/Pods-CETACApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CETACApp/Pods-CETACApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CETACApp/Pods-CETACApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		368AED1927053F31009EF4F3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				368AED2527053F31009EF4F3 /* ViewController.swift in Sources */,
+				36F289EC270A88A00052FB5E /* Sesion.swift in Sources */,
 				368AED2127053F31009EF4F3 /* AppDelegate.swift in Sources */,
+				36F3926627068C7F0030A87F /* ModuloInformacion.swift in Sources */,
+				36F289E82709382A0052FB5E /* MenuInformacionViewController.swift in Sources */,
+				36F289EA2709386F0052FB5E /* MenuInformacionCETACViewController.swift in Sources */,
 				368AED2327053F31009EF4F3 /* SceneDelegate.swift in Sources */,
+				364BD0F02706D06C002A7002 /* ModuloInformacionViewController.swift in Sources */,
+				364BD0EE2706CD75002A7002 /* ModuloInformacionController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -355,6 +467,7 @@
 		};
 		368AED3227053F34009EF4F3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3A22F4984F60C3DA694BC69B /* Pods-CETACApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -373,6 +486,7 @@
 		};
 		368AED3327053F34009EF4F3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C325490D2262BB76C7A02680 /* Pods-CETACApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
