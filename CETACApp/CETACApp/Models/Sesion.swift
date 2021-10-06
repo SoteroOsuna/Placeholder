@@ -32,7 +32,6 @@ struct primeraSesion: Sesion {
     var evaluacionSesion: String
     var cuotaRecuperacion: Float
     var cerrarExpediente: Bool
-    
 }
 
 struct sesionSeguimiento: Sesion {

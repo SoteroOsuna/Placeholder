@@ -208,7 +208,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="zCx-4E-VxM" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3144" y="-2992"/>
+            <point key="canvasLocation" x="3144" y="-2473"/>
         </scene>
         <!--ModuloInformacion-->
         <scene sceneID="mFs-jC-2ae">
@@ -267,7 +267,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0Wf-up-owr" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="5760" y="-1407"/>
+            <point key="canvasLocation" x="4474" y="-1407"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="nwk-0i-dQq">
@@ -434,18 +434,27 @@
                                                         <state key="normal" title="Aromaterapia">
                                                             <color key="titleColor" name="AccentColor"/>
                                                         </state>
+                                                        <connections>
+                                                            <segue destination="wZN-XH-rCS" kind="show" id="dxm-aV-pFY"/>
+                                                        </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ROX-LY-RUf">
                                                         <rect key="frame" x="137" y="36.5" width="117" height="34"/>
                                                         <state key="normal" title="Cristaloterapia">
                                                             <color key="titleColor" name="AccentColor"/>
                                                         </state>
+                                                        <connections>
+                                                            <segue destination="wZN-XH-rCS" kind="show" id="83b-NY-OPc"/>
+                                                        </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tub-yH-fHM">
                                                         <rect key="frame" x="274" y="36.5" width="117" height="34"/>
                                                         <state key="normal" title="Reiki">
                                                             <color key="titleColor" name="AccentColor"/>
                                                         </state>
+                                                        <connections>
+                                                            <segue destination="wZN-XH-rCS" kind="show" id="Ghy-Hb-uCl"/>
+                                                        </connections>
                                                     </button>
                                                 </subviews>
                                             </stackView>
@@ -457,18 +466,27 @@
                                                         <state key="normal" title="Biomagnetismo">
                                                             <color key="titleColor" name="AccentColor"/>
                                                         </state>
+                                                        <connections>
+                                                            <segue destination="wZN-XH-rCS" kind="show" id="CZ0-x8-7UH"/>
+                                                        </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2kW-Rk-VAJ">
                                                         <rect key="frame" x="145" y="36.5" width="125" height="34"/>
                                                         <state key="normal" title="Angeloterapia">
                                                             <color key="titleColor" name="AccentColor"/>
                                                         </state>
+                                                        <connections>
+                                                            <segue destination="wZN-XH-rCS" kind="show" id="wov-Ic-Pfj"/>
+                                                        </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6Ac-5Y-uMC">
                                                         <rect key="frame" x="290" y="36.5" width="125" height="34"/>
                                                         <state key="normal" title="Musicoterapia">
                                                             <color key="titleColor" name="AccentColor"/>
                                                         </state>
+                                                        <connections>
+                                                            <segue destination="wZN-XH-rCS" kind="show" id="5DU-05-Wr0"/>
+                                                        </connections>
                                                     </button>
                                                 </subviews>
                                             </stackView>
@@ -484,6 +502,9 @@
                                                         <state key="normal" title="Cama Térmica de Jade">
                                                             <color key="titleColor" name="AccentColor"/>
                                                         </state>
+                                                        <connections>
+                                                            <segue destination="wZN-XH-rCS" kind="show" id="pi5-0t-Y99"/>
+                                                        </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yW2-1H-nFv">
                                                         <rect key="frame" x="408" y="0.0" width="184" height="236.5"/>
@@ -521,7 +542,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="xOv-lk-wLJ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3144" y="-1407"/>
+            <point key="canvasLocation" x="3144" y="-1008"/>
         </scene>
         <!--MenuServiciosAcompañamiento-->
         <scene sceneID="Vwa-SQ-eFq">
@@ -561,18 +582,27 @@
                                                         <state key="normal" title="Tanatología">
                                                             <color key="titleColor" name="AccentColor"/>
                                                         </state>
+                                                        <connections>
+                                                            <segue destination="wZN-XH-rCS" kind="show" id="4oU-EO-z20"/>
+                                                        </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QCP-c5-Auj">
                                                         <rect key="frame" x="147" y="89.5" width="127" height="34"/>
                                                         <state key="normal" title="Acom Individual">
                                                             <color key="titleColor" name="AccentColor"/>
                                                         </state>
+                                                        <connections>
+                                                            <segue destination="wZN-XH-rCS" kind="show" id="SgO-6T-8nD"/>
+                                                        </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KvW-Se-B7z">
                                                         <rect key="frame" x="294" y="89.5" width="127" height="34"/>
                                                         <state key="normal" title="Acom Grupal">
                                                             <color key="titleColor" name="AccentColor"/>
                                                         </state>
+                                                        <connections>
+                                                            <segue destination="wZN-XH-rCS" kind="show" id="dvm-X7-M3n"/>
+                                                        </connections>
                                                     </button>
                                                 </subviews>
                                             </stackView>
@@ -584,16 +614,25 @@
                                                         <state key="normal" title="Logoterapia">
                                                             <color key="titleColor" name="AccentColor"/>
                                                         </state>
+                                                        <connections>
+                                                            <segue destination="wZN-XH-rCS" kind="show" id="ujD-s0-IhL"/>
+                                                        </connections>
                                                     </button>
                                                     <button opaque="NO" userInteractionEnabled="NO" alpha="0.0" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="shN-lf-e4M">
                                                         <rect key="frame" x="118" y="90" width="98" height="34"/>
                                                         <state key="normal" title="Filler"/>
+                                                        <connections>
+                                                            <segue destination="wZN-XH-rCS" kind="show" id="1Kh-d9-xgG"/>
+                                                        </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bGG-sE-zJv">
                                                         <rect key="frame" x="236" y="90" width="98" height="34"/>
                                                         <state key="normal" title="Mindfulness">
                                                             <color key="titleColor" name="AccentColor"/>
                                                         </state>
+                                                        <connections>
+                                                            <segue destination="wZN-XH-rCS" kind="show" id="QW2-u2-FvP"/>
+                                                        </connections>
                                                     </button>
                                                 </subviews>
                                             </stackView>
@@ -627,12 +666,12 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="E3I-kM-0DE" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3143.7037037037035" y="-2143.3333333333335"/>
+            <point key="canvasLocation" x="3144" y="-1724"/>
         </scene>
-        <!--MenuInformacionCETAC-->
+        <!--MenuTecnicasAlternativas-->
         <scene sceneID="mzD-HY-XWj">
             <objects>
-                <viewController title="MenuInformacionCETAC" id="2QF-6m-NqH" sceneMemberID="viewController">
+                <viewController title="MenuTecnicasAlternativas" id="2QF-6m-NqH" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="AMp-DD-S9i">
                         <rect key="frame" x="0.0" y="0.0" width="810" height="1080"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -653,21 +692,31 @@
                                         <rect key="frame" x="100" y="250" width="610" height="680"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Técnicas Alternativas" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="e8h-Q9-7f8">
-                                                <rect key="frame" x="101.5" y="0.0" width="407" height="65"/>
+                                                <rect key="frame" x="101.5" y="0.0" width="407" height="338.5"/>
                                                 <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="45"/>
                                                 <color key="textColor" red="0.41602587699999999" green="0.58560913800000003" blue="0.86277896170000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" alignment="center" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="vkd-dw-Vq0">
-                                                <rect key="frame" x="0.0" y="85" width="610" height="595"/>
+                                                <rect key="frame" x="146" y="358.5" width="318" height="321.5"/>
                                                 <subviews>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HOA-sf-RYM">
-                                                        <rect key="frame" x="0.0" y="54" width="295" height="487"/>
-                                                        <state key="normal" image="InformaciónCETACMisionButton.png"/>
+                                                        <rect key="frame" x="0.0" y="143.5" width="149" height="34"/>
+                                                        <state key="normal" title="FloresDeBach">
+                                                            <color key="titleColor" name="AccentColor"/>
+                                                        </state>
+                                                        <connections>
+                                                            <segue destination="wZN-XH-rCS" kind="show" id="EZZ-L5-Poj"/>
+                                                        </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eYf-kS-ctT">
-                                                        <rect key="frame" x="315" y="54" width="295" height="487"/>
-                                                        <state key="normal" image="InformaciónCETACVisionButton.png"/>
+                                                        <rect key="frame" x="169" y="143.5" width="149" height="34"/>
+                                                        <state key="normal" title="BrisasAmbientales">
+                                                            <color key="titleColor" name="AccentColor"/>
+                                                        </state>
+                                                        <connections>
+                                                            <segue destination="wZN-XH-rCS" kind="show" id="B71-iT-clx"/>
+                                                        </connections>
                                                     </button>
                                                 </subviews>
                                             </stackView>
@@ -701,11 +750,11 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Oz0-XD-Gui" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3144" y="-571"/>
+            <point key="canvasLocation" x="3144" y="-321"/>
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="bBD-Ab-8zK"/>
+        <segue reference="B71-iT-clx"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="CETACFONDO.png" width="1620" height="2160"/>
