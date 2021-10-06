@@ -421,59 +421,73 @@
                                         <rect key="frame" x="100" y="250" width="610" height="680"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Servicios Holísticos" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="75C-Y3-tMJ">
-                                                <rect key="frame" x="116" y="0.0" width="378" height="23"/>
+                                                <rect key="frame" x="116" y="0.0" width="378" height="169"/>
                                                 <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="45"/>
                                                 <color key="textColor" red="0.41602587699999999" green="0.58560913800000003" blue="0.86277896170000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" alignment="center" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="7il-Mf-G0c">
-                                                <rect key="frame" x="0.0" y="43" width="610" height="210.5"/>
+                                                <rect key="frame" x="109.5" y="189" width="391" height="107"/>
                                                 <subviews>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ECL-zf-bAG">
-                                                        <rect key="frame" x="0.0" y="0.0" width="190" height="210.5"/>
-                                                        <state key="normal" image="InformaciónCETACMisionButton.png"/>
+                                                        <rect key="frame" x="0.0" y="36.5" width="117" height="34"/>
+                                                        <state key="normal" title="Aromaterapia">
+                                                            <color key="titleColor" name="AccentColor"/>
+                                                        </state>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ROX-LY-RUf">
-                                                        <rect key="frame" x="210" y="0.0" width="190" height="210.5"/>
-                                                        <state key="normal" image="InformaciónCETACVisionButton.png"/>
+                                                        <rect key="frame" x="137" y="36.5" width="117" height="34"/>
+                                                        <state key="normal" title="Cristaloterapia">
+                                                            <color key="titleColor" name="AccentColor"/>
+                                                        </state>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tub-yH-fHM">
-                                                        <rect key="frame" x="420" y="0.0" width="190" height="210.5"/>
-                                                        <state key="normal" image="InformaciónCETACVisionButton.png"/>
+                                                        <rect key="frame" x="274" y="36.5" width="117" height="34"/>
+                                                        <state key="normal" title="Reiki">
+                                                            <color key="titleColor" name="AccentColor"/>
+                                                        </state>
                                                     </button>
                                                 </subviews>
                                             </stackView>
                                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" alignment="center" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="jjF-qm-N2X">
-                                                <rect key="frame" x="0.0" y="273.5" width="610" height="210.5"/>
+                                                <rect key="frame" x="97.5" y="316" width="415" height="107.5"/>
                                                 <subviews>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vJ0-XL-c8B">
-                                                        <rect key="frame" x="0.0" y="0.0" width="190" height="210.5"/>
-                                                        <state key="normal" image="InformaciónCETACMisionButton.png"/>
+                                                        <rect key="frame" x="0.0" y="36.5" width="125" height="34"/>
+                                                        <state key="normal" title="Biomagnetismo">
+                                                            <color key="titleColor" name="AccentColor"/>
+                                                        </state>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2kW-Rk-VAJ">
-                                                        <rect key="frame" x="210" y="0.0" width="190" height="210.5"/>
-                                                        <state key="normal" image="InformaciónCETACVisionButton.png"/>
+                                                        <rect key="frame" x="145" y="36.5" width="125" height="34"/>
+                                                        <state key="normal" title="Angeloterapia">
+                                                            <color key="titleColor" name="AccentColor"/>
+                                                        </state>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6Ac-5Y-uMC">
-                                                        <rect key="frame" x="420" y="0.0" width="190" height="210.5"/>
-                                                        <state key="normal" image="InformaciónCETACVisionButton.png"/>
+                                                        <rect key="frame" x="290" y="36.5" width="125" height="34"/>
+                                                        <state key="normal" title="Musicoterapia">
+                                                            <color key="titleColor" name="AccentColor"/>
+                                                        </state>
                                                     </button>
                                                 </subviews>
                                             </stackView>
                                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="C3H-V3-AQQ">
-                                                <rect key="frame" x="0.0" y="504" width="610" height="176"/>
+                                                <rect key="frame" x="9" y="443.5" width="592" height="236.5"/>
                                                 <subviews>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qJg-9l-ZeZ">
-                                                        <rect key="frame" x="0.0" y="0.0" width="190" height="176"/>
-                                                        <state key="normal" image="InformaciónCETACValoresButton.png"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="184" height="236.5"/>
+                                                        <state key="normal" title="Filler"/>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yz1-DH-YXA">
-                                                        <rect key="frame" x="210" y="0.0" width="190" height="176"/>
-                                                        <state key="normal" image="InformaciónCETACVisionButton.png"/>
+                                                        <rect key="frame" x="204" y="0.0" width="184" height="236.5"/>
+                                                        <state key="normal" title="Cama Térmica de Jade">
+                                                            <color key="titleColor" name="AccentColor"/>
+                                                        </state>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yW2-1H-nFv">
-                                                        <rect key="frame" x="420" y="0.0" width="190" height="176"/>
-                                                        <state key="normal" image="InformaciónCETACObjetivosButton.png"/>
+                                                        <rect key="frame" x="408" y="0.0" width="184" height="236.5"/>
+                                                        <state key="normal" title="Filler"/>
                                                     </button>
                                                 </subviews>
                                             </stackView>
