@@ -17,53 +17,25 @@ class ModuloInformacionViewController: UIViewController {
     
     @IBOutlet weak var descripcionInformacion: UITextView!
     
-    override func viewWillAppear(_ animated: Bool) {
-        super.viewWillAppear(animated)
-        moduloInformacionController.fetchServicios{ (result) in
-            switch result{
-            case .success(let ModulosInformacionCETAC):self.updateUI(with: ModulosInformacionCETAC)
-            case .failure(let error):self.displayError(error, title: "No se pudo acceder a los servicios")
-            }
-            
-        }
-    }
-    
-    
-    override func viewDidAppear(_ animated: Bool) {
-        super.viewDidAppear(animated)
-        moduloInformacionController.fetchServicios{ (result) in
-            switch result{
-            case .success(let ModulosInformacionCETAC):self.updateUI(with: ModulosInformacionCETAC)
-            case .failure(let error):self.displayError(error, title: "No se pudo acceder a los servicios")
-            }
-            
-        }
-    }
-    
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
-        moduloInformacionController.fetchServicios{ (result) in
+        moduloInformacionController.fetchInformacion { (result) in
             switch result{
             case .success(let ModulosInformacionCETAC):self.updateUI(with: ModulosInformacionCETAC)
             case .failure(let error):self.displayError(error, title: "No se pudo acceder a los servicios")
             }
             
         }
-            // Put your code which should be executed with a delay here
-            tituloInformacion.text = datos[indice].titulo
-            print(datos[indice].titulo)
-            descripcionInformacion.text = datos[indice].imagen
-            print("xx")
-            print(datos[indice].imagen)
-            print("xx")
         
     }
     
-    func updateUI(with informacion: ModulosInformacion){
+    func updateUI(with informacion: ModulosInformacion) {
         DispatchQueue.main.async {
             self.datos = informacion
+            self.tituloInformacion.text = self.datos[self.indice].titulo
+            self.descripcionInformacion.text = self.datos[self.indice].descripcion
         }
     }
     

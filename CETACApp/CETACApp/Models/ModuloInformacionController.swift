@@ -12,7 +12,7 @@ class ModuloInformacionController {
     
     let db = Firestore.firestore()
     
-    func fetchServicios(completion: @escaping
+    func fetchInformacion(completion: @escaping
     (Result<ModulosInformacion, Error>) -> Void) {
         
         var modulosInformacion = [ModuloInformacion]()
@@ -31,7 +31,7 @@ class ModuloInformacionController {
         }
     }
     
-    func deleteServicio(registroID:String, completion: @escaping (Result<String, Error>) -> Void){
+    func deleteModuloInformacion(registroID:String, completion: @escaping (Result<String, Error>) -> Void){
         
         db.collection("Informacion").document(registroID).delete() { err in
             if let err = err {
