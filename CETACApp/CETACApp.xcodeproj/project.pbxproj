@@ -32,6 +32,7 @@
 		368AED5227053F71009EF4F3 /* InformaciónCETACObjetivosApoyoButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 368AED4227053F71009EF4F3 /* InformaciónCETACObjetivosApoyoButton.png */; };
 		368AED5327053F71009EF4F3 /* InformaciónCETACValoresButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 368AED4327053F71009EF4F3 /* InformaciónCETACValoresButton.png */; };
 		368AED5427053F71009EF4F3 /* InformaciónHolistButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 368AED4427053F71009EF4F3 /* InformaciónHolistButton.png */; };
+		36D06FC32710D3DD00F2E2E9 /* BackgroundWhiteLogIn.png in Resources */ = {isa = PBXBuildFile; fileRef = 36D06FC22710D3DC00F2E2E9 /* BackgroundWhiteLogIn.png */; };
 		36F0530C2710C61B0076B8CA /* pending.png in Resources */ = {isa = PBXBuildFile; fileRef = 36F0530B2710C61B0076B8CA /* pending.png */; };
 		36F289E82709382A0052FB5E /* MenuInformacionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36F289E72709382A0052FB5E /* MenuInformacionViewController.swift */; };
 		36F289EA2709386F0052FB5E /* MenuInformacionCETACViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36F289E92709386F0052FB5E /* MenuInformacionCETACViewController.swift */; };
@@ -68,6 +69,7 @@
 		368AED4227053F71009EF4F3 /* InformaciónCETACObjetivosApoyoButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "InformaciónCETACObjetivosApoyoButton.png"; sourceTree = "<group>"; };
 		368AED4327053F71009EF4F3 /* InformaciónCETACValoresButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "InformaciónCETACValoresButton.png"; sourceTree = "<group>"; };
 		368AED4427053F71009EF4F3 /* InformaciónHolistButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "InformaciónHolistButton.png"; sourceTree = "<group>"; };
+		36D06FC22710D3DC00F2E2E9 /* BackgroundWhiteLogIn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BackgroundWhiteLogIn.png; sourceTree = "<group>"; };
 		36F0530B2710C61B0076B8CA /* pending.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pending.png; sourceTree = "<group>"; };
 		36F289E72709382A0052FB5E /* MenuInformacionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuInformacionViewController.swift; sourceTree = "<group>"; };
 		36F289E92709386F0052FB5E /* MenuInformacionCETACViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuInformacionCETACViewController.swift; sourceTree = "<group>"; };
@@ -138,6 +140,7 @@
 		368AED3427053F71009EF4F3 /* Assets */ = {
 			isa = PBXGroup;
 			children = (
+				36D06FC22710D3DC00F2E2E9 /* BackgroundWhiteLogIn.png */,
 				36F0530B2710C61B0076B8CA /* pending.png */,
 				368AED3527053F71009EF4F3 /* CETACLogo.png */,
 				368AED3627053F71009EF4F3 /* InformaciónCETACObjetivosBrindarButton.png */,
@@ -263,6 +266,7 @@
 				368AED4927053F71009EF4F3 /* InformaciónCETACMisionButton.png in Resources */,
 				368AED4A27053F71009EF4F3 /* InformaciónCETACObjetivosAcompañamientoButton.png in Resources */,
 				368AED4D27053F71009EF4F3 /* InformaciónCETACObjetivosAtencionButton.png in Resources */,
+				36D06FC32710D3DD00F2E2E9 /* BackgroundWhiteLogIn.png in Resources */,
 				368AED2827053F31009EF4F3 /* Main.storyboard in Resources */,
 				361E82C9270681B4005527F5 /* GoogleService-Info.plist in Resources */,
 				368AED4F27053F71009EF4F3 /* InformaciónCETACObjetivosCoordinacionButton.png in Resources */,
