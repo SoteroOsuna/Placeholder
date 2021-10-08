@@ -9,6 +9,22 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
+        <!--View Controller-->
+        <scene sceneID="SiQ-fd-rc0">
+            <objects>
+                <viewController id="VIE-UR-aqn" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="jOH-te-vYO">
+                        <rect key="frame" x="0.0" y="0.0" width="704" height="995.5"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="gd4-Jo-ocl"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="Vng-aB-5Gl"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ACu-IQ-cVS" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2421" y="1415"/>
+        </scene>
         <!--MenuSesiones-->
         <scene sceneID="R4g-Pb-7jK">
             <objects>
@@ -16,14 +32,76 @@
                     <view key="view" contentMode="scaleToFill" id="dpC-hk-U4Y">
                         <rect key="frame" x="0.0" y="0.0" width="810" height="1080"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="CETACFONDO.png" translatesAutoresizingMaskIntoConstraints="NO" id="H3w-T8-daZ">
+                                <rect key="frame" x="0.0" y="50" width="810" height="980"/>
+                            </imageView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="lN3-1A-eDu">
+                                <rect key="frame" x="100" y="250" width="610" height="680"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Menú de Sesiones" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lnC-yS-gkb">
+                                        <rect key="frame" x="0.0" y="0.0" width="610" height="53.5"/>
+                                        <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="45"/>
+                                        <color key="textColor" red="0.41602587699999999" green="0.58560913800000003" blue="0.86277896170000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="0iJ-hr-9GP">
+                                        <rect key="frame" x="0.0" y="53.5" width="610" height="626.5"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pS0-Mo-XPi" userLabel="Nueva Sesion">
+                                                <rect key="frame" x="0.0" y="0.0" width="305" height="626.5"/>
+                                                <state key="normal" title="Nueva Sesion"/>
+                                                <connections>
+                                                    <segue destination="VIE-UR-aqn" kind="presentation" id="mPE-NH-aEU"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="F8B-Ea-eu8">
+                                                <rect key="frame" x="305" y="0.0" width="305" height="626.5"/>
+                                                <state key="normal" title="Ver Sesiones"/>
+                                                <connections>
+                                                    <segue destination="oBa-uX-DWL" kind="show" id="iJu-u6-2Gk"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            </stackView>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="YCQ-Qy-QJU"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="H3w-T8-daZ" firstAttribute="top" secondItem="YCQ-Qy-QJU" secondAttribute="top" id="2Nx-sG-8VE"/>
+                            <constraint firstItem="YCQ-Qy-QJU" firstAttribute="bottom" secondItem="lN3-1A-eDu" secondAttribute="bottom" constant="100" id="2kb-to-a0I"/>
+                            <constraint firstItem="YCQ-Qy-QJU" firstAttribute="trailing" secondItem="H3w-T8-daZ" secondAttribute="trailing" id="8ch-hi-0NJ"/>
+                            <constraint firstItem="lN3-1A-eDu" firstAttribute="leading" secondItem="YCQ-Qy-QJU" secondAttribute="leading" constant="100" id="DKx-GK-zYI"/>
+                            <constraint firstItem="YCQ-Qy-QJU" firstAttribute="bottom" secondItem="H3w-T8-daZ" secondAttribute="bottom" id="IoL-8Z-N2a"/>
+                            <constraint firstItem="H3w-T8-daZ" firstAttribute="leading" secondItem="YCQ-Qy-QJU" secondAttribute="leading" id="NF3-Q9-ibF"/>
+                            <constraint firstItem="lN3-1A-eDu" firstAttribute="top" secondItem="YCQ-Qy-QJU" secondAttribute="top" constant="200" id="Nsp-kl-Gc0"/>
+                            <constraint firstItem="YCQ-Qy-QJU" firstAttribute="trailing" secondItem="lN3-1A-eDu" secondAttribute="trailing" constant="100" id="vMp-5z-2X0"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="n8i-gq-ynf"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="pMq-IY-4KT" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2421" y="680"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="Epa-Dm-Blw">
+            <objects>
+                <viewController id="oBa-uX-DWL" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="16D-Ec-xTW">
+                        <rect key="frame" x="0.0" y="0.0" width="810" height="1080"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="6jM-9Q-XNb"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="s4e-Vq-FER"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="lc9-k1-rdS" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3347" y="680"/>
         </scene>
         <!--MenuInformacion-->
         <scene sceneID="KLq-rs-Xyd">
@@ -289,10 +367,10 @@
             </objects>
             <point key="canvasLocation" x="504" y="281"/>
         </scene>
-        <!--View Controller-->
+        <!--MenuUsuario-->
         <scene sceneID="jPP-cw-ms8">
             <objects>
-                <viewController id="hBg-iN-RKU" sceneMemberID="viewController">
+                <viewController title="MenuUsuario" id="hBg-iN-RKU" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Wi0-t7-nHw">
                         <rect key="frame" x="0.0" y="0.0" width="810" height="1080"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
