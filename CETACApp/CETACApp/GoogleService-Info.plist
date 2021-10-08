@@ -3,21 +3,21 @@
 <plist version="1.0">
 <dict>
 	<key>CLIENT_ID</key>
-	<string>81356832754-qoqphd3rp5uaqkj2j495ptu1trt60g72.apps.googleusercontent.com</string>
+	<string>726263750716-uavpq5oqlffd6cq9mpn0h96go7g3qcnp.apps.googleusercontent.com</string>
 	<key>REVERSED_CLIENT_ID</key>
-	<string>com.googleusercontent.apps.81356832754-qoqphd3rp5uaqkj2j495ptu1trt60g72</string>
+	<string>com.googleusercontent.apps.726263750716-uavpq5oqlffd6cq9mpn0h96go7g3qcnp</string>
 	<key>API_KEY</key>
-	<string>AIzaSyA7IRUlJZQxmxwtlxVLavsgPRLrgFYcI7k</string>
+	<string>AIzaSyDWHsSbp4qV4jA0Xh7Ft7QFZmhlcyAKA_4</string>
 	<key>GCM_SENDER_ID</key>
-	<string>81356832754</string>
+	<string>726263750716</string>
 	<key>PLIST_VERSION</key>
 	<string>1</string>
 	<key>BUNDLE_ID</key>
 	<string>com.Placeholder.CETACApp</string>
 	<key>PROJECT_ID</key>
-	<string>cetacapp</string>
+	<string>cetacdatabasetest</string>
 	<key>STORAGE_BUCKET</key>
-	<string>cetacapp.appspot.com</string>
+	<string>cetacdatabasetest.appspot.com</string>
 	<key>IS_ADS_ENABLED</key>
 	<false></false>
 	<key>IS_ANALYTICS_ENABLED</key>
@@ -29,6 +29,6 @@
 	<key>IS_SIGNIN_ENABLED</key>
 	<true></true>
 	<key>GOOGLE_APP_ID</key>
-	<string>1:81356832754:ios:3577f3decb6ff05d70756b</string>
+	<string>1:726263750716:ios:d993271d8009f2832fa339</string>
 </dict>
 </plist>

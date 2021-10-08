@@ -11,12 +11,49 @@ class ModuloInformacionViewController: UIViewController {
 
     var moduloInformacionController = ModuloInformacionController()
     var datos = [ModuloInformacion]()
+    var limiteInferior = 0
+    var limiteSuperior = 100
     var indice = 0
 
     @IBOutlet weak var tituloInformacion: UILabel!
     
     @IBOutlet weak var descripcionInformacion: UITextView!
     
+    @IBOutlet weak var imagenInformacion: UIImageView!
+    
+    @IBAction func botonSiguiente(_ sender: Any) {
+        if (indice == limiteSuperior) {
+            indice = limiteInferior
+        } else {
+            indice += 1
+        }
+        updateUI(with: datos)
+    }
+    @IBAction func swipeDerecha(_ sender: Any) {
+        if (self.indice == self.limiteSuperior) {
+            self.indice = self.limiteInferior
+        } else {
+            self.indice += 1
+        }
+        updateUI(with: datos)
+    }
+    
+    @IBAction func botonAnterior(_ sender: Any) {
+        if (indice == limiteInferior) {
+            indice = limiteSuperior
+        } else {
+            indice -= 1
+        }
+        updateUI(with: datos)
+    }
+    @IBAction func swipeIzquierda(_ sender: Any) {
+        if (indice == limiteInferior) {
+            indice = limiteSuperior
+        } else {
+            indice -= 1
+        }
+        updateUI(with: datos)
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -33,9 +70,14 @@ class ModuloInformacionViewController: UIViewController {
     
     func updateUI(with informacion: ModulosInformacion) {
         DispatchQueue.main.async {
-            self.datos = informacion
-            self.tituloInformacion.text = self.datos[self.indice].titulo
-            self.descripcionInformacion.text = self.datos[self.indice].descripcion
+            
+//            self.datos = informacion
+//            self.tituloInformacion.text = self.datos[self.indice].titulo
+//            self.imagenInformacion.image = UIImage(named: self.datos[self.indice].imagen)
+//            self.descripcionInformacion.text = self.datos[self.indice].descripcion
+            self.tituloInformacion.text = "Titulo \(self.indice)"
+            self.imagenInformacion.image = UIImage(named: "pending.png")
+            self.descripcionInformacion.text = "Descripcion \(self.indice)"
         }
     }
     

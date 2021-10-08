@@ -32,6 +32,7 @@
 		368AED5227053F71009EF4F3 /* InformaciónCETACObjetivosApoyoButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 368AED4227053F71009EF4F3 /* InformaciónCETACObjetivosApoyoButton.png */; };
 		368AED5327053F71009EF4F3 /* InformaciónCETACValoresButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 368AED4327053F71009EF4F3 /* InformaciónCETACValoresButton.png */; };
 		368AED5427053F71009EF4F3 /* InformaciónHolistButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 368AED4427053F71009EF4F3 /* InformaciónHolistButton.png */; };
+		36F0530C2710C61B0076B8CA /* pending.png in Resources */ = {isa = PBXBuildFile; fileRef = 36F0530B2710C61B0076B8CA /* pending.png */; };
 		36F289E82709382A0052FB5E /* MenuInformacionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36F289E72709382A0052FB5E /* MenuInformacionViewController.swift */; };
 		36F289EA2709386F0052FB5E /* MenuInformacionCETACViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36F289E92709386F0052FB5E /* MenuInformacionCETACViewController.swift */; };
 		36F289EC270A88A00052FB5E /* Sesion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36F289EB270A88A00052FB5E /* Sesion.swift */; };
@@ -67,6 +68,7 @@
 		368AED4227053F71009EF4F3 /* InformaciónCETACObjetivosApoyoButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "InformaciónCETACObjetivosApoyoButton.png"; sourceTree = "<group>"; };
 		368AED4327053F71009EF4F3 /* InformaciónCETACValoresButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "InformaciónCETACValoresButton.png"; sourceTree = "<group>"; };
 		368AED4427053F71009EF4F3 /* InformaciónHolistButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "InformaciónHolistButton.png"; sourceTree = "<group>"; };
+		36F0530B2710C61B0076B8CA /* pending.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pending.png; sourceTree = "<group>"; };
 		36F289E72709382A0052FB5E /* MenuInformacionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuInformacionViewController.swift; sourceTree = "<group>"; };
 		36F289E92709386F0052FB5E /* MenuInformacionCETACViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuInformacionCETACViewController.swift; sourceTree = "<group>"; };
 		36F289EB270A88A00052FB5E /* Sesion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sesion.swift; sourceTree = "<group>"; };
@@ -136,6 +138,7 @@
 		368AED3427053F71009EF4F3 /* Assets */ = {
 			isa = PBXGroup;
 			children = (
+				36F0530B2710C61B0076B8CA /* pending.png */,
 				368AED3527053F71009EF4F3 /* CETACLogo.png */,
 				368AED3627053F71009EF4F3 /* InformaciónCETACObjetivosBrindarButton.png */,
 				368AED3727053F71009EF4F3 /* InformaciónAlterButton.png */,
@@ -244,6 +247,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				368AED5127053F71009EF4F3 /* InformaciónCETACObjetivosButton.png in Resources */,
+				36F0530C2710C61B0076B8CA /* pending.png in Resources */,
 				368AED5227053F71009EF4F3 /* InformaciónCETACObjetivosApoyoButton.png in Resources */,
 				368AED4727053F71009EF4F3 /* InformaciónAlterButton.png in Resources */,
 				368AED4E27053F71009EF4F3 /* InformaciónAcompButton.png in Resources */,
