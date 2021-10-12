@@ -620,7 +620,7 @@
         <!--MenuServiciosHolisticos-->
         <scene sceneID="LeW-Un-4vA">
             <objects>
-                <viewController title="MenuServiciosHolisticos" id="aGz-cf-sae" sceneMemberID="viewController">
+                <viewController title="MenuServiciosHolisticos" id="aGz-cf-sae" customClass="MenuInformacionSHViewController" customModule="CETACApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="zf0-oL-o7T">
                         <rect key="frame" x="0.0" y="0.0" width="810" height="1080"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -655,7 +655,7 @@
                                                             <color key="titleColor" name="AccentColor"/>
                                                         </state>
                                                         <connections>
-                                                            <segue destination="wZN-XH-rCS" kind="show" id="dxm-aV-pFY"/>
+                                                            <segue destination="wZN-XH-rCS" kind="show" identifier="aromaterapia" id="dxm-aV-pFY"/>
                                                         </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ROX-LY-RUf">
@@ -664,7 +664,7 @@
                                                             <color key="titleColor" name="AccentColor"/>
                                                         </state>
                                                         <connections>
-                                                            <segue destination="wZN-XH-rCS" kind="show" id="83b-NY-OPc"/>
+                                                            <segue destination="wZN-XH-rCS" kind="show" identifier="cristaloterapia" id="83b-NY-OPc"/>
                                                         </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tub-yH-fHM">
@@ -673,7 +673,7 @@
                                                             <color key="titleColor" name="AccentColor"/>
                                                         </state>
                                                         <connections>
-                                                            <segue destination="wZN-XH-rCS" kind="show" id="Ghy-Hb-uCl"/>
+                                                            <segue destination="wZN-XH-rCS" kind="show" identifier="reiki" id="Ghy-Hb-uCl"/>
                                                         </connections>
                                                     </button>
                                                 </subviews>
@@ -687,7 +687,7 @@
                                                             <color key="titleColor" name="AccentColor"/>
                                                         </state>
                                                         <connections>
-                                                            <segue destination="wZN-XH-rCS" kind="show" id="CZ0-x8-7UH"/>
+                                                            <segue destination="wZN-XH-rCS" kind="show" identifier="biomagnetismo" id="CZ0-x8-7UH"/>
                                                         </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2kW-Rk-VAJ">
@@ -696,7 +696,7 @@
                                                             <color key="titleColor" name="AccentColor"/>
                                                         </state>
                                                         <connections>
-                                                            <segue destination="wZN-XH-rCS" kind="show" id="wov-Ic-Pfj"/>
+                                                            <segue destination="wZN-XH-rCS" kind="show" identifier="angeloterapia" id="wov-Ic-Pfj"/>
                                                         </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6Ac-5Y-uMC">
@@ -705,7 +705,7 @@
                                                             <color key="titleColor" name="AccentColor"/>
                                                         </state>
                                                         <connections>
-                                                            <segue destination="wZN-XH-rCS" kind="show" id="5DU-05-Wr0"/>
+                                                            <segue destination="wZN-XH-rCS" kind="show" identifier="musicoterapia" id="5DU-05-Wr0"/>
                                                         </connections>
                                                     </button>
                                                 </subviews>
@@ -723,7 +723,7 @@
                                                             <color key="titleColor" name="AccentColor"/>
                                                         </state>
                                                         <connections>
-                                                            <segue destination="wZN-XH-rCS" kind="show" id="pi5-0t-Y99"/>
+                                                            <segue destination="wZN-XH-rCS" kind="show" identifier="camaTermicaJade" id="pi5-0t-Y99"/>
                                                         </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yW2-1H-nFv">
@@ -767,7 +767,7 @@
         <!--MenuServiciosAcompañamiento-->
         <scene sceneID="Vwa-SQ-eFq">
             <objects>
-                <viewController title="MenuServiciosAcompañamiento" id="UCi-fH-NI1" sceneMemberID="viewController">
+                <viewController title="MenuServiciosAcompañamiento" id="UCi-fH-NI1" customClass="MenuInformacionSAViewController" customModule="CETACApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="7Xr-Ox-a1B">
                         <rect key="frame" x="0.0" y="0.0" width="810" height="1080"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -803,7 +803,7 @@
                                                             <color key="titleColor" name="AccentColor"/>
                                                         </state>
                                                         <connections>
-                                                            <segue destination="wZN-XH-rCS" kind="show" id="4oU-EO-z20"/>
+                                                            <segue destination="wZN-XH-rCS" kind="show" identifier="tanatologia" id="4oU-EO-z20"/>
                                                         </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QCP-c5-Auj">
@@ -812,7 +812,7 @@
                                                             <color key="titleColor" name="AccentColor"/>
                                                         </state>
                                                         <connections>
-                                                            <segue destination="wZN-XH-rCS" kind="show" id="SgO-6T-8nD"/>
+                                                            <segue destination="wZN-XH-rCS" kind="show" identifier="acompanamientoIndividual" id="SgO-6T-8nD"/>
                                                         </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KvW-Se-B7z">
@@ -821,7 +821,7 @@
                                                             <color key="titleColor" name="AccentColor"/>
                                                         </state>
                                                         <connections>
-                                                            <segue destination="wZN-XH-rCS" kind="show" id="dvm-X7-M3n"/>
+                                                            <segue destination="wZN-XH-rCS" kind="show" identifier="acompanamientoGrupal" id="dvm-X7-M3n"/>
                                                         </connections>
                                                     </button>
                                                 </subviews>
@@ -835,7 +835,7 @@
                                                             <color key="titleColor" name="AccentColor"/>
                                                         </state>
                                                         <connections>
-                                                            <segue destination="wZN-XH-rCS" kind="show" id="ujD-s0-IhL"/>
+                                                            <segue destination="wZN-XH-rCS" kind="show" identifier="logoterapia" id="ujD-s0-IhL"/>
                                                         </connections>
                                                     </button>
                                                     <button opaque="NO" userInteractionEnabled="NO" alpha="0.0" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="shN-lf-e4M">
@@ -851,7 +851,7 @@
                                                             <color key="titleColor" name="AccentColor"/>
                                                         </state>
                                                         <connections>
-                                                            <segue destination="wZN-XH-rCS" kind="show" id="QW2-u2-FvP"/>
+                                                            <segue destination="wZN-XH-rCS" kind="show" identifier="mindfulness" id="QW2-u2-FvP"/>
                                                         </connections>
                                                     </button>
                                                 </subviews>
@@ -891,7 +891,7 @@
         <!--MenuTecnicasAlternativas-->
         <scene sceneID="mzD-HY-XWj">
             <objects>
-                <viewController title="MenuTecnicasAlternativas" id="2QF-6m-NqH" sceneMemberID="viewController">
+                <viewController title="MenuTecnicasAlternativas" id="2QF-6m-NqH" customClass="MenuInformacionTAViewController" customModule="CETACApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="AMp-DD-S9i">
                         <rect key="frame" x="0.0" y="0.0" width="810" height="1080"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -926,16 +926,16 @@
                                                             <color key="titleColor" name="AccentColor"/>
                                                         </state>
                                                         <connections>
-                                                            <segue destination="wZN-XH-rCS" kind="show" id="EZZ-L5-Poj"/>
+                                                            <segue destination="wZN-XH-rCS" kind="show" identifier="floresDeBach" id="EZZ-L5-Poj"/>
                                                         </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eYf-kS-ctT">
                                                         <rect key="frame" x="315" y="45" width="295" height="487"/>
-                                                        <state key="normal" title="BrisasAmbientales" image="InformaciónAlternativasWindButton.png">
+                                                        <state key="normal" title="BrisasAmbientales" image="InformaciónAlternativasBrisasAmbientalesButton.png">
                                                             <color key="titleColor" name="AccentColor"/>
                                                         </state>
                                                         <connections>
-                                                            <segue destination="wZN-XH-rCS" kind="show" id="B71-iT-clx"/>
+                                                            <segue destination="wZN-XH-rCS" kind="show" identifier="brisasAmbientales" id="B71-iT-clx"/>
                                                         </connections>
                                                     </button>
                                                 </subviews>
@@ -974,7 +974,7 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="ujD-s0-IhL"/>
+        <segue reference="5DU-05-Wr0"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="BackgroundWhiteLogIn.png" width="441.81817626953125" height="589.09088134765625"/>
@@ -988,7 +988,7 @@
         <image name="InformaciónAcompTanatologíaButton.png" width="490" height="487"/>
         <image name="InformaciónAlterButton.png" width="490" height="487"/>
         <image name="InformaciónAlternativasBachButton.png" width="490" height="487"/>
-        <image name="InformaciónAlternativasWindButton.png" width="490" height="487"/>
+        <image name="InformaciónAlternativasBrisasAmbientalesButton.png" width="490" height="487"/>
         <image name="InformaciónCETACMisionButton.png" width="490" height="487"/>
         <image name="InformaciónCETACObjetivosButton.png" width="490" height="487"/>
         <image name="InformaciónCETACValoresButton.png" width="490" height="487"/>

@@ -33,8 +33,10 @@ class MenuInformacionCETACViewController: UIViewController {
         case "valores":
             siguiente.indice = 2
         default:
-            siguiente.indice = 0
+            siguiente.indice = 4
         }
+        siguiente.limiteInferior = 0
+        siguiente.limiteSuperior = 9
     }
 
 }

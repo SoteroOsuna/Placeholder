@@ -25,14 +25,10 @@ class MenuInformacionTAViewController: UIViewController {
         let siguiente = segue.destination as! ModuloInformacionViewController
         switch segue.identifier {
         
-        case "mision":
-            siguiente.indice = 0
-        case "vision":
-            siguiente.indice = 1
-        case "valores":
-            siguiente.indice = 2
+        case "floresDeBach":
+            siguiente.indice = 22
         default:
-            siguiente.indice = 0
+            siguiente.indice = 23
         }
     }
 }

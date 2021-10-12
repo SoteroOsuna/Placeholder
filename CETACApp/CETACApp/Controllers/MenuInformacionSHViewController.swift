@@ -25,14 +25,20 @@ class MenuInformacionSHViewController: UIViewController {
         let siguiente = segue.destination as! ModuloInformacionViewController
         switch segue.identifier {
         
-        case "mision":
-            siguiente.indice = 0
-        case "vision":
-            siguiente.indice = 1
-        case "valores":
-            siguiente.indice = 2
+        case "aromaterapia":
+            siguiente.indice = 15
+        case "cristaloterapia":
+            siguiente.indice = 16
+        case "reiki":
+            siguiente.indice = 17
+        case "biomagnetismo":
+            siguiente.indice = 18
+        case "angeloterapia":
+            siguiente.indice = 19
+        case "musicoterapia":
+            siguiente.indice = 20
         default:
-            siguiente.indice = 0
+            siguiente.indice = 21
         }
     }
 
