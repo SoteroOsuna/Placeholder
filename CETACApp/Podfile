@@ -13,4 +13,8 @@ pod 'FirebaseFirestoreSwift'
 pod 'Firebase/Auth'
 pod 'Firebase/Core'
 
+target 'CETACAppTests' do
+inherit! :search_paths
+end
+
 end

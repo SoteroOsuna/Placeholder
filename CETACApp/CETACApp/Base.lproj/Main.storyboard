@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="loX-Yb-hI0">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19162" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="loX-Yb-hI0">
     <device id="ipad10_2" orientation="portrait" layout="fullscreen" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19144"/>
         <capability name="Named colors" minToolsVersion="9.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
@@ -14,8 +15,17 @@
             <objects>
                 <viewController id="VIE-UR-aqn" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="jOH-te-vYO">
-                        <rect key="frame" x="0.0" y="0.0" width="704" height="995.5"/>
+                        <rect key="frame" x="0.0" y="0.0" width="810" height="1080"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="nuevaSesion" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OPl-b2-vyg">
+                                <rect key="frame" x="357" y="151" width="97" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="gd4-Jo-ocl"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
@@ -23,21 +33,46 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ACu-IQ-cVS" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2421" y="1415"/>
+            <point key="canvasLocation" x="1896.2962962962961" y="1518.8888888888889"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="PE7-Kz-s3s">
+            <objects>
+                <viewController id="zkW-nK-FrH" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="XR9-HC-pSA">
+                        <rect key="frame" x="0.0" y="0.0" width="810" height="1080"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="seguimientoSesion" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="14r-US-0Tp">
+                                <rect key="frame" x="333" y="115" width="145" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="I1q-Cu-4G7"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="77v-3E-47n"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="MTN-lE-iXH" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2753" y="1528"/>
         </scene>
         <!--MenuSesiones-->
         <scene sceneID="R4g-Pb-7jK">
             <objects>
-                <viewController title="MenuSesiones" id="c5t-wA-pPe" sceneMemberID="viewController">
+                <viewController title="MenuSesiones" id="c5t-wA-pPe" customClass="MenuSesionesViewController" customModule="CETACApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="dpC-hk-U4Y">
                         <rect key="frame" x="0.0" y="0.0" width="810" height="1080"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="CETACFONDO.png" translatesAutoresizingMaskIntoConstraints="NO" id="H3w-T8-daZ">
-                                <rect key="frame" x="0.0" y="50" width="810" height="980"/>
+                                <rect key="frame" x="0.0" y="70" width="810" height="960"/>
                             </imageView>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="lN3-1A-eDu">
-                                <rect key="frame" x="100" y="250" width="610" height="680"/>
+                                <rect key="frame" x="100" y="270" width="610" height="660"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Menú de Sesiones" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lnC-yS-gkb">
                                         <rect key="frame" x="0.0" y="0.0" width="610" height="53.5"/>
@@ -46,21 +81,18 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="0iJ-hr-9GP">
-                                        <rect key="frame" x="0.0" y="53.5" width="610" height="626.5"/>
+                                        <rect key="frame" x="0.0" y="53.5" width="610" height="606.5"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pS0-Mo-XPi" userLabel="Nueva Sesion">
-                                                <rect key="frame" x="0.0" y="0.0" width="305" height="626.5"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="305" height="606.5"/>
                                                 <state key="normal" title="Nueva Sesion"/>
                                                 <connections>
-                                                    <segue destination="VIE-UR-aqn" kind="presentation" id="mPE-NH-aEU"/>
+                                                    <action selector="botonNuevaSesion:" destination="c5t-wA-pPe" eventType="touchUpInside" id="GWu-Yd-Mvv"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="F8B-Ea-eu8">
-                                                <rect key="frame" x="305" y="0.0" width="305" height="626.5"/>
+                                                <rect key="frame" x="305" y="0.0" width="305" height="606.5"/>
                                                 <state key="normal" title="Ver Sesiones"/>
-                                                <connections>
-                                                    <segue destination="oBa-uX-DWL" kind="show" id="iJu-u6-2Gk"/>
-                                                </connections>
                                             </button>
                                         </subviews>
                                     </stackView>
@@ -82,26 +114,14 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="n8i-gq-ynf"/>
+                    <connections>
+                        <segue destination="VIE-UR-aqn" kind="show" identifier="nuevaSesion" id="QSH-4u-rC0"/>
+                        <segue destination="zkW-nK-FrH" kind="show" identifier="sesionSeguimiento" id="i0L-lB-6D7"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="pMq-IY-4KT" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2421" y="680"/>
-        </scene>
-        <!--View Controller-->
-        <scene sceneID="Epa-Dm-Blw">
-            <objects>
-                <viewController id="oBa-uX-DWL" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="16D-Ec-xTW">
-                        <rect key="frame" x="0.0" y="0.0" width="810" height="1080"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <viewLayoutGuide key="safeArea" id="6jM-9Q-XNb"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                    </view>
-                    <navigationItem key="navigationItem" id="s4e-Vq-FER"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="lc9-k1-rdS" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="3347" y="680"/>
         </scene>
         <!--MenuInformacion-->
         <scene sceneID="KLq-rs-Xyd">
@@ -112,29 +132,29 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="CETACFONDO.png" translatesAutoresizingMaskIntoConstraints="NO" id="Oa4-9s-uyd">
-                                <rect key="frame" x="0.0" y="50" width="810" height="980"/>
+                                <rect key="frame" x="0.0" y="70" width="810" height="960"/>
                             </imageView>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="QtG-qJ-ytb">
-                                <rect key="frame" x="100" y="250" width="610" height="680"/>
+                                <rect key="frame" x="100" y="270" width="610" height="660"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Información " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lWZ-eu-CtJ">
-                                        <rect key="frame" x="0.0" y="0.0" width="610" height="34"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="610" height="33"/>
                                         <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="45"/>
                                         <color key="textColor" red="0.41602587699999999" green="0.58560913800000003" blue="0.86277896170000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="aTz-4P-pBk">
-                                        <rect key="frame" x="0.0" y="54" width="610" height="310.5"/>
+                                        <rect key="frame" x="0.0" y="53" width="610" height="301"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ied-md-H9H">
-                                                <rect key="frame" x="0.0" y="0.0" width="295" height="310.5"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="295" height="301"/>
                                                 <state key="normal" image="InformaciónCetacButton.png"/>
                                                 <connections>
                                                     <segue destination="0pg-Xu-WWe" kind="show" id="08k-KF-r7e"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="joX-7M-3wJ">
-                                                <rect key="frame" x="315" y="0.0" width="295" height="310.5"/>
+                                                <rect key="frame" x="315" y="0.0" width="295" height="301"/>
                                                 <state key="normal" image="InformaciónAcompButton.png"/>
                                                 <connections>
                                                     <segue destination="UCi-fH-NI1" kind="show" id="dpM-03-7sh"/>
@@ -143,17 +163,17 @@
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="Bk4-0N-WJC">
-                                        <rect key="frame" x="0.0" y="384.5" width="610" height="295.5"/>
+                                        <rect key="frame" x="0.0" y="374" width="610" height="286"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uNM-9w-acp">
-                                                <rect key="frame" x="0.0" y="0.0" width="295" height="295.5"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="295" height="286"/>
                                                 <state key="normal" image="InformaciónHolistButton.png"/>
                                                 <connections>
                                                     <segue destination="aGz-cf-sae" kind="show" id="FWE-MT-fFJ"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XNv-g0-kh4">
-                                                <rect key="frame" x="315" y="0.0" width="295" height="295.5"/>
+                                                <rect key="frame" x="315" y="0.0" width="295" height="286"/>
                                                 <state key="normal" image="InformaciónAlterButton.png"/>
                                                 <connections>
                                                     <segue destination="2QF-6m-NqH" kind="show" id="eRX-hy-4ut"/>
@@ -165,7 +185,7 @@
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                             </stackView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="CETACLogo.png" translatesAutoresizingMaskIntoConstraints="NO" id="21I-iW-sM6">
-                                <rect key="frame" x="261" y="64" width="288" height="166"/>
+                                <rect key="frame" x="261" y="84" width="288" height="166"/>
                             </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="GfS-mJ-Z5k"/>
@@ -207,29 +227,29 @@
                                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                     </view>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="CETACFONDO.png" translatesAutoresizingMaskIntoConstraints="NO" id="eWN-ox-Q12">
-                                        <rect key="frame" x="0.0" y="50" width="810" height="980"/>
+                                        <rect key="frame" x="0.0" y="70" width="810" height="960"/>
                                     </imageView>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" alignment="center" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="2xt-zE-KgA">
-                                        <rect key="frame" x="100" y="250" width="610" height="680"/>
+                                        <rect key="frame" x="100" y="270" width="610" height="660"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Información - CETAC" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7t6-Q8-cxu">
-                                                <rect key="frame" x="101" y="0.0" width="408" height="34"/>
+                                                <rect key="frame" x="101" y="0.0" width="408" height="33"/>
                                                 <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="45"/>
                                                 <color key="textColor" red="0.41602587699999999" green="0.58560913800000003" blue="0.86277896170000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" alignment="center" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="6m5-j5-yAS">
-                                                <rect key="frame" x="0.0" y="54" width="610" height="310.5"/>
+                                                <rect key="frame" x="0.0" y="53" width="610" height="301"/>
                                                 <subviews>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cXv-tn-2yh">
-                                                        <rect key="frame" x="0.0" y="0.0" width="295" height="310.5"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="295" height="301"/>
                                                         <state key="normal" image="InformaciónCETACMisionButton.png"/>
                                                         <connections>
                                                             <segue destination="wZN-XH-rCS" kind="show" identifier="mision" id="bBD-Ab-8zK"/>
                                                         </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iPJ-an-EHb">
-                                                        <rect key="frame" x="315" y="0.0" width="295" height="310.5"/>
+                                                        <rect key="frame" x="315" y="0.0" width="295" height="301"/>
                                                         <state key="normal" image="InformaciónCETACVisionButton.png"/>
                                                         <connections>
                                                             <segue destination="wZN-XH-rCS" kind="show" identifier="vision" id="VEK-MG-g5W"/>
@@ -238,17 +258,17 @@
                                                 </subviews>
                                             </stackView>
                                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="JTU-fU-pQo">
-                                                <rect key="frame" x="0.0" y="384.5" width="610" height="295.5"/>
+                                                <rect key="frame" x="0.0" y="374" width="610" height="286"/>
                                                 <subviews>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="87f-iX-MVe">
-                                                        <rect key="frame" x="0.0" y="0.0" width="295" height="295.5"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="295" height="286"/>
                                                         <state key="normal" image="InformaciónCETACValoresButton.png"/>
                                                         <connections>
                                                             <segue destination="wZN-XH-rCS" kind="show" identifier="valores" id="Zt4-rd-f4r"/>
                                                         </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ohG-3d-zr4">
-                                                        <rect key="frame" x="315" y="0.0" width="295" height="295.5"/>
+                                                        <rect key="frame" x="315" y="0.0" width="295" height="286"/>
                                                         <state key="normal" image="InformaciónCETACObjetivosButton.png"/>
                                                         <connections>
                                                             <segue destination="wZN-XH-rCS" kind="show" identifier="objetivos" id="vIU-R0-owZ"/>
@@ -260,7 +280,7 @@
                                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                     </stackView>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="CETACLogo.png" translatesAutoresizingMaskIntoConstraints="NO" id="nTu-Gx-W51">
-                                        <rect key="frame" x="261" y="64" width="288" height="166"/>
+                                        <rect key="frame" x="261" y="84" width="288" height="166"/>
                                     </imageView>
                                 </subviews>
                                 <viewLayoutGuide key="safeArea" id="CE0-dP-XnV"/>
@@ -297,14 +317,14 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="CETACFONDO.png" translatesAutoresizingMaskIntoConstraints="NO" id="ySa-Oe-PKV">
-                                <rect key="frame" x="0.0" y="50" width="810" height="980"/>
+                                <rect key="frame" x="0.0" y="70" width="810" height="960"/>
                                 <gestureRecognizers/>
                                 <connections>
                                     <outletCollection property="gestureRecognizers" destination="p7H-mx-Inu" appends="YES" id="fKi-ZF-rUc"/>
                                 </connections>
                             </imageView>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fJw-94-6hN" userLabel="Container">
-                                <rect key="frame" x="100" y="250" width="610" height="680"/>
+                                <rect key="frame" x="100" y="270" width="610" height="660"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dFZ-IA-ww2">
                                         <rect key="frame" x="305" y="-10" width="0.0" height="60"/>
@@ -316,7 +336,7 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" editable="NO" textAlignment="center" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="669-Hc-29X">
-                                        <rect key="frame" x="20" y="445" width="570" height="225"/>
+                                        <rect key="frame" x="20" y="425" width="570" height="225"/>
                                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="225" id="yCX-cv-BST"/>
@@ -326,7 +346,7 @@
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="KCp-Nt-lAk">
-                                        <rect key="frame" x="192.5" y="152.5" width="225" height="225"/>
+                                        <rect key="frame" x="192.5" y="142.5" width="225" height="225"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="225" id="ROI-8r-SeV"/>
                                             <constraint firstAttribute="height" constant="225" id="cfW-nJ-c2r"/>
@@ -347,7 +367,7 @@
                                 </constraints>
                             </view>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="CETACLogo.png" translatesAutoresizingMaskIntoConstraints="NO" id="wwB-rg-nZd">
-                                <rect key="frame" x="261" y="64" width="288" height="166"/>
+                                <rect key="frame" x="261" y="84" width="288" height="166"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="buK-si-Fhb">
                                 <rect key="frame" x="10" y="979" width="110" height="51"/>
@@ -432,47 +452,6 @@
             </objects>
             <point key="canvasLocation" x="504" y="281"/>
         </scene>
-        <!--Bienvenidos-->
-        <scene sceneID="F4I-za-Mfy">
-            <objects>
-                <viewController title="Bienvenidos" id="Lq2-yT-mDk" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="hER-gw-RHA">
-                        <rect key="frame" x="0.0" y="0.0" width="810" height="1080"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="CETACFONDO.png" translatesAutoresizingMaskIntoConstraints="NO" id="NfK-Ik-KFn">
-                                <rect key="frame" x="0.0" y="50" width="810" height="980"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <gestureRecognizers/>
-                            </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="BackgroundWhiteLogIn.png" translatesAutoresizingMaskIntoConstraints="NO" id="VXI-LR-QsU">
-                                <rect key="frame" x="0.0" y="266" width="810" height="764"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Bienvenidos" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gtW-Af-cnJ">
-                                <rect key="frame" x="270" y="328" width="270" height="63"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="52"/>
-                                <color key="textColor" red="0.14901960780000001" green="0.1843137255" blue="0.42745098040000001" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="CETACLogo.png" id="caO-ao-VuY">
-                                <rect key="frame" x="261" y="92" width="288" height="166"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                        </subviews>
-                        <viewLayoutGuide key="safeArea" id="xSw-7X-aHt"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                    </view>
-                    <navigationItem key="navigationItem" id="Wt1-Nd-fE9"/>
-                    <connections>
-                        <segue destination="eze-ZP-egx" kind="show" id="K3T-7K-np6"/>
-                    </connections>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="hMe-Sp-vs6" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="-2212" y="-1407"/>
-        </scene>
         <!--LogIn-->
         <scene sceneID="jPP-cw-ms8">
             <objects>
@@ -482,14 +461,14 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="CETACFONDO.png" translatesAutoresizingMaskIntoConstraints="NO" id="F1k-8h-wnL">
-                                <rect key="frame" x="0.0" y="50" width="810" height="980"/>
+                                <rect key="frame" x="0.0" y="70" width="810" height="960"/>
                                 <gestureRecognizers/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="BackgroundWhiteLogIn.png" translatesAutoresizingMaskIntoConstraints="NO" id="Jdw-su-ZnE">
-                                <rect key="frame" x="0.0" y="230" width="810" height="850"/>
+                                <rect key="frame" x="0.0" y="250" width="810" height="830"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="CETACLogo.png" translatesAutoresizingMaskIntoConstraints="NO" id="6UD-H2-Nho">
-                                <rect key="frame" x="261" y="80" width="288" height="166"/>
+                                <rect key="frame" x="261" y="100" width="288" height="166"/>
                             </imageView>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Usuario" minimumFontSize="22" translatesAutoresizingMaskIntoConstraints="NO" id="LLm-iK-ZJc">
                                 <rect key="frame" x="218" y="523" width="373" height="36"/>
@@ -541,13 +520,10 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="IRT-lp-vRK"/>
-                    <connections>
-                        <segue destination="Lq2-yT-mDk" kind="show" id="pFO-cF-sSZ"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ddm-wx-DXV" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1528" y="-1407"/>
+            <point key="canvasLocation" x="-1413" y="-1407"/>
         </scene>
         <!--MenuIndicadores-->
         <scene sceneID="gHt-AP-i53">
@@ -572,7 +548,7 @@
                     <tabBarItem key="tabBarItem" title="Informacion" id="jsI-RH-BRX"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="Hlv-ed-LPb">
-                        <rect key="frame" x="0.0" y="0.0" width="810" height="50"/>
+                        <rect key="frame" x="0.0" y="20" width="810" height="50"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
@@ -591,7 +567,7 @@
                     <tabBarItem key="tabBarItem" title="Sesiones" id="gyy-wE-26t"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="wxr-BW-ULS">
-                        <rect key="frame" x="0.0" y="0.0" width="810" height="50"/>
+                        <rect key="frame" x="0.0" y="20" width="810" height="50"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
@@ -610,7 +586,7 @@
                     <tabBarItem key="tabBarItem" title="Usuario" id="OQI-6q-uhd"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="dgB-0v-q4t">
-                        <rect key="frame" x="0.0" y="0.0" width="810" height="50"/>
+                        <rect key="frame" x="0.0" y="20" width="810" height="50"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
@@ -629,7 +605,7 @@
                     <tabBarItem key="tabBarItem" title="Indicadores" id="FX3-Le-TRS"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="Jx9-wH-qxB">
-                        <rect key="frame" x="0.0" y="0.0" width="810" height="50"/>
+                        <rect key="frame" x="0.0" y="20" width="810" height="50"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
@@ -659,23 +635,23 @@
                                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                     </view>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="CETACFONDO.png" translatesAutoresizingMaskIntoConstraints="NO" id="scE-B5-Lb7">
-                                        <rect key="frame" x="0.0" y="50" width="810" height="980"/>
+                                        <rect key="frame" x="0.0" y="70" width="810" height="960"/>
                                     </imageView>
-                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" alignment="center" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="7ke-pw-tVM">
-                                        <rect key="frame" x="100" y="250" width="610" height="680"/>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" alignment="center" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="7ke-pw-tVM">
+                                        <rect key="frame" x="100" y="270" width="610" height="660"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Servicios Holísticos" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="75C-Y3-tMJ">
-                                                <rect key="frame" x="116" y="0.0" width="378" height="169"/>
+                                                <rect key="frame" x="116" y="0.0" width="378" height="150"/>
                                                 <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="45"/>
                                                 <color key="textColor" red="0.41602587699999999" green="0.58560913800000003" blue="0.86277896170000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" alignment="center" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="7il-Mf-G0c">
-                                                <rect key="frame" x="109.5" y="189" width="391" height="107"/>
+                                                <rect key="frame" x="0.0" y="170" width="610" height="150"/>
                                                 <subviews>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ECL-zf-bAG">
-                                                        <rect key="frame" x="0.0" y="36.5" width="117" height="34"/>
-                                                        <state key="normal" title="Aromaterapia">
+                                                        <rect key="frame" x="0.0" y="0.0" width="190" height="150"/>
+                                                        <state key="normal" title="Aromaterapia" image="InformaciónHolisticosAromaterapiaButton.png">
                                                             <color key="titleColor" name="AccentColor"/>
                                                         </state>
                                                         <connections>
@@ -683,8 +659,8 @@
                                                         </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ROX-LY-RUf">
-                                                        <rect key="frame" x="137" y="36.5" width="117" height="34"/>
-                                                        <state key="normal" title="Cristaloterapia">
+                                                        <rect key="frame" x="210" y="0.0" width="190" height="150"/>
+                                                        <state key="normal" title="Cristaloterapia" image="InformaciónHolisticosCristaloterapiaButton.png">
                                                             <color key="titleColor" name="AccentColor"/>
                                                         </state>
                                                         <connections>
@@ -692,8 +668,8 @@
                                                         </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tub-yH-fHM">
-                                                        <rect key="frame" x="274" y="36.5" width="117" height="34"/>
-                                                        <state key="normal" title="Reiki">
+                                                        <rect key="frame" x="420" y="0.0" width="190" height="150"/>
+                                                        <state key="normal" title="Reiki" image="InformaciónHolisticosReikiButton.png">
                                                             <color key="titleColor" name="AccentColor"/>
                                                         </state>
                                                         <connections>
@@ -703,11 +679,11 @@
                                                 </subviews>
                                             </stackView>
                                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" alignment="center" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="jjF-qm-N2X">
-                                                <rect key="frame" x="97.5" y="316" width="415" height="107.5"/>
+                                                <rect key="frame" x="0.0" y="340" width="610" height="150"/>
                                                 <subviews>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vJ0-XL-c8B">
-                                                        <rect key="frame" x="0.0" y="36.5" width="125" height="34"/>
-                                                        <state key="normal" title="Biomagnetismo">
+                                                        <rect key="frame" x="0.0" y="0.0" width="190" height="150"/>
+                                                        <state key="normal" title="Biomagnetismo" image="InformaciónHolisticosBiomagnetismoButton.png">
                                                             <color key="titleColor" name="AccentColor"/>
                                                         </state>
                                                         <connections>
@@ -715,8 +691,8 @@
                                                         </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2kW-Rk-VAJ">
-                                                        <rect key="frame" x="145" y="36.5" width="125" height="34"/>
-                                                        <state key="normal" title="Angeloterapia">
+                                                        <rect key="frame" x="210" y="0.0" width="190" height="150"/>
+                                                        <state key="normal" title="Angeloterapia" image="InformaciónHolisticosAngeloterapiaButton.png">
                                                             <color key="titleColor" name="AccentColor"/>
                                                         </state>
                                                         <connections>
@@ -724,8 +700,8 @@
                                                         </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6Ac-5Y-uMC">
-                                                        <rect key="frame" x="290" y="36.5" width="125" height="34"/>
-                                                        <state key="normal" title="Musicoterapia">
+                                                        <rect key="frame" x="420" y="0.0" width="190" height="150"/>
+                                                        <state key="normal" title="Musicoterapia" image="InformaciónHolisticosMusicoterapiaButton.png">
                                                             <color key="titleColor" name="AccentColor"/>
                                                         </state>
                                                         <connections>
@@ -735,15 +711,15 @@
                                                 </subviews>
                                             </stackView>
                                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="C3H-V3-AQQ">
-                                                <rect key="frame" x="9" y="443.5" width="592" height="236.5"/>
+                                                <rect key="frame" x="0.0" y="510" width="610" height="150"/>
                                                 <subviews>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qJg-9l-ZeZ">
-                                                        <rect key="frame" x="0.0" y="0.0" width="184" height="236.5"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="190" height="150"/>
                                                         <state key="normal" title="Filler"/>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yz1-DH-YXA">
-                                                        <rect key="frame" x="204" y="0.0" width="184" height="236.5"/>
-                                                        <state key="normal" title="Cama Térmica de Jade">
+                                                        <rect key="frame" x="210" y="0.0" width="190" height="150"/>
+                                                        <state key="normal" title="Cama Térmica de Jade" image="InformaciónHolisticosCamaButton.png">
                                                             <color key="titleColor" name="AccentColor"/>
                                                         </state>
                                                         <connections>
@@ -751,7 +727,7 @@
                                                         </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yW2-1H-nFv">
-                                                        <rect key="frame" x="408" y="0.0" width="184" height="236.5"/>
+                                                        <rect key="frame" x="420" y="0.0" width="190" height="150"/>
                                                         <state key="normal" title="Filler"/>
                                                     </button>
                                                 </subviews>
@@ -760,7 +736,7 @@
                                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                     </stackView>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="CETACLogo.png" translatesAutoresizingMaskIntoConstraints="NO" id="8j7-tV-yJF">
-                                        <rect key="frame" x="261" y="64" width="288" height="166"/>
+                                        <rect key="frame" x="261" y="84" width="288" height="166"/>
                                     </imageView>
                                 </subviews>
                                 <viewLayoutGuide key="safeArea" id="Hg0-Bs-9NZ"/>
@@ -806,24 +782,24 @@
                                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                     </view>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="CETACFONDO.png" translatesAutoresizingMaskIntoConstraints="NO" id="Nnx-M9-0wF">
-                                        <rect key="frame" x="0.0" y="50" width="810" height="980"/>
+                                        <rect key="frame" x="0.0" y="70" width="810" height="960"/>
                                     </imageView>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" alignment="center" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="KGQ-NH-hwI">
-                                        <rect key="frame" x="100" y="250" width="610" height="680"/>
+                                        <rect key="frame" x="100" y="270" width="610" height="660"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Servicios Acompañamiento" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gK1-Vb-uYF">
-                                                <rect key="frame" x="41" y="0.0" width="528.5" height="213.5"/>
+                                                <rect key="frame" x="41" y="0.0" width="528.5" height="206.5"/>
                                                 <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="45"/>
                                                 <color key="textColor" red="0.41602587699999999" green="0.58560913800000003" blue="0.86277896170000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" alignment="center" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="WF8-W6-nfx">
-                                                <rect key="frame" x="94.5" y="233.5" width="421" height="213"/>
+                                                <rect key="frame" x="0.0" y="226.5" width="610" height="207"/>
                                                 <subviews>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gjh-WU-J8n">
-                                                        <rect key="frame" x="0.0" y="89.5" width="127" height="34"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="190" height="207"/>
                                                         <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="18"/>
-                                                        <state key="normal" title="Tanatología">
+                                                        <state key="normal" title="Tanatología" image="InformaciónAcompTanatologíaButton.png">
                                                             <color key="titleColor" name="AccentColor"/>
                                                         </state>
                                                         <connections>
@@ -831,8 +807,8 @@
                                                         </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QCP-c5-Auj">
-                                                        <rect key="frame" x="147" y="89.5" width="127" height="34"/>
-                                                        <state key="normal" title="Acom Individual">
+                                                        <rect key="frame" x="210" y="0.0" width="190" height="207"/>
+                                                        <state key="normal" title="Acom Individual" image="InformaciónAcompAcompIndividualButton.png">
                                                             <color key="titleColor" name="AccentColor"/>
                                                         </state>
                                                         <connections>
@@ -840,8 +816,8 @@
                                                         </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KvW-Se-B7z">
-                                                        <rect key="frame" x="294" y="89.5" width="127" height="34"/>
-                                                        <state key="normal" title="Acom Grupal">
+                                                        <rect key="frame" x="420" y="0.0" width="190" height="207"/>
+                                                        <state key="normal" title="Acom Grupal" image="InformaciónAcompAcompGrupalButton.png">
                                                             <color key="titleColor" name="AccentColor"/>
                                                         </state>
                                                         <connections>
@@ -851,11 +827,11 @@
                                                 </subviews>
                                             </stackView>
                                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" alignment="center" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="C3m-Ja-qfc">
-                                                <rect key="frame" x="138" y="466.5" width="334" height="213.5"/>
+                                                <rect key="frame" x="0.0" y="453.5" width="610" height="206.5"/>
                                                 <subviews>
                                                     <button contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YUn-dh-o2b">
-                                                        <rect key="frame" x="0.0" y="90" width="98" height="34"/>
-                                                        <state key="normal" title="Logoterapia">
+                                                        <rect key="frame" x="0.0" y="0.0" width="190" height="206.5"/>
+                                                        <state key="normal" title="Logoterapia" image="InformaciónAcompAcompLogoterapiaButton.png">
                                                             <color key="titleColor" name="AccentColor"/>
                                                         </state>
                                                         <connections>
@@ -863,15 +839,15 @@
                                                         </connections>
                                                     </button>
                                                     <button opaque="NO" userInteractionEnabled="NO" alpha="0.0" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="shN-lf-e4M">
-                                                        <rect key="frame" x="118" y="90" width="98" height="34"/>
+                                                        <rect key="frame" x="210" y="86" width="190" height="34"/>
                                                         <state key="normal" title="Filler"/>
                                                         <connections>
                                                             <segue destination="wZN-XH-rCS" kind="show" id="1Kh-d9-xgG"/>
                                                         </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bGG-sE-zJv">
-                                                        <rect key="frame" x="236" y="90" width="98" height="34"/>
-                                                        <state key="normal" title="Mindfulness">
+                                                        <rect key="frame" x="420" y="0.0" width="190" height="206.5"/>
+                                                        <state key="normal" title="Mindfulness" image="InformaciónAcompAcompMindfulnessButton.png">
                                                             <color key="titleColor" name="AccentColor"/>
                                                         </state>
                                                         <connections>
@@ -884,7 +860,7 @@
                                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                     </stackView>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="CETACLogo.png" translatesAutoresizingMaskIntoConstraints="NO" id="bQ6-9q-Do2">
-                                        <rect key="frame" x="261" y="64" width="288" height="166"/>
+                                        <rect key="frame" x="261" y="84" width="288" height="166"/>
                                     </imageView>
                                 </subviews>
                                 <viewLayoutGuide key="safeArea" id="gKh-lr-bqq"/>
@@ -930,23 +906,23 @@
                                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                     </view>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="CETACFONDO.png" translatesAutoresizingMaskIntoConstraints="NO" id="Y92-TE-k2c">
-                                        <rect key="frame" x="0.0" y="50" width="810" height="980"/>
+                                        <rect key="frame" x="0.0" y="70" width="810" height="960"/>
                                     </imageView>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" alignment="center" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="xLs-V3-hZn">
-                                        <rect key="frame" x="100" y="250" width="610" height="680"/>
+                                        <rect key="frame" x="100" y="270" width="610" height="660"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Técnicas Alternativas" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="e8h-Q9-7f8">
-                                                <rect key="frame" x="101.5" y="0.0" width="407" height="338.5"/>
+                                                <rect key="frame" x="101.5" y="0.0" width="407" height="63"/>
                                                 <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="45"/>
                                                 <color key="textColor" red="0.41602587699999999" green="0.58560913800000003" blue="0.86277896170000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" alignment="center" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="vkd-dw-Vq0">
-                                                <rect key="frame" x="146" y="358.5" width="318" height="321.5"/>
+                                                <rect key="frame" x="0.0" y="83" width="610" height="577"/>
                                                 <subviews>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HOA-sf-RYM">
-                                                        <rect key="frame" x="0.0" y="143.5" width="149" height="34"/>
-                                                        <state key="normal" title="FloresDeBach">
+                                                        <rect key="frame" x="0.0" y="45" width="295" height="487"/>
+                                                        <state key="normal" title="FloresDeBach" image="InformaciónAlternativasBachButton.png">
                                                             <color key="titleColor" name="AccentColor"/>
                                                         </state>
                                                         <connections>
@@ -954,8 +930,8 @@
                                                         </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eYf-kS-ctT">
-                                                        <rect key="frame" x="169" y="143.5" width="149" height="34"/>
-                                                        <state key="normal" title="BrisasAmbientales">
+                                                        <rect key="frame" x="315" y="45" width="295" height="487"/>
+                                                        <state key="normal" title="BrisasAmbientales" image="InformaciónAlternativasWindButton.png">
                                                             <color key="titleColor" name="AccentColor"/>
                                                         </state>
                                                         <connections>
@@ -968,7 +944,7 @@
                                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                     </stackView>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="CETACLogo.png" translatesAutoresizingMaskIntoConstraints="NO" id="63S-IK-PYV">
-                                        <rect key="frame" x="261" y="64" width="288" height="166"/>
+                                        <rect key="frame" x="261" y="84" width="288" height="166"/>
                                     </imageView>
                                 </subviews>
                                 <viewLayoutGuide key="safeArea" id="tcr-8C-wT5"/>
@@ -996,359 +972,36 @@
             </objects>
             <point key="canvasLocation" x="3144" y="-321"/>
         </scene>
-        <!--GestionUsuarios-->
-        <scene sceneID="cNW-PY-vh9">
-            <objects>
-                <viewController title="GestionUsuarios" id="eze-ZP-egx" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="mQA-xu-ECY">
-                        <rect key="frame" x="0.0" y="0.0" width="810" height="1080"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="CETACFONDO.png" translatesAutoresizingMaskIntoConstraints="NO" id="Kbv-Au-Us4">
-                                <rect key="frame" x="0.0" y="50" width="810" height="980"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <gestureRecognizers/>
-                            </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="BackgroundWhiteLogIn.png" translatesAutoresizingMaskIntoConstraints="NO" id="Tja-ce-RPP">
-                                <rect key="frame" x="0.0" y="266" width="810" height="764"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="CETACLogo.png" id="gaU-6X-Khd">
-                                <rect key="frame" x="261" y="92" width="288" height="166"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XYD-DJ-b6u">
-                                <rect key="frame" x="310" y="512" width="190" height="56"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.14901960780000001" green="0.1843137255" blue="0.42745098040000001" alpha="1" colorSpace="calibratedRGB"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
-                                <state key="normal" title="Crear Usuario">
-                                    <color key="titleColor" red="0.98039215690000003" green="0.98039215690000003" blue="0.98039215690000003" alpha="1" colorSpace="calibratedRGB"/>
-                                </state>
-                                <connections>
-                                    <segue destination="Gl2-K8-d30" kind="show" id="jT7-eD-eQk"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Dgo-Im-Otg">
-                                <rect key="frame" x="310" y="693" width="190" height="56"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.14901960780000001" green="0.1843137255" blue="0.42745098040000001" alpha="1" colorSpace="calibratedRGB"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
-                                <state key="normal" title="Actualizar Usuario">
-                                    <color key="titleColor" red="0.98039215690000003" green="0.98039215690000003" blue="0.98039215690000003" alpha="1" colorSpace="calibratedRGB"/>
-                                </state>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dg4-I9-ILK">
-                                <rect key="frame" x="310" y="846" width="190" height="56"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.14901960780000001" green="0.1843137255" blue="0.42745098040000001" alpha="1" colorSpace="calibratedRGB"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
-                                <state key="normal" title="Borrar Usuario">
-                                    <color key="titleColor" red="0.98039215690000003" green="0.98039215690000003" blue="0.98039215690000003" alpha="1" colorSpace="calibratedRGB"/>
-                                </state>
-                            </button>
-                        </subviews>
-                        <viewLayoutGuide key="safeArea" id="Grv-8y-p3s"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                    </view>
-                    <navigationItem key="navigationItem" id="qII-GX-oH5"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="NTD-vf-nZD" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="-3036" y="-1407"/>
-        </scene>
-        <!--CrearUsuario-->
-        <scene sceneID="qzT-Mz-0k4">
-            <objects>
-                <viewController title="CrearUsuario" id="Gl2-K8-d30" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="Ktt-Dv-HlB">
-                        <rect key="frame" x="0.0" y="0.0" width="810" height="1080"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="CETACFONDO.png" translatesAutoresizingMaskIntoConstraints="NO" id="ybe-Zq-8w7">
-                                <rect key="frame" x="0.0" y="50" width="810" height="980"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <gestureRecognizers/>
-                            </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="BackgroundWhiteLogIn.png" translatesAutoresizingMaskIntoConstraints="NO" id="crq-GA-rUf">
-                                <rect key="frame" x="0.0" y="266" width="810" height="764"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Nombre(s)" minimumFontSize="22" translatesAutoresizingMaskIntoConstraints="NO" id="U7E-i0-BEb">
-                                <rect key="frame" x="193" y="477" width="373" height="36"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.98039215690000003" green="0.98039215690000003" blue="0.98039215690000003" alpha="1" colorSpace="calibratedRGB"/>
-                                <color key="textColor" red="0.14901960780000001" green="0.1843137255" blue="0.42745098040000001" alpha="1" colorSpace="calibratedRGB"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
-                                <textInputTraits key="textInputTraits" textContentType="username"/>
-                            </textField>
-                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Apellido Paterno" minimumFontSize="22" translatesAutoresizingMaskIntoConstraints="NO" id="HI1-fQ-1gh" userLabel="Apellido Paterno">
-                                <rect key="frame" x="193" y="563" width="373" height="36"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.98039215690000003" green="0.98039215690000003" blue="0.98039215690000003" alpha="1" colorSpace="calibratedRGB"/>
-                                <color key="textColor" red="0.14901960780000001" green="0.1843137255" blue="0.42745098040000001" alpha="1" colorSpace="calibratedRGB"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
-                                <textInputTraits key="textInputTraits" secureTextEntry="YES" textContentType="password"/>
-                            </textField>
-                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Apellido Materno" minimumFontSize="22" translatesAutoresizingMaskIntoConstraints="NO" id="B9f-3P-SFJ">
-                                <rect key="frame" x="193" y="630" width="373" height="36"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.98039215690000003" green="0.98039215690000003" blue="0.98039215690000003" alpha="1" colorSpace="calibratedRGB"/>
-                                <color key="textColor" red="0.14901960780000001" green="0.1843137255" blue="0.42745098040000001" alpha="1" colorSpace="calibratedRGB"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
-                                <textInputTraits key="textInputTraits" secureTextEntry="YES" textContentType="password"/>
-                            </textField>
-                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Tipo de Usuario" minimumFontSize="22" translatesAutoresizingMaskIntoConstraints="NO" id="mhR-ip-0sz">
-                                <rect key="frame" x="193" y="699" width="373" height="36"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.98039215690000003" green="0.98039215690000003" blue="0.98039215690000003" alpha="1" colorSpace="calibratedRGB"/>
-                                <color key="textColor" red="0.14901960780000001" green="0.1843137255" blue="0.42745098040000001" alpha="1" colorSpace="calibratedRGB"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
-                                <textInputTraits key="textInputTraits" textContentType="username"/>
-                            </textField>
-                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Nombre de Usuario" minimumFontSize="22" translatesAutoresizingMaskIntoConstraints="NO" id="8ps-jl-Wcp">
-                                <rect key="frame" x="193" y="765" width="373" height="36"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.98039215690000003" green="0.98039215690000003" blue="0.98039215690000003" alpha="1" colorSpace="calibratedRGB"/>
-                                <color key="textColor" red="0.14901960780000001" green="0.1843137255" blue="0.42745098040000001" alpha="1" colorSpace="calibratedRGB"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
-                                <textInputTraits key="textInputTraits" textContentType="username"/>
-                            </textField>
-                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Contraseña" minimumFontSize="22" translatesAutoresizingMaskIntoConstraints="NO" id="O0h-Cj-VkZ">
-                                <rect key="frame" x="193" y="836" width="373" height="36"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.98039215690000003" green="0.98039215690000003" blue="0.98039215690000003" alpha="1" colorSpace="calibratedRGB"/>
-                                <color key="textColor" red="0.14901960780000001" green="0.1843137255" blue="0.42745098040000001" alpha="1" colorSpace="calibratedRGB"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
-                                <textInputTraits key="textInputTraits" secureTextEntry="YES" textContentType="username"/>
-                            </textField>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="CETACLogo.png" id="PPk-Ec-u2s">
-                                <rect key="frame" x="261" y="92" width="288" height="166"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hyH-0V-knH">
-                                <rect key="frame" x="284" y="905" width="190" height="56"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.14901960780000001" green="0.1843137255" blue="0.42745098040000001" alpha="1" colorSpace="calibratedRGB"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
-                                <state key="normal" title="Crear Usuario">
-                                    <color key="titleColor" red="0.98039215690000003" green="0.98039215690000003" blue="0.98039215690000003" alpha="1" colorSpace="calibratedRGB"/>
-                                </state>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8HA-WJ-xKo">
-                                <rect key="frame" x="574" y="843" width="27" height="22"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="tintColor" red="0.14901960780000001" green="0.1843137255" blue="0.42745098040000001" alpha="1" colorSpace="calibratedRGB"/>
-                                <state key="normal" image="eye.fill" catalog="system">
-                                    <color key="titleColor" red="0.98039215690000003" green="0.98039215690000003" blue="0.98039215690000003" alpha="1" colorSpace="calibratedRGB"/>
-                                </state>
-                            </button>
-                        </subviews>
-                        <viewLayoutGuide key="safeArea" id="N1W-Ui-60k"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                    </view>
-                    <navigationItem key="navigationItem" id="6it-Fv-ZTy"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="x9b-U0-t7H" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="-3036" y="-2092"/>
-        </scene>
-        <!--BorrarUsuario-->
-        <scene sceneID="Ddp-Gu-XOf">
-            <objects>
-                <viewController title="BorrarUsuario" id="V6e-cV-clm" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="jJn-Lh-YH3">
-                        <rect key="frame" x="0.0" y="0.0" width="810" height="1080"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="CETACFONDO.png" translatesAutoresizingMaskIntoConstraints="NO" id="uJe-NK-nhB">
-                                <rect key="frame" x="0.0" y="50" width="810" height="980"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <gestureRecognizers/>
-                            </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="BackgroundWhiteLogIn.png" translatesAutoresizingMaskIntoConstraints="NO" id="6qh-Gu-mQ2">
-                                <rect key="frame" x="0.0" y="266" width="810" height="764"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="CETACLogo.png" id="7Xb-y1-pVx">
-                                <rect key="frame" x="261" y="92" width="288" height="166"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Nombre(s)" minimumFontSize="22" translatesAutoresizingMaskIntoConstraints="NO" id="jFo-Km-BbB">
-                                <rect key="frame" x="219" y="602" width="373" height="36"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.98039215690000003" green="0.98039215690000003" blue="0.98039215690000003" alpha="1" colorSpace="calibratedRGB"/>
-                                <color key="textColor" red="0.14901960780000001" green="0.1843137255" blue="0.42745098040000001" alpha="1" colorSpace="calibratedRGB"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
-                                <textInputTraits key="textInputTraits" textContentType="username"/>
-                            </textField>
-                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Tipo de Usuario" minimumFontSize="22" translatesAutoresizingMaskIntoConstraints="NO" id="lay-Hv-B3w">
-                                <rect key="frame" x="218" y="504" width="373" height="36"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.98039215690000003" green="0.98039215690000003" blue="0.98039215690000003" alpha="1" colorSpace="calibratedRGB"/>
-                                <color key="textColor" red="0.14901960780000001" green="0.1843137255" blue="0.42745098040000001" alpha="1" colorSpace="calibratedRGB"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
-                                <textInputTraits key="textInputTraits" textContentType="username"/>
-                            </textField>
-                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Apellido Materno" minimumFontSize="22" translatesAutoresizingMaskIntoConstraints="NO" id="b5o-bB-UX0">
-                                <rect key="frame" x="219" y="850" width="373" height="36"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.98039215690000003" green="0.98039215690000003" blue="0.98039215690000003" alpha="1" colorSpace="calibratedRGB"/>
-                                <color key="textColor" red="0.14901960780000001" green="0.1843137255" blue="0.42745098040000001" alpha="1" colorSpace="calibratedRGB"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
-                                <textInputTraits key="textInputTraits" secureTextEntry="YES" textContentType="password"/>
-                            </textField>
-                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Apellido Paterno" minimumFontSize="22" translatesAutoresizingMaskIntoConstraints="NO" id="xPv-z1-mDD" userLabel="Apellido Paterno">
-                                <rect key="frame" x="219" y="726" width="373" height="36"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.98039215690000003" green="0.98039215690000003" blue="0.98039215690000003" alpha="1" colorSpace="calibratedRGB"/>
-                                <color key="textColor" red="0.14901960780000001" green="0.1843137255" blue="0.42745098040000001" alpha="1" colorSpace="calibratedRGB"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
-                                <textInputTraits key="textInputTraits" secureTextEntry="YES" textContentType="password"/>
-                            </textField>
-                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Usuario" minimumFontSize="22" translatesAutoresizingMaskIntoConstraints="NO" id="iGA-PB-59d">
-                                <rect key="frame" x="218" y="391" width="373" height="36"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.98039215690000003" green="0.98039215690000003" blue="0.98039215690000003" alpha="1" colorSpace="calibratedRGB"/>
-                                <color key="textColor" red="0.14901960780000001" green="0.1843137255" blue="0.42745098040000001" alpha="1" colorSpace="calibratedRGB"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
-                                <textInputTraits key="textInputTraits" secureTextEntry="YES" textContentType="password"/>
-                            </textField>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="esu-G5-WLg">
-                                <rect key="frame" x="286" y="933" width="190" height="56"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.14901960780000001" green="0.1843137255" blue="0.42745098040000001" alpha="1" colorSpace="calibratedRGB"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
-                                <state key="normal" title="Borrar Usuario">
-                                    <color key="titleColor" red="0.98039215690000003" green="0.98039215690000003" blue="0.98039215690000003" alpha="1" colorSpace="calibratedRGB"/>
-                                </state>
-                            </button>
-                        </subviews>
-                        <viewLayoutGuide key="safeArea" id="Sga-hu-dtt"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                    </view>
-                    <navigationItem key="navigationItem" id="wEZ-iD-JaG"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="5xT-rP-Fuy" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="-3036" y="-613"/>
-        </scene>
-        <!--ActualizarUsuario-->
-        <scene sceneID="LZ3-sV-8q4">
-            <objects>
-                <viewController title="ActualizarUsuario" id="9pQ-dS-sk9" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="BxV-Fu-RaC">
-                        <rect key="frame" x="0.0" y="0.0" width="810" height="1080"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="CETACFONDO.png" translatesAutoresizingMaskIntoConstraints="NO" id="zCo-O8-vRK">
-                                <rect key="frame" x="0.0" y="50" width="810" height="980"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <gestureRecognizers/>
-                            </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="BackgroundWhiteLogIn.png" translatesAutoresizingMaskIntoConstraints="NO" id="Xvu-lZ-oiv">
-                                <rect key="frame" x="0.0" y="266" width="810" height="764"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="CETACLogo.png" id="v0E-zE-1gk">
-                                <rect key="frame" x="261" y="92" width="288" height="166"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Nombre(s)" minimumFontSize="22" translatesAutoresizingMaskIntoConstraints="NO" id="x5B-O0-auv">
-                                <rect key="frame" x="219" y="535" width="373" height="36"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.98039215690000003" green="0.98039215690000003" blue="0.98039215690000003" alpha="1" colorSpace="calibratedRGB"/>
-                                <color key="textColor" red="0.14901960780000001" green="0.1843137255" blue="0.42745098040000001" alpha="1" colorSpace="calibratedRGB"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
-                                <textInputTraits key="textInputTraits" textContentType="username"/>
-                            </textField>
-                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Tipo de Usuario" minimumFontSize="22" translatesAutoresizingMaskIntoConstraints="NO" id="SDp-fg-l02">
-                                <rect key="frame" x="219" y="630" width="373" height="36"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.98039215690000003" green="0.98039215690000003" blue="0.98039215690000003" alpha="1" colorSpace="calibratedRGB"/>
-                                <color key="textColor" red="0.14901960780000001" green="0.1843137255" blue="0.42745098040000001" alpha="1" colorSpace="calibratedRGB"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
-                                <textInputTraits key="textInputTraits" textContentType="username"/>
-                            </textField>
-                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Apellido Materno" minimumFontSize="22" translatesAutoresizingMaskIntoConstraints="NO" id="aTK-aV-E2L">
-                                <rect key="frame" x="219" y="724" width="373" height="36"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.98039215690000003" green="0.98039215690000003" blue="0.98039215690000003" alpha="1" colorSpace="calibratedRGB"/>
-                                <color key="textColor" red="0.14901960780000001" green="0.1843137255" blue="0.42745098040000001" alpha="1" colorSpace="calibratedRGB"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
-                                <textInputTraits key="textInputTraits" secureTextEntry="YES" textContentType="password"/>
-                            </textField>
-                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Apellido Paterno" minimumFontSize="22" translatesAutoresizingMaskIntoConstraints="NO" id="hHP-aO-o2i" userLabel="Apellido Paterno">
-                                <rect key="frame" x="219" y="823" width="373" height="36"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.98039215690000003" green="0.98039215690000003" blue="0.98039215690000003" alpha="1" colorSpace="calibratedRGB"/>
-                                <color key="textColor" red="0.14901960780000001" green="0.1843137255" blue="0.42745098040000001" alpha="1" colorSpace="calibratedRGB"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
-                                <textInputTraits key="textInputTraits" secureTextEntry="YES" textContentType="password"/>
-                            </textField>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3h7-qF-eqW">
-                                <rect key="frame" x="310" y="909" width="190" height="56"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.14901960780000001" green="0.1843137255" blue="0.42745098040000001" alpha="1" colorSpace="calibratedRGB"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
-                                <state key="normal" title="Borrar Usuario">
-                                    <color key="titleColor" red="0.98039215690000003" green="0.98039215690000003" blue="0.98039215690000003" alpha="1" colorSpace="calibratedRGB"/>
-                                </state>
-                            </button>
-                        </subviews>
-                        <viewLayoutGuide key="safeArea" id="cca-uu-6JH"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                    </view>
-                    <navigationItem key="navigationItem" id="cLH-4R-2wL"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="nZS-QF-aJL" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="-4616" y="-1407"/>
-        </scene>
-        <!--Table View Controller-->
-        <scene sceneID="ALg-kT-evV">
-            <objects>
-                <tableViewController id="vbJ-dG-KDh" sceneMemberID="viewController">
-                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="DvF-i1-FqA">
-                        <rect key="frame" x="0.0" y="0.0" width="810" height="1080"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                        <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="t6x-5W-rmb">
-                                <rect key="frame" x="0.0" y="24.5" width="810" height="43.5"/>
-                                <autoresizingMask key="autoresizingMask"/>
-                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="t6x-5W-rmb" id="lxQ-1O-Wfv">
-                                    <rect key="frame" x="0.0" y="0.0" width="810" height="43.5"/>
-                                    <autoresizingMask key="autoresizingMask"/>
-                                </tableViewCellContentView>
-                            </tableViewCell>
-                        </prototypes>
-                        <connections>
-                            <outlet property="dataSource" destination="vbJ-dG-KDh" id="aIT-HA-d3t"/>
-                            <outlet property="delegate" destination="vbJ-dG-KDh" id="SCg-XS-s83"/>
-                        </connections>
-                    </tableView>
-                </tableViewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="iGe-TF-JsS" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="-3870" y="-1407"/>
-        </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="Zt4-rd-f4r"/>
+        <segue reference="ujD-s0-IhL"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="BackgroundWhiteLogIn.png" width="441.81817626953125" height="589.09088134765625"/>
         <image name="CETACFONDO.png" width="1620" height="2160"/>
         <image name="CETACLogo.png" width="288" height="166"/>
+        <image name="InformaciónAcompAcompGrupalButton.png" width="490" height="487"/>
+        <image name="InformaciónAcompAcompIndividualButton.png" width="490" height="487"/>
+        <image name="InformaciónAcompAcompLogoterapiaButton.png" width="490" height="487"/>
+        <image name="InformaciónAcompAcompMindfulnessButton.png" width="490" height="487"/>
         <image name="InformaciónAcompButton.png" width="490" height="487"/>
+        <image name="InformaciónAcompTanatologíaButton.png" width="490" height="487"/>
         <image name="InformaciónAlterButton.png" width="490" height="487"/>
+        <image name="InformaciónAlternativasBachButton.png" width="490" height="487"/>
+        <image name="InformaciónAlternativasWindButton.png" width="490" height="487"/>
         <image name="InformaciónCETACMisionButton.png" width="490" height="487"/>
         <image name="InformaciónCETACObjetivosButton.png" width="490" height="487"/>
         <image name="InformaciónCETACValoresButton.png" width="490" height="487"/>
         <image name="InformaciónCETACVisionButton.png" width="490" height="487"/>
         <image name="InformaciónCetacButton.png" width="490" height="487"/>
         <image name="InformaciónHolistButton.png" width="490" height="487"/>
+        <image name="InformaciónHolisticosAngeloterapiaButton.png" width="490" height="487"/>
+        <image name="InformaciónHolisticosAromaterapiaButton.png" width="490" height="487"/>
+        <image name="InformaciónHolisticosBiomagnetismoButton.png" width="490" height="487"/>
+        <image name="InformaciónHolisticosCamaButton.png" width="490" height="487"/>
+        <image name="InformaciónHolisticosCristaloterapiaButton.png" width="490" height="487"/>
+        <image name="InformaciónHolisticosMusicoterapiaButton.png" width="490" height="487"/>
+        <image name="InformaciónHolisticosReikiButton.png" width="490" height="487"/>
         <image name="eye.fill" catalog="system" width="128" height="78"/>
         <namedColor name="AccentColor">
             <color red="0.0" green="0.46000000000000002" blue="0.89000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>

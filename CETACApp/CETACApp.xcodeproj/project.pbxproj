@@ -8,6 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		361E82C9270681B4005527F5 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 361E82C8270681B4005527F5 /* GoogleService-Info.plist */; };
+		36209434271512590026A4B9 /* MenuSesionesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36209433271512590026A4B9 /* MenuSesionesViewController.swift */; };
+		3620944327152BD40026A4B9 /* InformaciónAlternativasBachButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 3620943527152BD40026A4B9 /* InformaciónAlternativasBachButton.png */; };
+		3620944427152BD40026A4B9 /* InformaciónHolisticosAngeloterapiaButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 3620943627152BD40026A4B9 /* InformaciónHolisticosAngeloterapiaButton.png */; };
+		3620944527152BD40026A4B9 /* InformaciónAcompAcompLogoterapiaButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 3620943727152BD40026A4B9 /* InformaciónAcompAcompLogoterapiaButton.png */; };
+		3620944627152BD40026A4B9 /* InformaciónAcompAcompGrupalButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 3620943827152BD40026A4B9 /* InformaciónAcompAcompGrupalButton.png */; };
+		3620944727152BD40026A4B9 /* InformaciónAcompAcompMindfulnessButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 3620943927152BD40026A4B9 /* InformaciónAcompAcompMindfulnessButton.png */; };
+		3620944827152BD40026A4B9 /* InformaciónHolisticosReikiButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 3620943A27152BD40026A4B9 /* InformaciónHolisticosReikiButton.png */; };
+		3620944927152BD40026A4B9 /* InformaciónHolisticosBiomagnetismoButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 3620943B27152BD40026A4B9 /* InformaciónHolisticosBiomagnetismoButton.png */; };
+		3620944A27152BD40026A4B9 /* InformaciónAcompAcompIndividualButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 3620943C27152BD40026A4B9 /* InformaciónAcompAcompIndividualButton.png */; };
+		3620944B27152BD40026A4B9 /* InformaciónAcompTanatologíaButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 3620943D27152BD40026A4B9 /* InformaciónAcompTanatologíaButton.png */; };
+		3620944C27152BD40026A4B9 /* InformaciónHolisticosCamaButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 3620943E27152BD40026A4B9 /* InformaciónHolisticosCamaButton.png */; };
+		3620944D27152BD40026A4B9 /* InformaciónHolisticosCristaloterapiaButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 3620943F27152BD40026A4B9 /* InformaciónHolisticosCristaloterapiaButton.png */; };
+		3620944E27152BD40026A4B9 /* InformaciónHolisticosMusicoterapiaButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 3620944027152BD40026A4B9 /* InformaciónHolisticosMusicoterapiaButton.png */; };
+		3620944F27152BD40026A4B9 /* InformaciónAlternativasBrisasAmbientalesButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 3620944127152BD40026A4B9 /* InformaciónAlternativasBrisasAmbientalesButton.png */; };
+		3620945027152BD40026A4B9 /* InformaciónHolisticosAromaterapiaButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 3620944227152BD40026A4B9 /* InformaciónHolisticosAromaterapiaButton.png */; };
+		3620945227152DAC0026A4B9 /* MenuInformacionSAViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3620945127152DAC0026A4B9 /* MenuInformacionSAViewController.swift */; };
+		3620945427152DC70026A4B9 /* MenuInformacionTAViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3620945327152DC70026A4B9 /* MenuInformacionTAViewController.swift */; };
+		3620945627152DEA0026A4B9 /* MenuInformacionSHViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3620945527152DEA0026A4B9 /* MenuInformacionSHViewController.swift */; };
 		364BD0EE2706CD75002A7002 /* ModuloInformacionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 364BD0ED2706CD75002A7002 /* ModuloInformacionController.swift */; };
 		364BD0F02706D06C002A7002 /* ModuloInformacionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 364BD0EF2706D06C002A7002 /* ModuloInformacionViewController.swift */; };
 		368AED2127053F31009EF4F3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 368AED2027053F31009EF4F3 /* AppDelegate.swift */; };
@@ -32,17 +50,49 @@
 		368AED5227053F71009EF4F3 /* InformaciónCETACObjetivosApoyoButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 368AED4227053F71009EF4F3 /* InformaciónCETACObjetivosApoyoButton.png */; };
 		368AED5327053F71009EF4F3 /* InformaciónCETACValoresButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 368AED4327053F71009EF4F3 /* InformaciónCETACValoresButton.png */; };
 		368AED5427053F71009EF4F3 /* InformaciónHolistButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 368AED4427053F71009EF4F3 /* InformaciónHolistButton.png */; };
-		36D06FC32710D3DD00F2E2E9 /* BackgroundWhiteLogIn.png in Resources */ = {isa = PBXBuildFile; fileRef = 36D06FC22710D3DC00F2E2E9 /* BackgroundWhiteLogIn.png */; };
-		36F0530C2710C61B0076B8CA /* pending.png in Resources */ = {isa = PBXBuildFile; fileRef = 36F0530B2710C61B0076B8CA /* pending.png */; };
+		369D0A952713B63200D14908 /* InformationModuleTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 369D0A942713B63200D14908 /* InformationModuleTest.swift */; };
+		36D21258271297FC001C76D9 /* Usuario.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36D21257271297FC001C76D9 /* Usuario.swift */; };
+		36D2125A27129B46001C76D9 /* UsuarioController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36D2125927129B46001C76D9 /* UsuarioController.swift */; };
+		36D2125E2713AE63001C76D9 /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36D2125D2713AE63001C76D9 /* LogInViewController.swift */; };
+		36D212652713AFA2001C76D9 /* LogInTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36D2125F2713AEDC001C76D9 /* LogInTest.swift */; };
 		36F289E82709382A0052FB5E /* MenuInformacionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36F289E72709382A0052FB5E /* MenuInformacionViewController.swift */; };
 		36F289EA2709386F0052FB5E /* MenuInformacionCETACViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36F289E92709386F0052FB5E /* MenuInformacionCETACViewController.swift */; };
 		36F289EC270A88A00052FB5E /* Sesion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36F289EB270A88A00052FB5E /* Sesion.swift */; };
 		36F3926627068C7F0030A87F /* ModuloInformacion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36F3926527068C7F0030A87F /* ModuloInformacion.swift */; };
+		4C26B7ACCD70106C18533C84 /* Pods_CETACAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B426856A52A027FAC6B8BD6E /* Pods_CETACAppTests.framework */; };
 		AD3870660D12B421DB319193 /* Pods_CETACApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C60F309B4049004E4A3682DE /* Pods_CETACApp.framework */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		36F3F74427128EF200E6B0C5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 368AED1527053F31009EF4F3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 368AED1C27053F31009EF4F3;
+			remoteInfo = CETACApp;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
 		361E82C8270681B4005527F5 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		36209433271512590026A4B9 /* MenuSesionesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuSesionesViewController.swift; sourceTree = "<group>"; };
+		3620943527152BD40026A4B9 /* InformaciónAlternativasBachButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "InformaciónAlternativasBachButton.png"; sourceTree = "<group>"; };
+		3620943627152BD40026A4B9 /* InformaciónHolisticosAngeloterapiaButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "InformaciónHolisticosAngeloterapiaButton.png"; sourceTree = "<group>"; };
+		3620943727152BD40026A4B9 /* InformaciónAcompAcompLogoterapiaButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "InformaciónAcompAcompLogoterapiaButton.png"; sourceTree = "<group>"; };
+		3620943827152BD40026A4B9 /* InformaciónAcompAcompGrupalButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "InformaciónAcompAcompGrupalButton.png"; sourceTree = "<group>"; };
+		3620943927152BD40026A4B9 /* InformaciónAcompAcompMindfulnessButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "InformaciónAcompAcompMindfulnessButton.png"; sourceTree = "<group>"; };
+		3620943A27152BD40026A4B9 /* InformaciónHolisticosReikiButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "InformaciónHolisticosReikiButton.png"; sourceTree = "<group>"; };
+		3620943B27152BD40026A4B9 /* InformaciónHolisticosBiomagnetismoButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "InformaciónHolisticosBiomagnetismoButton.png"; sourceTree = "<group>"; };
+		3620943C27152BD40026A4B9 /* InformaciónAcompAcompIndividualButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "InformaciónAcompAcompIndividualButton.png"; sourceTree = "<group>"; };
+		3620943D27152BD40026A4B9 /* InformaciónAcompTanatologíaButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "InformaciónAcompTanatologíaButton.png"; sourceTree = "<group>"; };
+		3620943E27152BD40026A4B9 /* InformaciónHolisticosCamaButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "InformaciónHolisticosCamaButton.png"; sourceTree = "<group>"; };
+		3620943F27152BD40026A4B9 /* InformaciónHolisticosCristaloterapiaButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "InformaciónHolisticosCristaloterapiaButton.png"; sourceTree = "<group>"; };
+		3620944027152BD40026A4B9 /* InformaciónHolisticosMusicoterapiaButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "InformaciónHolisticosMusicoterapiaButton.png"; sourceTree = "<group>"; };
+		3620944127152BD40026A4B9 /* InformaciónAlternativasBrisasAmbientalesButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "InformaciónAlternativasBrisasAmbientalesButton.png"; sourceTree = "<group>"; };
+		3620944227152BD40026A4B9 /* InformaciónHolisticosAromaterapiaButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "InformaciónHolisticosAromaterapiaButton.png"; sourceTree = "<group>"; };
+		3620945127152DAC0026A4B9 /* MenuInformacionSAViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuInformacionSAViewController.swift; sourceTree = "<group>"; };
+		3620945327152DC70026A4B9 /* MenuInformacionTAViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuInformacionTAViewController.swift; sourceTree = "<group>"; };
+		3620945527152DEA0026A4B9 /* MenuInformacionSHViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuInformacionSHViewController.swift; sourceTree = "<group>"; };
 		364BD0ED2706CD75002A7002 /* ModuloInformacionController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModuloInformacionController.swift; sourceTree = "<group>"; };
 		364BD0EF2706D06C002A7002 /* ModuloInformacionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModuloInformacionViewController.swift; sourceTree = "<group>"; };
 		368AED1D27053F31009EF4F3 /* CETACApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CETACApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -69,15 +119,23 @@
 		368AED4227053F71009EF4F3 /* InformaciónCETACObjetivosApoyoButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "InformaciónCETACObjetivosApoyoButton.png"; sourceTree = "<group>"; };
 		368AED4327053F71009EF4F3 /* InformaciónCETACValoresButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "InformaciónCETACValoresButton.png"; sourceTree = "<group>"; };
 		368AED4427053F71009EF4F3 /* InformaciónHolistButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "InformaciónHolistButton.png"; sourceTree = "<group>"; };
-		36D06FC22710D3DC00F2E2E9 /* BackgroundWhiteLogIn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BackgroundWhiteLogIn.png; sourceTree = "<group>"; };
-		36F0530B2710C61B0076B8CA /* pending.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pending.png; sourceTree = "<group>"; };
+		369D0A942713B63200D14908 /* InformationModuleTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InformationModuleTest.swift; sourceTree = "<group>"; };
+		36D21257271297FC001C76D9 /* Usuario.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Usuario.swift; sourceTree = "<group>"; };
+		36D2125927129B46001C76D9 /* UsuarioController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsuarioController.swift; sourceTree = "<group>"; };
+		36D2125D2713AE63001C76D9 /* LogInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
+		36D2125F2713AEDC001C76D9 /* LogInTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInTest.swift; sourceTree = "<group>"; };
 		36F289E72709382A0052FB5E /* MenuInformacionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuInformacionViewController.swift; sourceTree = "<group>"; };
 		36F289E92709386F0052FB5E /* MenuInformacionCETACViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuInformacionCETACViewController.swift; sourceTree = "<group>"; };
 		36F289EB270A88A00052FB5E /* Sesion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sesion.swift; sourceTree = "<group>"; };
 		36F3926527068C7F0030A87F /* ModuloInformacion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModuloInformacion.swift; sourceTree = "<group>"; };
+		36F3F73F27128EF200E6B0C5 /* CETACAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CETACAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		36F3F74327128EF200E6B0C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3A22F4984F60C3DA694BC69B /* Pods-CETACApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CETACApp.debug.xcconfig"; path = "Target Support Files/Pods-CETACApp/Pods-CETACApp.debug.xcconfig"; sourceTree = "<group>"; };
+		438F249AF5EB890DE256DB9F /* Pods-CETACAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CETACAppTests.debug.xcconfig"; path = "Target Support Files/Pods-CETACAppTests/Pods-CETACAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B426856A52A027FAC6B8BD6E /* Pods_CETACAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CETACAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C325490D2262BB76C7A02680 /* Pods-CETACApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CETACApp.release.xcconfig"; path = "Target Support Files/Pods-CETACApp/Pods-CETACApp.release.xcconfig"; sourceTree = "<group>"; };
 		C60F309B4049004E4A3682DE /* Pods_CETACApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CETACApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D65E9F092E71A2B0E36E7D5C /* Pods-CETACAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CETACAppTests.release.xcconfig"; path = "Target Support Files/Pods-CETACAppTests/Pods-CETACAppTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +147,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		36F3F73C27128EF200E6B0C5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C26B7ACCD70106C18533C84 /* Pods_CETACAppTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -97,6 +163,8 @@
 			children = (
 				3A22F4984F60C3DA694BC69B /* Pods-CETACApp.debug.xcconfig */,
 				C325490D2262BB76C7A02680 /* Pods-CETACApp.release.xcconfig */,
+				438F249AF5EB890DE256DB9F /* Pods-CETACAppTests.debug.xcconfig */,
+				D65E9F092E71A2B0E36E7D5C /* Pods-CETACAppTests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -105,6 +173,7 @@
 			isa = PBXGroup;
 			children = (
 				368AED1F27053F31009EF4F3 /* CETACApp */,
+				36F3F74027128EF200E6B0C5 /* CETACAppTests */,
 				368AED1E27053F31009EF4F3 /* Products */,
 				2BDD7D6B491F31E4094033DE /* Pods */,
 				CBD791E47AA26CE50073A2E7 /* Frameworks */,
@@ -115,6 +184,7 @@
 			isa = PBXGroup;
 			children = (
 				368AED1D27053F31009EF4F3 /* CETACApp.app */,
+				36F3F73F27128EF200E6B0C5 /* CETACAppTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -140,8 +210,20 @@
 		368AED3427053F71009EF4F3 /* Assets */ = {
 			isa = PBXGroup;
 			children = (
-				36D06FC22710D3DC00F2E2E9 /* BackgroundWhiteLogIn.png */,
-				36F0530B2710C61B0076B8CA /* pending.png */,
+				3620943827152BD40026A4B9 /* InformaciónAcompAcompGrupalButton.png */,
+				3620943C27152BD40026A4B9 /* InformaciónAcompAcompIndividualButton.png */,
+				3620943727152BD40026A4B9 /* InformaciónAcompAcompLogoterapiaButton.png */,
+				3620943927152BD40026A4B9 /* InformaciónAcompAcompMindfulnessButton.png */,
+				3620943D27152BD40026A4B9 /* InformaciónAcompTanatologíaButton.png */,
+				3620943527152BD40026A4B9 /* InformaciónAlternativasBachButton.png */,
+				3620944127152BD40026A4B9 /* InformaciónAlternativasBrisasAmbientalesButton.png */,
+				3620943627152BD40026A4B9 /* InformaciónHolisticosAngeloterapiaButton.png */,
+				3620944227152BD40026A4B9 /* InformaciónHolisticosAromaterapiaButton.png */,
+				3620943B27152BD40026A4B9 /* InformaciónHolisticosBiomagnetismoButton.png */,
+				3620943E27152BD40026A4B9 /* InformaciónHolisticosCamaButton.png */,
+				3620943F27152BD40026A4B9 /* InformaciónHolisticosCristaloterapiaButton.png */,
+				3620944027152BD40026A4B9 /* InformaciónHolisticosMusicoterapiaButton.png */,
+				3620943A27152BD40026A4B9 /* InformaciónHolisticosReikiButton.png */,
 				368AED3527053F71009EF4F3 /* CETACLogo.png */,
 				368AED3627053F71009EF4F3 /* InformaciónCETACObjetivosBrindarButton.png */,
 				368AED3727053F71009EF4F3 /* InformaciónAlterButton.png */,
@@ -168,6 +250,8 @@
 				36F3926527068C7F0030A87F /* ModuloInformacion.swift */,
 				364BD0ED2706CD75002A7002 /* ModuloInformacionController.swift */,
 				36F289EB270A88A00052FB5E /* Sesion.swift */,
+				36D21257271297FC001C76D9 /* Usuario.swift */,
+				36D2125927129B46001C76D9 /* UsuarioController.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -178,14 +262,30 @@
 				364BD0EF2706D06C002A7002 /* ModuloInformacionViewController.swift */,
 				36F289E72709382A0052FB5E /* MenuInformacionViewController.swift */,
 				36F289E92709386F0052FB5E /* MenuInformacionCETACViewController.swift */,
+				36D2125D2713AE63001C76D9 /* LogInViewController.swift */,
+				36209433271512590026A4B9 /* MenuSesionesViewController.swift */,
+				3620945127152DAC0026A4B9 /* MenuInformacionSAViewController.swift */,
+				3620945327152DC70026A4B9 /* MenuInformacionTAViewController.swift */,
+				3620945527152DEA0026A4B9 /* MenuInformacionSHViewController.swift */,
 			);
 			path = Controllers;
+			sourceTree = "<group>";
+		};
+		36F3F74027128EF200E6B0C5 /* CETACAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				36F3F74327128EF200E6B0C5 /* Info.plist */,
+				36D2125F2713AEDC001C76D9 /* LogInTest.swift */,
+				369D0A942713B63200D14908 /* InformationModuleTest.swift */,
+			);
+			path = CETACAppTests;
 			sourceTree = "<group>";
 		};
 		CBD791E47AA26CE50073A2E7 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				C60F309B4049004E4A3682DE /* Pods_CETACApp.framework */,
+				B426856A52A027FAC6B8BD6E /* Pods_CETACAppTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -212,6 +312,25 @@
 			productReference = 368AED1D27053F31009EF4F3 /* CETACApp.app */;
 			productType = "com.apple.product-type.application";
 		};
+		36F3F73E27128EF200E6B0C5 /* CETACAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 36F3F74827128EF200E6B0C5 /* Build configuration list for PBXNativeTarget "CETACAppTests" */;
+			buildPhases = (
+				03D4B26C52ABF817AC73A163 /* [CP] Check Pods Manifest.lock */,
+				36F3F73B27128EF200E6B0C5 /* Sources */,
+				36F3F73C27128EF200E6B0C5 /* Frameworks */,
+				36F3F73D27128EF200E6B0C5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				36F3F74527128EF200E6B0C5 /* PBXTargetDependency */,
+			);
+			name = CETACAppTests;
+			productName = CETACAppTests;
+			productReference = 36F3F73F27128EF200E6B0C5 /* CETACAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -223,6 +342,10 @@
 				TargetAttributes = {
 					368AED1C27053F31009EF4F3 = {
 						CreatedOnToolsVersion = 12.5.1;
+					};
+					36F3F73E27128EF200E6B0C5 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 368AED1C27053F31009EF4F3;
 					};
 				};
 			};
@@ -240,6 +363,7 @@
 			projectRoot = "";
 			targets = (
 				368AED1C27053F31009EF4F3 /* CETACApp */,
+				36F3F73E27128EF200E6B0C5 /* CETACAppTests */,
 			);
 		};
 /* End PBXProject section */
@@ -250,33 +374,74 @@
 			buildActionMask = 2147483647;
 			files = (
 				368AED5127053F71009EF4F3 /* InformaciónCETACObjetivosButton.png in Resources */,
-				36F0530C2710C61B0076B8CA /* pending.png in Resources */,
 				368AED5227053F71009EF4F3 /* InformaciónCETACObjetivosApoyoButton.png in Resources */,
 				368AED4727053F71009EF4F3 /* InformaciónAlterButton.png in Resources */,
+				3620944827152BD40026A4B9 /* InformaciónHolisticosReikiButton.png in Resources */,
+				3620944C27152BD40026A4B9 /* InformaciónHolisticosCamaButton.png in Resources */,
+				3620944A27152BD40026A4B9 /* InformaciónAcompAcompIndividualButton.png in Resources */,
+				3620945027152BD40026A4B9 /* InformaciónHolisticosAromaterapiaButton.png in Resources */,
 				368AED4E27053F71009EF4F3 /* InformaciónAcompButton.png in Resources */,
 				368AED2D27053F34009EF4F3 /* LaunchScreen.storyboard in Resources */,
+				3620944427152BD40026A4B9 /* InformaciónHolisticosAngeloterapiaButton.png in Resources */,
+				3620944E27152BD40026A4B9 /* InformaciónHolisticosMusicoterapiaButton.png in Resources */,
+				3620944627152BD40026A4B9 /* InformaciónAcompAcompGrupalButton.png in Resources */,
 				368AED4627053F71009EF4F3 /* InformaciónCETACObjetivosBrindarButton.png in Resources */,
 				368AED5027053F71009EF4F3 /* InformaciónCETACObjetivosTrasladosButton.png in Resources */,
 				368AED5327053F71009EF4F3 /* InformaciónCETACValoresButton.png in Resources */,
 				368AED4527053F71009EF4F3 /* CETACLogo.png in Resources */,
 				368AED4B27053F71009EF4F3 /* InformaciónCetacButton.png in Resources */,
+				3620944727152BD40026A4B9 /* InformaciónAcompAcompMindfulnessButton.png in Resources */,
 				368AED2A27053F34009EF4F3 /* Assets.xcassets in Resources */,
 				368AED5427053F71009EF4F3 /* InformaciónHolistButton.png in Resources */,
+				3620944F27152BD40026A4B9 /* InformaciónAlternativasBrisasAmbientalesButton.png in Resources */,
+				3620944B27152BD40026A4B9 /* InformaciónAcompTanatologíaButton.png in Resources */,
+				3620944327152BD40026A4B9 /* InformaciónAlternativasBachButton.png in Resources */,
 				368AED4827053F71009EF4F3 /* CETACFONDO.png in Resources */,
 				368AED4927053F71009EF4F3 /* InformaciónCETACMisionButton.png in Resources */,
 				368AED4A27053F71009EF4F3 /* InformaciónCETACObjetivosAcompañamientoButton.png in Resources */,
 				368AED4D27053F71009EF4F3 /* InformaciónCETACObjetivosAtencionButton.png in Resources */,
-				36D06FC32710D3DD00F2E2E9 /* BackgroundWhiteLogIn.png in Resources */,
 				368AED2827053F31009EF4F3 /* Main.storyboard in Resources */,
+				3620944527152BD40026A4B9 /* InformaciónAcompAcompLogoterapiaButton.png in Resources */,
 				361E82C9270681B4005527F5 /* GoogleService-Info.plist in Resources */,
+				3620944927152BD40026A4B9 /* InformaciónHolisticosBiomagnetismoButton.png in Resources */,
 				368AED4F27053F71009EF4F3 /* InformaciónCETACObjetivosCoordinacionButton.png in Resources */,
+				3620944D27152BD40026A4B9 /* InformaciónHolisticosCristaloterapiaButton.png in Resources */,
 				368AED4C27053F71009EF4F3 /* InformaciónCETACVisionButton.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36F3F73D27128EF200E6B0C5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		03D4B26C52ABF817AC73A163 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CETACAppTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
 		3DB287EF4B24BB11A237CDAD /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -325,17 +490,41 @@
 			files = (
 				368AED2527053F31009EF4F3 /* ViewController.swift in Sources */,
 				36F289EC270A88A00052FB5E /* Sesion.swift in Sources */,
+				36D2125A27129B46001C76D9 /* UsuarioController.swift in Sources */,
 				368AED2127053F31009EF4F3 /* AppDelegate.swift in Sources */,
+				3620945627152DEA0026A4B9 /* MenuInformacionSHViewController.swift in Sources */,
 				36F3926627068C7F0030A87F /* ModuloInformacion.swift in Sources */,
+				36209434271512590026A4B9 /* MenuSesionesViewController.swift in Sources */,
+				36D2125E2713AE63001C76D9 /* LogInViewController.swift in Sources */,
 				36F289E82709382A0052FB5E /* MenuInformacionViewController.swift in Sources */,
 				36F289EA2709386F0052FB5E /* MenuInformacionCETACViewController.swift in Sources */,
 				368AED2327053F31009EF4F3 /* SceneDelegate.swift in Sources */,
 				364BD0F02706D06C002A7002 /* ModuloInformacionViewController.swift in Sources */,
+				36D21258271297FC001C76D9 /* Usuario.swift in Sources */,
+				3620945427152DC70026A4B9 /* MenuInformacionTAViewController.swift in Sources */,
 				364BD0EE2706CD75002A7002 /* ModuloInformacionController.swift in Sources */,
+				3620945227152DAC0026A4B9 /* MenuInformacionSAViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36F3F73B27128EF200E6B0C5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36D212652713AFA2001C76D9 /* LogInTest.swift in Sources */,
+				369D0A952713B63200D14908 /* InformationModuleTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		36F3F74527128EF200E6B0C5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 368AED1C27053F31009EF4F3 /* CETACApp */;
+			targetProxy = 36F3F74427128EF200E6B0C5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		368AED2627053F31009EF4F3 /* Main.storyboard */ = {
@@ -480,6 +669,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TF666HR9LA;
 				INFOPLIST_FILE = CETACApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -499,6 +689,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TF666HR9LA;
 				INFOPLIST_FILE = CETACApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -508,6 +699,48 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		36F3F74627128EF200E6B0C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 438F249AF5EB890DE256DB9F /* Pods-CETACAppTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TF666HR9LA;
+				INFOPLIST_FILE = CETACAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Placeholder.CETACAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CETACApp.app/CETACApp";
+			};
+			name = Debug;
+		};
+		36F3F74727128EF200E6B0C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D65E9F092E71A2B0E36E7D5C /* Pods-CETACAppTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TF666HR9LA;
+				INFOPLIST_FILE = CETACAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Placeholder.CETACAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CETACApp.app/CETACApp";
 			};
 			name = Release;
 		};
@@ -528,6 +761,15 @@
 			buildConfigurations = (
 				368AED3227053F34009EF4F3 /* Debug */,
 				368AED3327053F34009EF4F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		36F3F74827128EF200E6B0C5 /* Build configuration list for PBXNativeTarget "CETACAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36F3F74627128EF200E6B0C5 /* Debug */,
+				36F3F74727128EF200E6B0C5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
