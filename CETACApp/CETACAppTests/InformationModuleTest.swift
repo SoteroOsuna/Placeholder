@@ -33,6 +33,23 @@ class InformationModuleTest: XCTestCase {
             }
         }
     }
+    func testCorrectData() throws {
+        let db = Firestore.firestore()
+        var modulosInformacion = [ModuloInformacion]()
+        let expectedValue = "Misión"
+        db.collection("Informacion").getDocuments()  { (querySnapshot, err) in
+            for document in querySnapshot!.documents {
+                let s = ModuloInformacion(aDoc: document)
+                modulosInformacion.append(s)
+            }
+            
+        }
+        DispatchQueue.main.asyncAfter(deadline: .now() + 5.0, execute: {
+            XCTAssertEqual(expectedValue, modulosInformacion[0].titulo)
+        })
+        
+        
+    }
     
     
 }
