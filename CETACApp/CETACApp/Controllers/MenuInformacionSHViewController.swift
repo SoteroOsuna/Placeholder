@@ -40,6 +40,9 @@ class MenuInformacionSHViewController: UIViewController {
         default:
             siguiente.indice = 21
         }
+        siguiente.limiteInferior = 15
+        siguiente.limiteSuperior = 21
+        
     }
 
 }

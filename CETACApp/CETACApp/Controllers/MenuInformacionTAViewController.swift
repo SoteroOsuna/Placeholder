@@ -30,5 +30,7 @@ class MenuInformacionTAViewController: UIViewController {
         default:
             siguiente.indice = 23
         }
+        siguiente.limiteInferior = 22
+        siguiente.limiteSuperior = 23
     }
 }

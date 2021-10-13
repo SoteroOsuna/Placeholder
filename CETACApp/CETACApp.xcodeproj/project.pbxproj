@@ -50,6 +50,30 @@
 		368AED5227053F71009EF4F3 /* InformaciónCETACObjetivosApoyoButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 368AED4227053F71009EF4F3 /* InformaciónCETACObjetivosApoyoButton.png */; };
 		368AED5327053F71009EF4F3 /* InformaciónCETACValoresButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 368AED4327053F71009EF4F3 /* InformaciónCETACValoresButton.png */; };
 		368AED5427053F71009EF4F3 /* InformaciónHolistButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 368AED4427053F71009EF4F3 /* InformaciónHolistButton.png */; };
+		3690C64127169D040059C7CF /* Traslados.png in Resources */ = {isa = PBXBuildFile; fileRef = 3690C62927169D030059C7CF /* Traslados.png */; };
+		3690C64227169D040059C7CF /* Brinda.png in Resources */ = {isa = PBXBuildFile; fileRef = 3690C62A27169D030059C7CF /* Brinda.png */; };
+		3690C64327169D040059C7CF /* Grupal.png in Resources */ = {isa = PBXBuildFile; fileRef = 3690C62B27169D030059C7CF /* Grupal.png */; };
+		3690C64427169D040059C7CF /* CamaJade.png in Resources */ = {isa = PBXBuildFile; fileRef = 3690C62C27169D030059C7CF /* CamaJade.png */; };
+		3690C64527169D040059C7CF /* Mindfulness.png in Resources */ = {isa = PBXBuildFile; fileRef = 3690C62D27169D030059C7CF /* Mindfulness.png */; };
+		3690C64627169D040059C7CF /* Tanatología.png in Resources */ = {isa = PBXBuildFile; fileRef = 3690C62E27169D030059C7CF /* Tanatología.png */; };
+		3690C64727169D040059C7CF /* Misión.png in Resources */ = {isa = PBXBuildFile; fileRef = 3690C62F27169D030059C7CF /* Misión.png */; };
+		3690C64827169D040059C7CF /* Coordinación.png in Resources */ = {isa = PBXBuildFile; fileRef = 3690C63027169D030059C7CF /* Coordinación.png */; };
+		3690C64927169D040059C7CF /* Angeloterapia.png in Resources */ = {isa = PBXBuildFile; fileRef = 3690C63127169D030059C7CF /* Angeloterapia.png */; };
+		3690C64A27169D040059C7CF /* Aromaterapia.png in Resources */ = {isa = PBXBuildFile; fileRef = 3690C63227169D030059C7CF /* Aromaterapia.png */; };
+		3690C64B27169D040059C7CF /* Biomagnetismo.png in Resources */ = {isa = PBXBuildFile; fileRef = 3690C63327169D030059C7CF /* Biomagnetismo.png */; };
+		3690C64C27169D040059C7CF /* Cristal.png in Resources */ = {isa = PBXBuildFile; fileRef = 3690C63427169D040059C7CF /* Cristal.png */; };
+		3690C64D27169D050059C7CF /* Acompanamiento.png in Resources */ = {isa = PBXBuildFile; fileRef = 3690C63527169D040059C7CF /* Acompanamiento.png */; };
+		3690C64E27169D050059C7CF /* Bach.png in Resources */ = {isa = PBXBuildFile; fileRef = 3690C63627169D040059C7CF /* Bach.png */; };
+		3690C64F27169D050059C7CF /* Holist.png in Resources */ = {isa = PBXBuildFile; fileRef = 3690C63727169D040059C7CF /* Holist.png */; };
+		3690C65027169D050059C7CF /* Musicoterapia.png in Resources */ = {isa = PBXBuildFile; fileRef = 3690C63827169D040059C7CF /* Musicoterapia.png */; };
+		3690C65127169D050059C7CF /* Valores.png in Resources */ = {isa = PBXBuildFile; fileRef = 3690C63927169D040059C7CF /* Valores.png */; };
+		3690C65227169D050059C7CF /* Apoyo.png in Resources */ = {isa = PBXBuildFile; fileRef = 3690C63A27169D040059C7CF /* Apoyo.png */; };
+		3690C65327169D050059C7CF /* Objetivos.png in Resources */ = {isa = PBXBuildFile; fileRef = 3690C63B27169D040059C7CF /* Objetivos.png */; };
+		3690C65427169D050059C7CF /* Reiki.png in Resources */ = {isa = PBXBuildFile; fileRef = 3690C63C27169D040059C7CF /* Reiki.png */; };
+		3690C65527169D050059C7CF /* Indiv.png in Resources */ = {isa = PBXBuildFile; fileRef = 3690C63D27169D040059C7CF /* Indiv.png */; };
+		3690C65627169D050059C7CF /* Brisas.png in Resources */ = {isa = PBXBuildFile; fileRef = 3690C63E27169D040059C7CF /* Brisas.png */; };
+		3690C65727169D050059C7CF /* AtencionMedica.png in Resources */ = {isa = PBXBuildFile; fileRef = 3690C63F27169D040059C7CF /* AtencionMedica.png */; };
+		3690C65827169D050059C7CF /* Logoterapia.png in Resources */ = {isa = PBXBuildFile; fileRef = 3690C64027169D040059C7CF /* Logoterapia.png */; };
 		369D0A952713B63200D14908 /* InformationModuleTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 369D0A942713B63200D14908 /* InformationModuleTest.swift */; };
 		36D21258271297FC001C76D9 /* Usuario.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36D21257271297FC001C76D9 /* Usuario.swift */; };
 		36D2125A27129B46001C76D9 /* UsuarioController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36D2125927129B46001C76D9 /* UsuarioController.swift */; };
@@ -119,6 +143,30 @@
 		368AED4227053F71009EF4F3 /* InformaciónCETACObjetivosApoyoButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "InformaciónCETACObjetivosApoyoButton.png"; sourceTree = "<group>"; };
 		368AED4327053F71009EF4F3 /* InformaciónCETACValoresButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "InformaciónCETACValoresButton.png"; sourceTree = "<group>"; };
 		368AED4427053F71009EF4F3 /* InformaciónHolistButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "InformaciónHolistButton.png"; sourceTree = "<group>"; };
+		3690C62927169D030059C7CF /* Traslados.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Traslados.png; sourceTree = "<group>"; };
+		3690C62A27169D030059C7CF /* Brinda.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Brinda.png; sourceTree = "<group>"; };
+		3690C62B27169D030059C7CF /* Grupal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Grupal.png; sourceTree = "<group>"; };
+		3690C62C27169D030059C7CF /* CamaJade.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CamaJade.png; sourceTree = "<group>"; };
+		3690C62D27169D030059C7CF /* Mindfulness.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Mindfulness.png; sourceTree = "<group>"; };
+		3690C62E27169D030059C7CF /* Tanatología.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Tanatología.png"; sourceTree = "<group>"; };
+		3690C62F27169D030059C7CF /* Misión.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Misión.png"; sourceTree = "<group>"; };
+		3690C63027169D030059C7CF /* Coordinación.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Coordinación.png"; sourceTree = "<group>"; };
+		3690C63127169D030059C7CF /* Angeloterapia.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Angeloterapia.png; sourceTree = "<group>"; };
+		3690C63227169D030059C7CF /* Aromaterapia.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Aromaterapia.png; sourceTree = "<group>"; };
+		3690C63327169D030059C7CF /* Biomagnetismo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Biomagnetismo.png; sourceTree = "<group>"; };
+		3690C63427169D040059C7CF /* Cristal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Cristal.png; sourceTree = "<group>"; };
+		3690C63527169D040059C7CF /* Acompanamiento.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Acompanamiento.png; sourceTree = "<group>"; };
+		3690C63627169D040059C7CF /* Bach.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Bach.png; sourceTree = "<group>"; };
+		3690C63727169D040059C7CF /* Holist.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Holist.png; sourceTree = "<group>"; };
+		3690C63827169D040059C7CF /* Musicoterapia.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Musicoterapia.png; sourceTree = "<group>"; };
+		3690C63927169D040059C7CF /* Valores.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Valores.png; sourceTree = "<group>"; };
+		3690C63A27169D040059C7CF /* Apoyo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Apoyo.png; sourceTree = "<group>"; };
+		3690C63B27169D040059C7CF /* Objetivos.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Objetivos.png; sourceTree = "<group>"; };
+		3690C63C27169D040059C7CF /* Reiki.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Reiki.png; sourceTree = "<group>"; };
+		3690C63D27169D040059C7CF /* Indiv.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Indiv.png; sourceTree = "<group>"; };
+		3690C63E27169D040059C7CF /* Brisas.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Brisas.png; sourceTree = "<group>"; };
+		3690C63F27169D040059C7CF /* AtencionMedica.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AtencionMedica.png; sourceTree = "<group>"; };
+		3690C64027169D040059C7CF /* Logoterapia.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Logoterapia.png; sourceTree = "<group>"; };
 		369D0A942713B63200D14908 /* InformationModuleTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InformationModuleTest.swift; sourceTree = "<group>"; };
 		36D21257271297FC001C76D9 /* Usuario.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Usuario.swift; sourceTree = "<group>"; };
 		36D2125927129B46001C76D9 /* UsuarioController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsuarioController.swift; sourceTree = "<group>"; };
@@ -210,6 +258,30 @@
 		368AED3427053F71009EF4F3 /* Assets */ = {
 			isa = PBXGroup;
 			children = (
+				3690C63527169D040059C7CF /* Acompanamiento.png */,
+				3690C63127169D030059C7CF /* Angeloterapia.png */,
+				3690C63A27169D040059C7CF /* Apoyo.png */,
+				3690C63227169D030059C7CF /* Aromaterapia.png */,
+				3690C63F27169D040059C7CF /* AtencionMedica.png */,
+				3690C63627169D040059C7CF /* Bach.png */,
+				3690C63327169D030059C7CF /* Biomagnetismo.png */,
+				3690C62A27169D030059C7CF /* Brinda.png */,
+				3690C63E27169D040059C7CF /* Brisas.png */,
+				3690C62C27169D030059C7CF /* CamaJade.png */,
+				3690C63027169D030059C7CF /* Coordinación.png */,
+				3690C63427169D040059C7CF /* Cristal.png */,
+				3690C62B27169D030059C7CF /* Grupal.png */,
+				3690C63727169D040059C7CF /* Holist.png */,
+				3690C63D27169D040059C7CF /* Indiv.png */,
+				3690C64027169D040059C7CF /* Logoterapia.png */,
+				3690C62D27169D030059C7CF /* Mindfulness.png */,
+				3690C62F27169D030059C7CF /* Misión.png */,
+				3690C63827169D040059C7CF /* Musicoterapia.png */,
+				3690C63B27169D040059C7CF /* Objetivos.png */,
+				3690C63C27169D040059C7CF /* Reiki.png */,
+				3690C62E27169D030059C7CF /* Tanatología.png */,
+				3690C62927169D030059C7CF /* Traslados.png */,
+				3690C63927169D040059C7CF /* Valores.png */,
 				3620943827152BD40026A4B9 /* InformaciónAcompAcompGrupalButton.png */,
 				3620943C27152BD40026A4B9 /* InformaciónAcompAcompIndividualButton.png */,
 				3620943727152BD40026A4B9 /* InformaciónAcompAcompLogoterapiaButton.png */,
@@ -377,36 +449,60 @@
 				368AED5227053F71009EF4F3 /* InformaciónCETACObjetivosApoyoButton.png in Resources */,
 				368AED4727053F71009EF4F3 /* InformaciónAlterButton.png in Resources */,
 				3620944827152BD40026A4B9 /* InformaciónHolisticosReikiButton.png in Resources */,
+				3690C64C27169D040059C7CF /* Cristal.png in Resources */,
 				3620944C27152BD40026A4B9 /* InformaciónHolisticosCamaButton.png in Resources */,
+				3690C64727169D040059C7CF /* Misión.png in Resources */,
 				3620944A27152BD40026A4B9 /* InformaciónAcompAcompIndividualButton.png in Resources */,
 				3620945027152BD40026A4B9 /* InformaciónHolisticosAromaterapiaButton.png in Resources */,
+				3690C64E27169D050059C7CF /* Bach.png in Resources */,
 				368AED4E27053F71009EF4F3 /* InformaciónAcompButton.png in Resources */,
 				368AED2D27053F34009EF4F3 /* LaunchScreen.storyboard in Resources */,
 				3620944427152BD40026A4B9 /* InformaciónHolisticosAngeloterapiaButton.png in Resources */,
 				3620944E27152BD40026A4B9 /* InformaciónHolisticosMusicoterapiaButton.png in Resources */,
 				3620944627152BD40026A4B9 /* InformaciónAcompAcompGrupalButton.png in Resources */,
 				368AED4627053F71009EF4F3 /* InformaciónCETACObjetivosBrindarButton.png in Resources */,
+				3690C65727169D050059C7CF /* AtencionMedica.png in Resources */,
+				3690C64D27169D050059C7CF /* Acompanamiento.png in Resources */,
+				3690C64127169D040059C7CF /* Traslados.png in Resources */,
+				3690C64827169D040059C7CF /* Coordinación.png in Resources */,
 				368AED5027053F71009EF4F3 /* InformaciónCETACObjetivosTrasladosButton.png in Resources */,
+				3690C64627169D040059C7CF /* Tanatología.png in Resources */,
 				368AED5327053F71009EF4F3 /* InformaciónCETACValoresButton.png in Resources */,
 				368AED4527053F71009EF4F3 /* CETACLogo.png in Resources */,
+				3690C64227169D040059C7CF /* Brinda.png in Resources */,
 				368AED4B27053F71009EF4F3 /* InformaciónCetacButton.png in Resources */,
 				3620944727152BD40026A4B9 /* InformaciónAcompAcompMindfulnessButton.png in Resources */,
 				368AED2A27053F34009EF4F3 /* Assets.xcassets in Resources */,
 				368AED5427053F71009EF4F3 /* InformaciónHolistButton.png in Resources */,
+				3690C65227169D050059C7CF /* Apoyo.png in Resources */,
+				3690C64A27169D040059C7CF /* Aromaterapia.png in Resources */,
 				3620944F27152BD40026A4B9 /* InformaciónAlternativasBrisasAmbientalesButton.png in Resources */,
+				3690C64427169D040059C7CF /* CamaJade.png in Resources */,
 				3620944B27152BD40026A4B9 /* InformaciónAcompTanatologíaButton.png in Resources */,
 				3620944327152BD40026A4B9 /* InformaciónAlternativasBachButton.png in Resources */,
+				3690C65327169D050059C7CF /* Objetivos.png in Resources */,
+				3690C64F27169D050059C7CF /* Holist.png in Resources */,
+				3690C65827169D050059C7CF /* Logoterapia.png in Resources */,
 				368AED4827053F71009EF4F3 /* CETACFONDO.png in Resources */,
+				3690C65527169D050059C7CF /* Indiv.png in Resources */,
 				368AED4927053F71009EF4F3 /* InformaciónCETACMisionButton.png in Resources */,
 				368AED4A27053F71009EF4F3 /* InformaciónCETACObjetivosAcompañamientoButton.png in Resources */,
+				3690C64527169D040059C7CF /* Mindfulness.png in Resources */,
 				368AED4D27053F71009EF4F3 /* InformaciónCETACObjetivosAtencionButton.png in Resources */,
 				368AED2827053F31009EF4F3 /* Main.storyboard in Resources */,
 				3620944527152BD40026A4B9 /* InformaciónAcompAcompLogoterapiaButton.png in Resources */,
 				361E82C9270681B4005527F5 /* GoogleService-Info.plist in Resources */,
+				3690C65427169D050059C7CF /* Reiki.png in Resources */,
+				3690C64927169D040059C7CF /* Angeloterapia.png in Resources */,
 				3620944927152BD40026A4B9 /* InformaciónHolisticosBiomagnetismoButton.png in Resources */,
 				368AED4F27053F71009EF4F3 /* InformaciónCETACObjetivosCoordinacionButton.png in Resources */,
+				3690C65627169D050059C7CF /* Brisas.png in Resources */,
+				3690C65127169D050059C7CF /* Valores.png in Resources */,
+				3690C64327169D040059C7CF /* Grupal.png in Resources */,
 				3620944D27152BD40026A4B9 /* InformaciónHolisticosCristaloterapiaButton.png in Resources */,
 				368AED4C27053F71009EF4F3 /* InformaciónCETACVisionButton.png in Resources */,
+				3690C65027169D050059C7CF /* Musicoterapia.png in Resources */,
+				3690C64B27169D040059C7CF /* Biomagnetismo.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

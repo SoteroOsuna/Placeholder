@@ -36,6 +36,9 @@ class MenuInformacionSAViewController: UIViewController {
         default:
             siguiente.indice = 14
         }
+        
+        siguiente.limiteInferior = 10
+        siguiente.limiteSuperior = 14
     }
 
 }
