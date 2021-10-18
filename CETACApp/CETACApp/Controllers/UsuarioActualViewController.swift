@@ -16,35 +16,33 @@ class UsuarioActualViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        if (!sesionIniciada) {
-    
-            let title = "Inicio de Sesión"
-            let message = "Para acceder a esta función, inicie sesión"
-            let alert = UIAlertController(title: title, message: message, preferredStyle: .alert)
-            alert.addAction(UIAlertAction(title: "Iniciar Sesión", style: .default, handler: { action in
-                    self.performSegue(withIdentifier: "irALogin", sender: self)
-                
-            }))
-            present(alert, animated: true)
-        }
-
-        // Do any additional setup after loading the view.
     }
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(true)
-        
-        if (!sesionIniciada) {
-    
+        let sesionInitialized = Auth.auth().currentUser!
+        if (sesionInitialized != nil) {
             let title = "Inicio de Sesión"
-            let message = "Para acceder a esta función, inicie sesión"
-            let alert = UIAlertController(title: title, message: message, preferredStyle: .alert)
+            let message = "Para acceder a esta función, inicie sesión "
+            let messagePt:String! = Auth.auth().currentUser!.email
+            let alert = UIAlertController(title: title, message: message+messagePt, preferredStyle: .alert)
             alert.addAction(UIAlertAction(title: "Iniciar Sesión", style: .default, handler: { action in
                     self.performSegue(withIdentifier: "irALogin", sender: self)
                 
             }))
             present(alert, animated: true)
+
+        }
+        else
+        {
+                    let title = "Inicio de Sesión"
+                    let message = "Para acceder a esta función, inicie sesión"
+                    let alert = UIAlertController(title: title, message: message, preferredStyle: .alert)
+                    alert.addAction(UIAlertAction(title: "Iniciar Sesión", style: .default, handler: { action in
+                            self.performSegue(withIdentifier: "irALogin", sender: self)
+                        
+                    }))
+                    present(alert, animated: true)
         }
         
     }

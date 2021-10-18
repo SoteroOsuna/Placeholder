@@ -36,6 +36,10 @@ class LogInViewController: UIViewController {
                             Global.sesionIniciada = true
                         }
                 }
+                let alertController = UIAlertController(title: "Inicio de Sesión", message: "Usted ha iniciado sesión", preferredStyle: .alert)
+                let defaultAction = UIAlertAction(title: "OK", style: .cancel, handler: nil)
+                 alertController.addAction(defaultAction)
+                self.present(alertController, animated: true, completion: nil)
             }
             
             else {
