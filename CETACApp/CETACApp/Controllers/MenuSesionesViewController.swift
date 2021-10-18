@@ -8,6 +8,9 @@
 import UIKit
 
 class MenuSesionesViewController: UIViewController {
+    
+    var sesionIniciada = false
+    var usuario: Usuario?
 
     @IBAction func botonNuevaSesion(_ sender: Any) {
         decidirTipoSesion()
@@ -29,8 +32,10 @@ class MenuSesionesViewController: UIViewController {
                         
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        
+        if (!sesionIniciada) {
+            
+        }
     }
     
 
@@ -40,5 +45,6 @@ class MenuSesionesViewController: UIViewController {
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         // Get the new view controller using segue.destination.
         // Pass the selected object to the new view controller.
+    }
 
 }

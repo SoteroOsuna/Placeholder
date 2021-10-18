@@ -8,6 +8,9 @@
 import UIKit
 
 class MenuInformacionSAViewController: UIViewController {
+    
+    var sesionIniciada = false
+    var usuario: Usuario?
 
     override func viewDidLoad() {
         super.viewDidLoad()

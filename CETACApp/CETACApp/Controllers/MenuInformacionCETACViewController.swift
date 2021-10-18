@@ -8,6 +8,9 @@
 import UIKit
 
 class MenuInformacionCETACViewController: UIViewController {
+    
+    var sesionIniciada = Global.sesionIniciada
+    var usuario: Usuario? = Global.usuario
 
     override func viewDidLoad() {
         super.viewDidLoad()

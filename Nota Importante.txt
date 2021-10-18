@@ -1,0 +1,8 @@
+Hola profesor,
+Le escribo esto para avisarle de cambios que se hicieron desde la entrega del martes:
+
+1.  Una línea en el Controller para ordenar la colección para que quede con los índices que pusimos en los ViewControllers
+
+2. Quitar los comentarios para debugguear y mostrar la información obtenida de Firestore.
+
+Estos cambios ya estaban hechos en mi branch, pero se me olvidó que no los había puesto en el main y sólo modifiqué los ViewControllers. Me di cuenta de esto ayer (Jueves 14 de Octubre). Gracias de antemano

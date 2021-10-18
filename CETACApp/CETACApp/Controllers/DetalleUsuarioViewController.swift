@@ -1,21 +1,24 @@
 //
-//  MenuInformacionViewController.swift
+//  DetalleUsuarioViewController.swift
 //  CETACApp
 //
-//  Created by Sotero Osuna on 02/10/21.
+//  Created by Sotero Osuna on 17/10/21.
 //
 
 import UIKit
 
-class MenuInformacionViewController: UIViewController {
+class DetalleUsuarioViewController: UIViewController {
     
-    var sesionIniciada = Global.sesionIniciada
-    var usuario: Usuario? = Global.usuario
+    var sesionIniciada = false
+    var usuario: Usuario?
+    
+    @IBOutlet weak var ocupacion: UILabel!
+    var primeraSesionUsuario: NuevaSesion?
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+        ocupacion.text = primeraSesionUsuario?.ocupacion
     }
     
 

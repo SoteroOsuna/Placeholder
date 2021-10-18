@@ -14,6 +14,8 @@ class ModuloInformacionViewController: UIViewController {
     var limiteInferior = 0
     var limiteSuperior = 100
     var indice = 0
+    var sesionIniciada = Global.sesionIniciada
+    var usuario: Usuario? = Global.usuario
 
     @IBOutlet weak var tituloInformacion: UILabel!
     
@@ -71,13 +73,10 @@ class ModuloInformacionViewController: UIViewController {
     func updateUI(with informacion: ModulosInformacion) {
         DispatchQueue.main.async {
             
-//            self.datos = informacion
-//            self.tituloInformacion.text = self.datos[self.indice].titulo
-//            self.imagenInformacion.image = UIImage(named: self.datos[self.indice].imagen)
-//            self.descripcionInformacion.text = self.datos[self.indice].descripcion
-            self.tituloInformacion.text = "Titulo \(self.indice)"
-            self.imagenInformacion.image = UIImage(named: "pending.png")
-            self.descripcionInformacion.text = "Descripcion \(self.indice)"
+            self.datos = informacion
+            self.tituloInformacion.text = self.datos[self.indice].titulo
+            self.imagenInformacion.image = UIImage(named: self.datos[self.indice].imagen)
+            self.descripcionInformacion.text = self.datos[self.indice].descripcion
         }
     }
     

@@ -31,6 +31,7 @@ class UsuarioController {
         }
     }
     
+    
     func deleteUsuario(registroID:String, completion: @escaping (Result<String, Error>) -> Void){
         
         db.collection("Usuarios").document(registroID).delete() { err in
@@ -47,10 +48,8 @@ class UsuarioController {
     func insertUsuario(usuario:Usuario, completion: @escaping (Result<String, Error>) -> Void){
         
         var ref: DocumentReference? = nil
-        ref = db.collection("Usuario").addDocument(data: [
-            "Nombre(s)": usuario.nombrePila,
-            "Apellido Materno": usuario.apellidoM,
-            "Apellido Paterno": usuario.apellidoM,
+        ref = db.collection("Usuarios").addDocument(data: [
+            "Nombre(s)": usuario.nombre,
             "Usuario": usuario.usuario,
             "Contraseña": usuario.password,
             "Tipo de Usuario": usuario.tipoUsuario
@@ -66,9 +65,7 @@ class UsuarioController {
     
     func updateUsuario(usuario:Usuario, completion: @escaping (Result<String, Error>) -> Void){
         db.collection("Usuarios").document(usuario.id).updateData([
-            "Nombre(s)": usuario.nombrePila,
-            "Apellido Materno": usuario.apellidoM,
-            "Apellido Paterno": usuario.apellidoM,
+            "Nombre(s)": usuario.nombre,
             "Usuario": usuario.usuario,
             "Contraseña": usuario.password,
             "Tipo de Usuario": usuario.tipoUsuario

@@ -16,7 +16,7 @@ class ModuloInformacionController {
     (Result<ModulosInformacion, Error>) -> Void) {
         
         var modulosInformacion = [ModuloInformacion]()
-        db.collection("Informacion").getDocuments()  { (querySnapshot, err) in
+        db.collection("Informacion").order(by: "orden").getDocuments()  { (querySnapshot, err) in
             if let err = err {
                 print("Error getting documents: \(err)")
                 completion(.failure(err))
@@ -61,8 +61,8 @@ class ModuloInformacionController {
         }
     }
     
-    func updateServicio(updateModuloInformacion:ModuloInformacion, completion: @escaping (Result<String, Error>) -> Void){
-        db.collection("servicios").document(updateModuloInformacion.id).updateData([
+    func updatInformacion(updateModuloInformacion:ModuloInformacion, completion: @escaping (Result<String, Error>) -> Void){
+        db.collection("Informacion").document(updateModuloInformacion.id).updateData([
             "titulo": updateModuloInformacion.titulo,
             "descripcion":updateModuloInformacion.descripcion,
             "imagen": updateModuloInformacion.imagen
