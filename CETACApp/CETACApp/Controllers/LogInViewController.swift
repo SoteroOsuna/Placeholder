@@ -19,25 +19,23 @@ class LogInViewController: UIViewController {
     
     
     @IBAction func loginAction(_ sender: Any) {
-        let currentAuth = Auth.auth().currentUser?.email
-        print(currentAuth)
         let userNameString = userName.text!
         let userNameAdress = "@cetacmobile.com"
         let userNameComplete = userNameString + userNameAdress
         Auth.auth().signIn(withEmail: userNameComplete, password: password.text!) { (user, error) in
             if error == nil{
-                print("SE ARMO")
                 let db = Firestore.firestore()
                 let usernameIDAccess: String! = Auth.auth().currentUser!.uid
                 let docRef = db.collection("Usuarios").document(usernameIDAccess)
                 docRef.getDocument { (document, error) in
                     if let document = document, document.exists {
                             Global.usuario = Usuario(aDoc: document)
-                            Global.sesionIniciada = true
                         }
                 }
                 let alertController = UIAlertController(title: "Inicio de Sesión", message: "Usted ha iniciado sesión", preferredStyle: .alert)
-                let defaultAction = UIAlertAction(title: "OK", style: .cancel, handler: nil)
+                let defaultAction = UIAlertAction(title: "OK", style: .cancel, handler: { _ in
+                    self.navigationController?.popViewController(animated: true)
+                })
                  alertController.addAction(defaultAction)
                 self.present(alertController, animated: true, completion: nil)
             }

@@ -9,18 +9,26 @@ import UIKit
 
 class ReporteSesionesTableViewController: UITableViewController {
     
-    var sesionIniciada = false
-    var usuario: Usuario?
-    
     var sesionesControlador = SesionController()
     var datos = Sesiones()
 
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
-        sesionesControlador.fetchInformacion { (result) in
-            switch result {
-            case.success(let sesiones): self.updateUI(with: sesiones)
-            case.failure(let error): self.displayError(error,title: "No se pudo retirar información")
+        if (Global.usuario?.tipoUsuario == "Tanatólogo") {
+            let nombreTanatologo = Global.usuario?.nombre
+            sesionesControlador.fetchInformacionT(nombreTanatologo: nombreTanatologo!, completion: { (result) in
+                switch result {
+                case.success(let sesiones): self.updateUI(with: sesiones)
+                case.failure(let error): self.displayError(error,title: "No se pudo retirar información")
+                }
+            })
+            
+        } else {
+            sesionesControlador.fetchInformacion { (result) in
+                switch result {
+                case.success(let sesiones): self.updateUI(with: sesiones)
+                case.failure(let error): self.displayError(error,title: "No se pudo retirar información")
+                }
             }
         }
     }

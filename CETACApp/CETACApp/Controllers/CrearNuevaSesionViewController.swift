@@ -9,7 +9,6 @@ import UIKit
 
 class CrearNuevaSesionViewController: UIViewController {
     
-    var sesionIniciada = false
     var usuario: Usuario?
     
     var sesionController = SesionController()

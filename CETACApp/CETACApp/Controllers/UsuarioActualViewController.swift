@@ -10,9 +10,19 @@ import Firebase
 import FirebaseAuth
 
 class UsuarioActualViewController: UIViewController {
-
-    var sesionIniciada = Global.sesionIniciada
-    var usuario = Global.usuario
+    
+    @IBOutlet weak var usuario: UILabel!
+    @IBOutlet weak var tipoUsuario: UILabel!
+    @IBOutlet weak var nombre: UILabel!
+    
+    @IBAction func cerrarSesion(_ sender: Any) {
+        do {
+            try Auth.auth().signOut()
+            self.performSegue(withIdentifier: "irALogin", sender: self)
+        } catch _ {
+            print("ERROR SIGNING OUT")
+        }
+    }
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -20,29 +30,21 @@ class UsuarioActualViewController: UIViewController {
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(true)
-        let sesionInitialized = Auth.auth().currentUser!
-        if (sesionInitialized != nil) {
+        let user = Global.usuario
+        if (user == nil) {
             let title = "Inicio de Sesión"
             let message = "Para acceder a esta función, inicie sesión "
-            let messagePt:String! = Auth.auth().currentUser!.email
-            let alert = UIAlertController(title: title, message: message+messagePt, preferredStyle: .alert)
+            let alert = UIAlertController(title: title, message: message, preferredStyle: .alert)
             alert.addAction(UIAlertAction(title: "Iniciar Sesión", style: .default, handler: { action in
                     self.performSegue(withIdentifier: "irALogin", sender: self)
                 
             }))
             present(alert, animated: true)
 
-        }
-        else
-        {
-                    let title = "Inicio de Sesión"
-                    let message = "Para acceder a esta función, inicie sesión"
-                    let alert = UIAlertController(title: title, message: message, preferredStyle: .alert)
-                    alert.addAction(UIAlertAction(title: "Iniciar Sesión", style: .default, handler: { action in
-                            self.performSegue(withIdentifier: "irALogin", sender: self)
-                        
-                    }))
-                    present(alert, animated: true)
+        } else {
+            usuario.text = Global.usuario?.usuario
+            tipoUsuario.text = Global.usuario?.tipoUsuario
+            nombre.text = Global.usuario?.nombre
         }
         
     }

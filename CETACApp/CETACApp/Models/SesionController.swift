@@ -37,6 +37,33 @@ class SesionController {
         }
     }
     
+    func fetchInformacionT(nombreTanatologo: String, completion: @escaping
+    (Result<Sesiones, Error>) -> Void) {
+        
+        var sesiones = Sesiones()
+        db.collection("Sesiones").getDocuments()  { (querySnapshot, err) in
+            if let err = err {
+                print("Error getting documents: \(err)")
+                completion(.failure(err))
+            } else {
+              
+                for document in querySnapshot!.documents {
+                    if (document.get("nombreTanatologo") as! String == nombreTanatologo) {
+                        if (document.get("numeroSesion") as! Int == 1) {
+                            let s = NuevaSesion(aDoc: document)
+                            sesiones.append(s)
+                        }
+                        else {
+                            let s = SesionSeguimiento(aDoc: document)
+                            sesiones.append(s)
+                        }
+                    }
+                }
+                completion(.success(sesiones))
+            }
+        }
+    }
+    
     func deleteSesion(sesionID:String, completion: @escaping (Result<String, Error>) -> Void){
         
         db.collection("Sesiones").document(sesionID).delete() { err in

@@ -9,5 +9,4 @@ import Foundation
 
 struct Global {
     static var usuario:Usuario?
-    static var sesionIniciada = false
 }

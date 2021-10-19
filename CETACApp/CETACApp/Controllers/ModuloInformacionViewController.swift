@@ -14,8 +14,6 @@ class ModuloInformacionViewController: UIViewController {
     var limiteInferior = 0
     var limiteSuperior = 100
     var indice = 0
-    var sesionIniciada = Global.sesionIniciada
-    var usuario: Usuario? = Global.usuario
 
     @IBOutlet weak var tituloInformacion: UILabel!
     
