@@ -29,6 +29,7 @@ class DetalleSesionViewController: UIViewController {
             }
         })
     }
+    @IBOutlet weak var verInformacion: UIButton!
     
     
     override func viewDidLoad() {
@@ -42,6 +43,10 @@ class DetalleSesionViewController: UIViewController {
         herramienta.text = "Herramienta: " + self.sesion!.herramienta
         evaluacion.text = "Evaluación: " + self.sesion!.evaluacion
         cuotaRecuperacion.text = "Cuota de Recuperación: " + String(self.sesion!.cuotaRecuperacion)
+        if (sesion?.numeroSesion != 1) {
+            verInformacion.isEnabled = false
+            verInformacion.isHidden = true
+        }
         // Do any additional setup after loading the view.
     }
     
@@ -60,5 +65,8 @@ class DetalleSesionViewController: UIViewController {
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         // Get the new view controller using segue.destination.
         // Pass the selected object to the new view controller.
+        let siguiente = segue.destination as! EncuadreUsuarioViewController
+        let nuevaSesion = sesion as? NuevaSesion
+        siguiente.sesionEncuadre = nuevaSesion
     }
 }

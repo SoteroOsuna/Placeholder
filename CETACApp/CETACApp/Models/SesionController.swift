@@ -160,13 +160,29 @@ class SesionController {
         }
     }
     
-    /*
-    
-    func updatInformacion(updateModuloInformacion:ModuloInformacion, completion: @escaping (Result<String, Error>) -> Void){
-        db.collection("Informacion").document(updateModuloInformacion.id).updateData([
-            "titulo": updateModuloInformacion.titulo,
-            "descripcion":updateModuloInformacion.descripcion,
-            "imagen": updateModuloInformacion.imagen
+    func updateNuevaSesion(updateSesion:NuevaSesion, completion: @escaping (Result<String, Error>) -> Void){
+        db.collection("Sesiones").document(updateSesion.id).updateData([
+            "numeroSesion": updateSesion.numeroSesion,
+            "nombreTanatologo": updateSesion.nombreTanatologo,
+            "nombreUsuario": updateSesion.nombreUsuario,
+            "ocupacion": updateSesion.ocupacion,
+            "religion": updateSesion.religion,
+            "procedencia": updateSesion.procedencia,
+            "domicilio":  updateSesion.domicilio,
+            "telefonoCasa": updateSesion.telefonoCasa,
+            "estadoCivil": updateSesion.estadoCivil,
+            "edad": updateSesion.edad,
+            "sexo": updateSesion.sexo,
+            "hijos": updateSesion.hijos,
+            "referencia": updateSesion.referencia,
+            "motivoConsulta": updateSesion.motivoConsulta,
+            "identificacionEtapa": updateSesion.identificacionEtapa,
+            "motivo": updateSesion.motivo,
+            "tipoServicio": updateSesion.tipoServicio,
+            "tipoIntervencion": updateSesion.tipoIntervencion,
+            "herramienta": updateSesion.herramienta,
+            "evaluacion": updateSesion.evaluacion,
+            "cuotaRecuperacion": updateSesion.cuotaRecuperacion
         ]) { err in
             if let err = err {
                 print("Error updating document: \(err)")
@@ -177,6 +193,5 @@ class SesionController {
             }
         }
     }
-    */
 }
 

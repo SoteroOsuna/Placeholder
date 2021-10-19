@@ -46,6 +46,36 @@ struct NuevaSesion: Sesion {
     var evaluacion: String
     var cuotaRecuperacion: Float
     
+    init(id: String, nombreTanatologo: String, nombreUsuario: String, ocupacion: String, religion: String,
+         procedencia: String, domicilio: String, telefonoCasa: String, estadoCivil: String,
+         edad: Int, sexo: String, hijos: String, referencia: String, motivoConsulta: String,
+         identificacionEtapa: String, motivo: String, tipoServicio: String, tipoIntervencion: String,
+         herramienta: String, evaluacion: String, cuotaRecuperacion: Float) {
+        self.id = id
+        numeroSesion = 1
+        self.nombreTanatologo = nombreTanatologo
+        self.nombreUsuario = nombreUsuario
+        self.ocupacion = ocupacion
+        self.religion = religion
+        self.procedencia = procedencia
+        self.domicilio = domicilio
+        self.telefonoCasa = telefonoCasa
+        self.estadoCivil = estadoCivil
+        self.edad = edad
+        self.sexo = sexo
+        self.hijos = hijos
+        self.referencia = referencia
+        self.motivoConsulta = motivoConsulta
+        self.identificacionEtapa = identificacionEtapa
+        self.motivo = motivo
+        self.tipoServicio = tipoServicio
+        self.tipoIntervencion = tipoIntervencion
+        self.herramienta = herramienta
+        self.evaluacion = evaluacion
+        self.cuotaRecuperacion = cuotaRecuperacion
+        
+    }
+    
     init(nombreTanatologo: String, nombreUsuario: String, ocupacion: String, religion: String,
          procedencia: String, domicilio: String, telefonoCasa: String, estadoCivil: String,
          edad: Int, sexo: String, hijos: String, referencia: String, motivoConsulta: String,

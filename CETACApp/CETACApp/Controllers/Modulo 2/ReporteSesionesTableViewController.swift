@@ -44,10 +44,21 @@ class ReporteSesionesTableViewController: UITableViewController {
         
         tableView.rowHeight = UITableView.automaticDimension
         tableView.estimatedRowHeight = 140.0
-        sesionesControlador.fetchInformacion { (result) in
-            switch result {
-            case.success(let sesiones): self.updateUI(with: sesiones)
-            case.failure(let error): self.displayError(error,title: "No se pudo retirar información")
+        if (Global.usuario?.tipoUsuario == "Tanatólogo") {
+            let nombreTanatologo = Global.usuario?.nombre
+            sesionesControlador.fetchInformacionT(nombreTanatologo: nombreTanatologo!, completion: { (result) in
+                switch result {
+                case.success(let sesiones): self.updateUI(with: sesiones)
+                case.failure(let error): self.displayError(error,title: "No se pudo retirar información")
+                }
+            })
+            
+        } else {
+            sesionesControlador.fetchInformacion { (result) in
+                switch result {
+                case.success(let sesiones): self.updateUI(with: sesiones)
+                case.failure(let error): self.displayError(error,title: "No se pudo retirar información")
+                }
             }
         }
     }
@@ -59,10 +70,21 @@ class ReporteSesionesTableViewController: UITableViewController {
         }
     }
     func updateUI() {
-        sesionesControlador.fetchInformacion { (result) in
-            switch result {
-            case.success(let sesiones): self.updateUI(with: sesiones)
-            case.failure(let error): self.displayError(error,title: "No se pudo retirar información")
+        if (Global.usuario?.tipoUsuario == "Tanatólogo") {
+            let nombreTanatologo = Global.usuario?.nombre
+            sesionesControlador.fetchInformacionT(nombreTanatologo: nombreTanatologo!, completion: { (result) in
+                switch result {
+                case.success(let sesiones): self.updateUI(with: sesiones)
+                case.failure(let error): self.displayError(error,title: "No se pudo retirar información")
+                }
+            })
+            
+        } else {
+            sesionesControlador.fetchInformacion { (result) in
+                switch result {
+                case.success(let sesiones): self.updateUI(with: sesiones)
+                case.failure(let error): self.displayError(error,title: "No se pudo retirar información")
+                }
             }
         }
     }
