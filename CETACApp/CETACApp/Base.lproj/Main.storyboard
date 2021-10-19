@@ -1725,13 +1725,50 @@
             </objects>
             <point key="canvasLocation" x="-2564" y="-1124"/>
         </scene>
+        <!--Grafica Sexo Clientes View Controller-->
+        <scene sceneID="hHl-Fd-Bhk">
+            <objects>
+                <viewController id="Wf5-PY-XG9" customClass="GraficaSexoClientesViewController" customModule="CETACApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="kvn-nU-ha3">
+                        <rect key="frame" x="0.0" y="0.0" width="810" height="1080"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="y67-CW-M9V" customClass="BarChartView" customModule="Charts">
+                                <rect key="frame" x="20" y="149" width="770" height="881"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="2vS-Fq-Vro"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="77O-2U-12q"/>
+                    <connections>
+                        <outlet property="sesionesChart" destination="y67-CW-M9V" id="Qa2-zg-0fe"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="lx6-88-01s" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-2405.9259259259256" y="686.66666666666663"/>
+        </scene>
         <!--MenuIndicadores-->
         <scene sceneID="gHt-AP-i53">
             <objects>
-                <viewController title="MenuIndicadores" id="2oN-eO-vaP" sceneMemberID="viewController">
+                <viewController title="MenuIndicadores" id="2oN-eO-vaP" customClass="MenuIndicadoresViewController" customModule="CETACApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="DbC-lg-GVJ">
                         <rect key="frame" x="0.0" y="0.0" width="810" height="1080"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Atd-5x-zxv">
+                                <rect key="frame" x="191" y="737" width="428" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Ver Gráfica Sexo Clientes"/>
+                                <connections>
+                                    <segue destination="Wf5-PY-XG9" kind="show" id="xsd-oO-yh5"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="8SO-9z-WFP"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
@@ -1739,7 +1776,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="GXk-2h-mxv" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1549" y="680"/>
+            <point key="canvasLocation" x="-1549.6296296296296" y="680"/>
         </scene>
         <!--Informacion-->
         <scene sceneID="S9R-OJ-yv5">

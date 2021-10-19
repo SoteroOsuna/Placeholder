@@ -37,6 +37,27 @@ class SesionController {
         }
     }
     
+    func fetchInformacionP(completion: @escaping
+    (Result<[NuevaSesion], Error>) -> Void) {
+        
+        var sesiones = [NuevaSesion]()
+        db.collection("Sesiones").getDocuments()  { (querySnapshot, err) in
+            if let err = err {
+                print("Error getting documents: \(err)")
+                completion(.failure(err))
+            } else {
+              
+                for document in querySnapshot!.documents {
+                    if (document.get("numeroSesion") as! Int == 1) {
+                        let s = NuevaSesion(aDoc: document)
+                        sesiones.append(s)
+                    }
+                }
+                completion(.success(sesiones))
+            }
+        }
+    }
+    
     func fetchInformacionT(nombreTanatologo: String, completion: @escaping
     (Result<Sesiones, Error>) -> Void) {
         

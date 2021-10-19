@@ -19,7 +19,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         FirebaseApp.configure()
         do {
             try Auth.auth().signOut()
-        } catch let _{
+        } catch _ {
             print("ERROR SIGNING OUT")
         }
 

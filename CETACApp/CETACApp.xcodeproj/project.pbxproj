@@ -35,6 +35,8 @@
 		3683B73B271D18B400753029 /* DetalleUsuarioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3683B73A271D18B400753029 /* DetalleUsuarioViewController.swift */; };
 		3683B73D271DFC7100753029 /* UsuarioActualViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3683B73C271DFC7100753029 /* UsuarioActualViewController.swift */; };
 		3683B741271E18F700753029 /* Global.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3683B740271E18F700753029 /* Global.swift */; };
+		3683B743271E4B7900753029 /* MenuIndicadoresViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3683B742271E4B7900753029 /* MenuIndicadoresViewController.swift */; };
+		3683B74B271E7A7B00753029 /* GraficaSexoClientesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3683B74A271E7A7B00753029 /* GraficaSexoClientesViewController.swift */; };
 		368AED2127053F31009EF4F3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 368AED2027053F31009EF4F3 /* AppDelegate.swift */; };
 		368AED2327053F31009EF4F3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 368AED2227053F31009EF4F3 /* SceneDelegate.swift */; };
 		368AED2527053F31009EF4F3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 368AED2427053F31009EF4F3 /* ViewController.swift */; };
@@ -136,6 +138,8 @@
 		3683B73A271D18B400753029 /* DetalleUsuarioViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetalleUsuarioViewController.swift; sourceTree = "<group>"; };
 		3683B73C271DFC7100753029 /* UsuarioActualViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsuarioActualViewController.swift; sourceTree = "<group>"; };
 		3683B740271E18F700753029 /* Global.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Global.swift; sourceTree = "<group>"; };
+		3683B742271E4B7900753029 /* MenuIndicadoresViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuIndicadoresViewController.swift; sourceTree = "<group>"; };
+		3683B74A271E7A7B00753029 /* GraficaSexoClientesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraficaSexoClientesViewController.swift; sourceTree = "<group>"; };
 		368AED1D27053F31009EF4F3 /* CETACApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CETACApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		368AED2027053F31009EF4F3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		368AED2227053F31009EF4F3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -235,6 +239,51 @@
 				D65E9F092E71A2B0E36E7D5C /* Pods-CETACAppTests.release.xcconfig */,
 			);
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		3683B744271E4C4000753029 /* Modulo 1 */ = {
+			isa = PBXGroup;
+			children = (
+				3620945127152DAC0026A4B9 /* MenuInformacionSAViewController.swift */,
+				3620945327152DC70026A4B9 /* MenuInformacionTAViewController.swift */,
+				3620945527152DEA0026A4B9 /* MenuInformacionSHViewController.swift */,
+				364BD0EF2706D06C002A7002 /* ModuloInformacionViewController.swift */,
+				36F289E72709382A0052FB5E /* MenuInformacionViewController.swift */,
+				36F289E92709386F0052FB5E /* MenuInformacionCETACViewController.swift */,
+			);
+			path = "Modulo 1";
+			sourceTree = "<group>";
+		};
+		3683B745271E4C9600753029 /* Modulo 2 */ = {
+			isa = PBXGroup;
+			children = (
+				36209433271512590026A4B9 /* MenuSesionesViewController.swift */,
+				3696B81F271B7F2D0088D7F4 /* CrearNuevaSesionViewController.swift */,
+				368246A1271B9DAA000F0F57 /* CrearSesionSeguimientoViewController.swift */,
+				368246A3271BB210000F0F57 /* ReporteSesionesTableViewController.swift */,
+				368246A5271BB277000F0F57 /* SesionTableViewCell.swift */,
+				3683B738271CF60200753029 /* DetalleSesionViewController.swift */,
+			);
+			path = "Modulo 2";
+			sourceTree = "<group>";
+		};
+		3683B746271E4CC900753029 /* Modulo 3 */ = {
+			isa = PBXGroup;
+			children = (
+				36D2125D2713AE63001C76D9 /* LogInViewController.swift */,
+				3683B73A271D18B400753029 /* DetalleUsuarioViewController.swift */,
+				3683B73C271DFC7100753029 /* UsuarioActualViewController.swift */,
+			);
+			path = "Modulo 3";
+			sourceTree = "<group>";
+		};
+		3683B747271E4CE400753029 /* Modulo 4 */ = {
+			isa = PBXGroup;
+			children = (
+				3683B742271E4B7900753029 /* MenuIndicadoresViewController.swift */,
+				3683B74A271E7A7B00753029 /* GraficaSexoClientesViewController.swift */,
+			);
+			path = "Modulo 4";
 			sourceTree = "<group>";
 		};
 		368AED1427053F31009EF4F3 = {
@@ -354,21 +403,10 @@
 		36F3926427068B930030A87F /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				364BD0EF2706D06C002A7002 /* ModuloInformacionViewController.swift */,
-				36F289E72709382A0052FB5E /* MenuInformacionViewController.swift */,
-				36F289E92709386F0052FB5E /* MenuInformacionCETACViewController.swift */,
-				36D2125D2713AE63001C76D9 /* LogInViewController.swift */,
-				36209433271512590026A4B9 /* MenuSesionesViewController.swift */,
-				3620945127152DAC0026A4B9 /* MenuInformacionSAViewController.swift */,
-				3620945327152DC70026A4B9 /* MenuInformacionTAViewController.swift */,
-				3620945527152DEA0026A4B9 /* MenuInformacionSHViewController.swift */,
-				3696B81F271B7F2D0088D7F4 /* CrearNuevaSesionViewController.swift */,
-				368246A1271B9DAA000F0F57 /* CrearSesionSeguimientoViewController.swift */,
-				368246A3271BB210000F0F57 /* ReporteSesionesTableViewController.swift */,
-				368246A5271BB277000F0F57 /* SesionTableViewCell.swift */,
-				3683B738271CF60200753029 /* DetalleSesionViewController.swift */,
-				3683B73A271D18B400753029 /* DetalleUsuarioViewController.swift */,
-				3683B73C271DFC7100753029 /* UsuarioActualViewController.swift */,
+				3683B744271E4C4000753029 /* Modulo 1 */,
+				3683B745271E4C9600753029 /* Modulo 2 */,
+				3683B746271E4CC900753029 /* Modulo 3 */,
+				3683B747271E4CE400753029 /* Modulo 4 */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -618,6 +656,7 @@
 				3683B741271E18F700753029 /* Global.swift in Sources */,
 				368AED2527053F31009EF4F3 /* ViewController.swift in Sources */,
 				36F289EC270A88A00052FB5E /* Sesion.swift in Sources */,
+				3683B743271E4B7900753029 /* MenuIndicadoresViewController.swift in Sources */,
 				36D2125A27129B46001C76D9 /* UsuarioController.swift in Sources */,
 				3683B739271CF60200753029 /* DetalleSesionViewController.swift in Sources */,
 				368AED2127053F31009EF4F3 /* AppDelegate.swift in Sources */,
@@ -625,6 +664,7 @@
 				3696B820271B7F2D0088D7F4 /* CrearNuevaSesionViewController.swift in Sources */,
 				36F3926627068C7F0030A87F /* ModuloInformacion.swift in Sources */,
 				36209434271512590026A4B9 /* MenuSesionesViewController.swift in Sources */,
+				3683B74B271E7A7B00753029 /* GraficaSexoClientesViewController.swift in Sources */,
 				368246A6271BB277000F0F57 /* SesionTableViewCell.swift in Sources */,
 				3683B73B271D18B400753029 /* DetalleUsuarioViewController.swift in Sources */,
 				36D2125E2713AE63001C76D9 /* LogInViewController.swift in Sources */,
