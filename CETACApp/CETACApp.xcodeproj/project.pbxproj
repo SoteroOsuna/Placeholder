@@ -97,6 +97,15 @@
 		36F3926627068C7F0030A87F /* ModuloInformacion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36F3926527068C7F0030A87F /* ModuloInformacion.swift */; };
 		4C26B7ACCD70106C18533C84 /* Pods_CETACAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B426856A52A027FAC6B8BD6E /* Pods_CETACAppTests.framework */; };
 		AD3870660D12B421DB319193 /* Pods_CETACApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C60F309B4049004E4A3682DE /* Pods_CETACApp.framework */; };
+		E5395EA2271F674D00EE8530 /* InformacionRequerida.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5395EA1271F674D00EE8530 /* InformacionRequerida.swift */; };
+		E5395EA4271F8CAB00EE8530 /* UpdateUsuarioTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5395EA3271F8CAB00EE8530 /* UpdateUsuarioTableViewController.swift */; };
+		E5395EA6271F8F1200EE8530 /* UsuariosTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5395EA5271F8F1200EE8530 /* UsuariosTableViewCell.swift */; };
+		E5395EAC271F9ECC00EE8530 /* UsuariosDeleteTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5395EAB271F9ECC00EE8530 /* UsuariosDeleteTableViewController.swift */; };
+		E5395EAE271F9F0F00EE8530 /* UsuarioDelTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5395EAD271F9F0F00EE8530 /* UsuarioDelTableViewCell.swift */; };
+		E5395EB0271FAC2F00EE8530 /* LogInBck.png in Resources */ = {isa = PBXBuildFile; fileRef = E5395EAF271FAC2F00EE8530 /* LogInBck.png */; };
+		E5395EB2271FAC5A00EE8530 /* BackgroundWhiteLogIn.png in Resources */ = {isa = PBXBuildFile; fileRef = E5395EB1271FAC5A00EE8530 /* BackgroundWhiteLogIn.png */; };
+		E5395EB4271FAF3E00EE8530 /* UpdateScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5395EB3271FAF3E00EE8530 /* UpdateScreenViewController.swift */; };
+		E5395EB6271FBFB400EE8530 /* DeleteScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5395EB5271FBFB400EE8530 /* DeleteScreenViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -208,6 +217,15 @@
 		C325490D2262BB76C7A02680 /* Pods-CETACApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CETACApp.release.xcconfig"; path = "Target Support Files/Pods-CETACApp/Pods-CETACApp.release.xcconfig"; sourceTree = "<group>"; };
 		C60F309B4049004E4A3682DE /* Pods_CETACApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CETACApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D65E9F092E71A2B0E36E7D5C /* Pods-CETACAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CETACAppTests.release.xcconfig"; path = "Target Support Files/Pods-CETACAppTests/Pods-CETACAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		E5395EA1271F674D00EE8530 /* InformacionRequerida.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InformacionRequerida.swift; sourceTree = "<group>"; };
+		E5395EA3271F8CAB00EE8530 /* UpdateUsuarioTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateUsuarioTableViewController.swift; sourceTree = "<group>"; };
+		E5395EA5271F8F1200EE8530 /* UsuariosTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsuariosTableViewCell.swift; sourceTree = "<group>"; };
+		E5395EAB271F9ECC00EE8530 /* UsuariosDeleteTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsuariosDeleteTableViewController.swift; sourceTree = "<group>"; };
+		E5395EAD271F9F0F00EE8530 /* UsuarioDelTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsuarioDelTableViewCell.swift; sourceTree = "<group>"; };
+		E5395EAF271FAC2F00EE8530 /* LogInBck.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LogInBck.png; sourceTree = "<group>"; };
+		E5395EB1271FAC5A00EE8530 /* BackgroundWhiteLogIn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BackgroundWhiteLogIn.png; sourceTree = "<group>"; };
+		E5395EB3271FAF3E00EE8530 /* UpdateScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateScreenViewController.swift; sourceTree = "<group>"; };
+		E5395EB5271FBFB400EE8530 /* DeleteScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeleteScreenViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -272,7 +290,13 @@
 			isa = PBXGroup;
 			children = (
 				36D2125D2713AE63001C76D9 /* LogInViewController.swift */,
+				E5395EA3271F8CAB00EE8530 /* UpdateUsuarioTableViewController.swift */,
+				E5395EA5271F8F1200EE8530 /* UsuariosTableViewCell.swift */,
 				3683B73C271DFC7100753029 /* UsuarioActualViewController.swift */,
+				E5395EAB271F9ECC00EE8530 /* UsuariosDeleteTableViewController.swift */,
+				E5395EAD271F9F0F00EE8530 /* UsuarioDelTableViewCell.swift */,
+				E5395EB3271FAF3E00EE8530 /* UpdateScreenViewController.swift */,
+				E5395EB5271FBFB400EE8530 /* DeleteScreenViewController.swift */,
 			);
 			path = "Modulo 3";
 			sourceTree = "<group>";
@@ -313,6 +337,7 @@
 				36F3926427068B930030A87F /* Controllers */,
 				368AED3427053F71009EF4F3 /* Assets */,
 				368AED2027053F31009EF4F3 /* AppDelegate.swift */,
+				E5395EA1271F674D00EE8530 /* InformacionRequerida.swift */,
 				368AED2227053F31009EF4F3 /* SceneDelegate.swift */,
 				368AED2427053F31009EF4F3 /* ViewController.swift */,
 				368AED2627053F31009EF4F3 /* Main.storyboard */,
@@ -343,6 +368,7 @@
 				3690C62B27169D030059C7CF /* Grupal.png */,
 				3690C63727169D040059C7CF /* Holist.png */,
 				3690C63D27169D040059C7CF /* Indiv.png */,
+				E5395EB1271FAC5A00EE8530 /* BackgroundWhiteLogIn.png */,
 				3690C64027169D040059C7CF /* Logoterapia.png */,
 				3690C62D27169D030059C7CF /* Mindfulness.png */,
 				3690C62F27169D030059C7CF /* Misión.png */,
@@ -365,6 +391,7 @@
 				3620943E27152BD40026A4B9 /* InformaciónHolisticosCamaButton.png */,
 				3620943F27152BD40026A4B9 /* InformaciónHolisticosCristaloterapiaButton.png */,
 				3620944027152BD40026A4B9 /* InformaciónHolisticosMusicoterapiaButton.png */,
+				E5395EAF271FAC2F00EE8530 /* LogInBck.png */,
 				3620943A27152BD40026A4B9 /* InformaciónHolisticosReikiButton.png */,
 				368AED3527053F71009EF4F3 /* CETACLogo.png */,
 				368AED3627053F71009EF4F3 /* InformaciónCETACObjetivosBrindarButton.png */,
@@ -525,6 +552,7 @@
 				3690C64E27169D050059C7CF /* Bach.png in Resources */,
 				368AED4E27053F71009EF4F3 /* InformaciónAcompButton.png in Resources */,
 				368AED2D27053F34009EF4F3 /* LaunchScreen.storyboard in Resources */,
+				E5395EB0271FAC2F00EE8530 /* LogInBck.png in Resources */,
 				3620944427152BD40026A4B9 /* InformaciónHolisticosAngeloterapiaButton.png in Resources */,
 				3620944E27152BD40026A4B9 /* InformaciónHolisticosMusicoterapiaButton.png in Resources */,
 				3620944627152BD40026A4B9 /* InformaciónAcompAcompGrupalButton.png in Resources */,
@@ -540,6 +568,7 @@
 				3690C64227169D040059C7CF /* Brinda.png in Resources */,
 				368AED4B27053F71009EF4F3 /* InformaciónCetacButton.png in Resources */,
 				3620944727152BD40026A4B9 /* InformaciónAcompAcompMindfulnessButton.png in Resources */,
+				E5395EB2271FAC5A00EE8530 /* BackgroundWhiteLogIn.png in Resources */,
 				368AED2A27053F34009EF4F3 /* Assets.xcassets in Resources */,
 				368AED5427053F71009EF4F3 /* InformaciónHolistButton.png in Resources */,
 				3690C65227169D050059C7CF /* Apoyo.png in Resources */,
@@ -657,8 +686,11 @@
 				368AED2527053F31009EF4F3 /* ViewController.swift in Sources */,
 				36F289EC270A88A00052FB5E /* Sesion.swift in Sources */,
 				3683B743271E4B7900753029 /* MenuIndicadoresViewController.swift in Sources */,
+				E5395EA6271F8F1200EE8530 /* UsuariosTableViewCell.swift in Sources */,
+				E5395EB4271FAF3E00EE8530 /* UpdateScreenViewController.swift in Sources */,
 				36D2125A27129B46001C76D9 /* UsuarioController.swift in Sources */,
 				3683B739271CF60200753029 /* DetalleSesionViewController.swift in Sources */,
+				E5395EB6271FBFB400EE8530 /* DeleteScreenViewController.swift in Sources */,
 				368AED2127053F31009EF4F3 /* AppDelegate.swift in Sources */,
 				3620945627152DEA0026A4B9 /* MenuInformacionSHViewController.swift in Sources */,
 				3696B820271B7F2D0088D7F4 /* CrearNuevaSesionViewController.swift in Sources */,
@@ -673,9 +705,13 @@
 				368AED2327053F31009EF4F3 /* SceneDelegate.swift in Sources */,
 				3696B822271B7F940088D7F4 /* SesionController.swift in Sources */,
 				364BD0F02706D06C002A7002 /* ModuloInformacionViewController.swift in Sources */,
+				E5395EA2271F674D00EE8530 /* InformacionRequerida.swift in Sources */,
+				E5395EAC271F9ECC00EE8530 /* UsuariosDeleteTableViewController.swift in Sources */,
 				368246A2271B9DAA000F0F57 /* CrearSesionSeguimientoViewController.swift in Sources */,
+				E5395EAE271F9F0F00EE8530 /* UsuarioDelTableViewCell.swift in Sources */,
 				36D21258271297FC001C76D9 /* Usuario.swift in Sources */,
 				368246A4271BB210000F0F57 /* ReporteSesionesTableViewController.swift in Sources */,
+				E5395EA4271F8CAB00EE8530 /* UpdateUsuarioTableViewController.swift in Sources */,
 				3620945427152DC70026A4B9 /* MenuInformacionTAViewController.swift in Sources */,
 				364BD0EE2706CD75002A7002 /* ModuloInformacionController.swift in Sources */,
 				3620945227152DAC0026A4B9 /* MenuInformacionSAViewController.swift in Sources */,
@@ -844,6 +880,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = TF666HR9LA;
 				INFOPLIST_FILE = CETACApp/Info.plist;
@@ -864,6 +901,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = TF666HR9LA;
 				INFOPLIST_FILE = CETACApp/Info.plist;
