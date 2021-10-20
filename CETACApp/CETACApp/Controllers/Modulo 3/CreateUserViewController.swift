@@ -11,6 +11,11 @@ import FirebaseAuth
 import FirebaseFirestore
 
 class CreateUserViewController: UIViewController, UITextFieldDelegate, UIPickerViewDelegate, UIPickerViewDataSource {
+    
+    func textFieldShouldReturn(_ textField: UITextField) -> Bool {
+        return textField.resignFirstResponder()
+    }
+    
     @IBOutlet weak var userNameNew: UITextField!
     @IBOutlet weak var nombreUsuario: UITextField!
     @IBOutlet weak var userType: UITextField!

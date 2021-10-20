@@ -12,6 +12,10 @@ import FirebaseFirestore
 class DeleteScreenViewController: UIViewController, UITextFieldDelegate
 {
     
+    func textFieldShouldReturn(_ textField: UITextField) -> Bool {
+        return textField.resignFirstResponder()
+    }
+    
     @IBOutlet weak var userField: UITextField!
     @IBOutlet weak var namesField: UITextField!
     @IBOutlet weak var userType: UITextField!

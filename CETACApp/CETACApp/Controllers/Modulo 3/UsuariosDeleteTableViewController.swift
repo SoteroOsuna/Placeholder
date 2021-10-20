@@ -13,6 +13,10 @@ class UsuariosDeleteTableViewController: UITableViewController {
     var usuarioControlador = UsuarioController()
     var datos = [Usuario]()
     
+    func textFieldShouldReturn(_ textField: UITextField) -> Bool {
+        return textField.resignFirstResponder()
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         usuarioControlador.fetchInformacion{(result) in

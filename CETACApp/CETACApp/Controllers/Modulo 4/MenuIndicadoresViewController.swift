@@ -28,6 +28,16 @@ class MenuIndicadoresViewController: UIViewController {
             }))
             present(alert, animated: true)
 
+        } else {
+            if (user?.tipoUsuario == "Tanatólogo") {
+                let title = "Denegado"
+                let message = "Lo sentimos, no tienes permiso para entrar aquí"
+                let alert = UIAlertController(title: title, message: message, preferredStyle: .alert)
+                alert.addAction(UIAlertAction(title: "Regresar", style: .default, handler: { action in
+                        self.performSegue(withIdentifier: "sinPermiso", sender: self)
+                }))
+                present(alert, animated: true)
+            }
         }
         
     }

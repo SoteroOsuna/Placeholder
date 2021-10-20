@@ -9,10 +9,14 @@ import UIKit
 import Firebase
 import FirebaseAuth
 
-class LogInViewController: UIViewController {
+class LogInViewController: UIViewController, UITextFieldDelegate {
     @IBOutlet weak var userName: UITextField!
     @IBOutlet weak var password: UITextField!
     @IBOutlet weak var buttonSignIn: UIButton!
+    
+    func textFieldShouldReturn(_ textField: UITextField) -> Bool {
+        return textField.resignFirstResponder()
+    }
     
     
     @IBAction func secureText(_ sender: Any) {
@@ -61,6 +65,8 @@ class LogInViewController: UIViewController {
         userName.layer.cornerRadius = 10
         password.layer.cornerRadius = 10
         buttonSignIn.layer.cornerRadius = 22
+        userName.delegate = self
+        password.delegate = self
         
         
         

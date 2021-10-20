@@ -9,6 +9,7 @@ import UIKit
 
 class CrearNuevaSesionViewController: UIViewController, UITextFieldDelegate, UIPickerViewDelegate, UIPickerViewDataSource, UITextViewDelegate {
     
+    @IBOutlet weak var scrollView: UIScrollView!
     
     var usuario: Usuario?
     var pickerViewMotivo = UIPickerView()
@@ -46,6 +47,11 @@ class CrearNuevaSesionViewController: UIViewController, UITextFieldDelegate, UIP
     @IBOutlet weak var cuotaRecuperacion: UITextField!
     
     
+    @IBAction func tapEnVista(_ sender: Any) {
+        self.view.endEditing(true)
+    }
+    
+    
     @IBAction func subirExpediente(_ sender: Any) {
         let nuevaSesion = NuevaSesion(nombreTanatologo: nombreTanatologo.text!, nombreUsuario: nombreUsuario.text!, ocupacion: ocupacion.text!, religion: religion.text!, procedencia: procedencia.text!, domicilio: domicilio.text!, telefonoCasa: telefonoCasa.text!, estadoCivil: estadoCivil.text!, edad: Int(edad.text!)!, sexo: sexo.text!, hijos: hijos.text!, referencia: referencia.text!, motivoConsulta: motivoConsulta.text!, identificacionEtapa: identificacionEtapa.text!, motivo: motivo.text!, tipoServicio: tipoServicio.text!, tipoIntervencion: tipoIntervencion.text!, herramienta: herramienta.text!, evaluacion: evaluacion.text!, cuotaRecuperacion: Float(cuotaRecuperacion.text!)!)
         sesionController.insertNuevaSesion(sesion: nuevaSesion, completion: { (result) in
@@ -54,6 +60,10 @@ class CrearNuevaSesionViewController: UIViewController, UITextFieldDelegate, UIP
             case .failure(_): self.displayError(result as! Error, title: "No se pudo insertar")
             }
         })
+    }
+    
+    func textFieldShouldReturn(_ textField: UITextField) -> Bool {
+        return textField.resignFirstResponder()
     }
     
 
@@ -77,6 +87,53 @@ class CrearNuevaSesionViewController: UIViewController, UITextFieldDelegate, UIP
         pickerViewIntervencion.dataSource = self
         pickerViewHerramienta.delegate = self
         pickerViewHerramienta.dataSource = self
+        if (Global.usuario?.tipoUsuario == "Tanatólogo") {
+            nombreTanatologo.text = Global.usuario?.nombre
+            nombreTanatologo.isEnabled = false
+        }
+        
+        nombreTanatologo.delegate = self
+        nombreUsuario.delegate = self
+        ocupacion.delegate = self
+        religion.delegate = self
+        procedencia.delegate = self
+        domicilio.delegate = self
+        telefonoCasa.delegate = self
+        estadoCivil.delegate = self
+        edad.delegate = self
+        sexo.delegate = self
+        hijos.delegate = self
+        referencia.delegate = self
+        motivoConsulta.delegate = self
+        identificacionEtapa.delegate = self
+        motivo.delegate = self
+        tipoServicio.delegate = self
+        tipoIntervencion.delegate = self
+        herramienta.delegate = self
+        evaluacion.delegate = self
+        cuotaRecuperacion.delegate = self
+        registerForKeyboardNotifications()
+        
+    }
+    func registerForKeyboardNotifications() {
+        NotificationCenter.default.addObserver(self, selector: #selector(keyboardWasShown(_:)), name: UIResponder.keyboardDidShowNotification, object: nil)
+        NotificationCenter.default.addObserver(self, selector: #selector(keyboardWillBeHidden(_:)), name: UIResponder.keyboardWillHideNotification, object: nil)
+    }
+
+    @objc func keyboardWasShown(_ notification: NSNotification) {
+        guard let info = notification.userInfo,
+            let keyboardFrameValue = info[UIResponder.keyboardFrameBeginUserInfoKey] as? NSValue else { return }
+
+        let keyboardFrame = keyboardFrameValue.cgRectValue
+        let keyboardSize = keyboardFrame.size
+
+        let contentInsets = UIEdgeInsets(top: 0.0, left: 0.0, bottom: keyboardSize.height + 115, right: 0.0)
+        scrollView.contentInset = contentInsets
+    }
+
+    @objc func keyboardWillBeHidden(_ notification: NSNotification) {
+        let contentInsets = UIEdgeInsets.zero
+        scrollView.contentInset = contentInsets
     }
     
     public func numberOfComponents(in pickerView: UIPickerView)-> Int
