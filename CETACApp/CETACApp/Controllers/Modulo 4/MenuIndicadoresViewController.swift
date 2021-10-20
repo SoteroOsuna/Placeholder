@@ -15,7 +15,22 @@ class MenuIndicadoresViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(true)
+        let user = Global.usuario
+        if (user == nil) {
+            let title = "Inicio de Sesión"
+            let message = "Para acceder a esta función, inicie sesión "
+            let alert = UIAlertController(title: title, message: message, preferredStyle: .alert)
+            alert.addAction(UIAlertAction(title: "Iniciar Sesión", style: .default, handler: { action in
+                    self.performSegue(withIdentifier: "irALogin", sender: self)
+                
+            }))
+            present(alert, animated: true)
 
+        }
+        
+    }
     /*
     // MARK: - Navigation
 

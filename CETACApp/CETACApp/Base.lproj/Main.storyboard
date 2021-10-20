@@ -2172,7 +2172,7 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ij3-tG-VBS">
                                 <rect key="frame" x="434" y="386" width="197" height="194"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Reportes Servicios">
+                                <buttonConfiguration key="configuration" style="plain" title="Reporte Servicios">
                                     <backgroundConfiguration key="background" cornerRadius="22">
                                         <color key="backgroundColor" red="0.14901960780000001" green="0.1843137255" blue="0.42745098040000001" alpha="1" colorSpace="calibratedRGB"/>
                                     </backgroundConfiguration>
@@ -2186,7 +2186,7 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Iwv-a4-6Dj">
                                 <rect key="frame" x="303" y="643" width="197" height="194"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Reportes Intervenciones ">
+                                <buttonConfiguration key="configuration" style="plain" title="Reporte Intervenciones ">
                                     <backgroundConfiguration key="background" cornerRadius="22">
                                         <color key="backgroundColor" red="0.14901960780000001" green="0.1843137255" blue="0.42745098040000001" alpha="1" colorSpace="calibratedRGB"/>
                                     </backgroundConfiguration>
@@ -2204,7 +2204,7 @@
                                     <constraint firstAttribute="height" constant="194" id="xSc-pD-jac"/>
                                 </constraints>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Reportes Motivos">
+                                <buttonConfiguration key="configuration" style="plain" title="Reporte Motivos">
                                     <backgroundConfiguration key="background" cornerRadius="22">
                                         <color key="backgroundColor" red="0.14901960780000001" green="0.1843137255" blue="0.42745098040000001" alpha="1" colorSpace="calibratedRGB"/>
                                     </backgroundConfiguration>
@@ -2245,6 +2245,9 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="WrS-pc-G5K"/>
+                    <connections>
+                        <segue destination="hBg-iN-RKU" kind="show" identifier="irALogin" id="M0K-O7-ee1"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="GXk-2h-mxv" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -3505,7 +3508,7 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="vEG-t1-fh5"/>
+        <segue reference="M0K-O7-ee1"/>
         <segue reference="QW2-u2-FvP"/>
     </inferredMetricsTieBreakers>
     <resources>
