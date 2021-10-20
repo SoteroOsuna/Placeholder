@@ -12,6 +12,8 @@ import FirebaseAuth
 class LogInViewController: UIViewController {
     @IBOutlet weak var userName: UITextField!
     @IBOutlet weak var password: UITextField!
+    @IBOutlet weak var buttonSignIn: UIButton!
+    
     
     @IBAction func secureText(_ sender: Any) {
         password.isSecureTextEntry = !password.isSecureTextEntry
@@ -52,6 +54,13 @@ class LogInViewController: UIViewController {
     }
     override func viewDidLoad() {
         super.viewDidLoad()
+        userName.layer.borderColor = UIColor.init(displayP3Red: 38/255, green: 47/255, blue: 109/255, alpha: 1).cgColor
+        password.layer.borderColor = UIColor.init(displayP3Red: 38/255, green: 47/255, blue: 109/255, alpha: 1).cgColor
+        userName.layer.borderWidth = 2.5
+        password.layer.borderWidth = 2.5
+        userName.layer.cornerRadius = 10
+        password.layer.cornerRadius = 10
+        buttonSignIn.layer.cornerRadius = 22
         
         
         

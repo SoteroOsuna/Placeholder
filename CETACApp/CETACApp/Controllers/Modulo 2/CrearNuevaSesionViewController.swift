@@ -33,7 +33,7 @@ class CrearNuevaSesionViewController: UIViewController, UITextFieldDelegate, UIP
     @IBOutlet weak var sexo: UITextField!
     @IBOutlet weak var hijos: UITextField!
     @IBOutlet weak var referencia: UITextField!
-    @IBOutlet weak var motivoConsulta: UITextField!
+    @IBOutlet weak var motivoConsulta: UITextView!
     @IBOutlet weak var identificacionEtapa: UITextField!
     @IBOutlet weak var motivo: UITextField!
     @IBOutlet weak var tipoServicio: UITextField!

@@ -15,4 +15,4 @@ let listaIntervencion = ["Acompañamiento Grupal", "Acompañamiento Individual",
 
 let listaHerramienta = ["Contención", "Dinámica", "Diálogo", "Ejercicio", "Encuadre", "Infografía", "Lectura", "Meditación", "Video", "Otro"]
 
-let listaUsuarios = ["Admin", "Tanatólogo", "Paciente", "Admin Soporte"]
+let listaUsuarios = ["Admin", "Tanatólogo", "Admin Soporte"]

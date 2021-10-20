@@ -106,6 +106,7 @@
 		E5395EB2271FAC5A00EE8530 /* BackgroundWhiteLogIn.png in Resources */ = {isa = PBXBuildFile; fileRef = E5395EB1271FAC5A00EE8530 /* BackgroundWhiteLogIn.png */; };
 		E5395EB4271FAF3E00EE8530 /* UpdateScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5395EB3271FAF3E00EE8530 /* UpdateScreenViewController.swift */; };
 		E5395EB6271FBFB400EE8530 /* DeleteScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5395EB5271FBFB400EE8530 /* DeleteScreenViewController.swift */; };
+		E5395EB8271FDBD700EE8530 /* CreateUserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5395EB7271FDBD700EE8530 /* CreateUserViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -226,6 +227,7 @@
 		E5395EB1271FAC5A00EE8530 /* BackgroundWhiteLogIn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BackgroundWhiteLogIn.png; sourceTree = "<group>"; };
 		E5395EB3271FAF3E00EE8530 /* UpdateScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateScreenViewController.swift; sourceTree = "<group>"; };
 		E5395EB5271FBFB400EE8530 /* DeleteScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeleteScreenViewController.swift; sourceTree = "<group>"; };
+		E5395EB7271FDBD700EE8530 /* CreateUserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateUserViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -277,9 +279,9 @@
 			children = (
 				36209433271512590026A4B9 /* MenuSesionesViewController.swift */,
 				3696B81F271B7F2D0088D7F4 /* CrearNuevaSesionViewController.swift */,
-				368246A1271B9DAA000F0F57 /* CrearSesionSeguimientoViewController.swift */,
 				368246A3271BB210000F0F57 /* ReporteSesionesTableViewController.swift */,
 				368246A5271BB277000F0F57 /* SesionTableViewCell.swift */,
+				368246A1271B9DAA000F0F57 /* CrearSesionSeguimientoViewController.swift */,
 				3683B738271CF60200753029 /* DetalleSesionViewController.swift */,
 				3683B74C271EFB3E00753029 /* EncuadreUsuarioViewController.swift */,
 			);
@@ -297,6 +299,7 @@
 				E5395EAD271F9F0F00EE8530 /* UsuarioDelTableViewCell.swift */,
 				E5395EB3271FAF3E00EE8530 /* UpdateScreenViewController.swift */,
 				E5395EB5271FBFB400EE8530 /* DeleteScreenViewController.swift */,
+				E5395EB7271FDBD700EE8530 /* CreateUserViewController.swift */,
 			);
 			path = "Modulo 3";
 			sourceTree = "<group>";
@@ -713,6 +716,7 @@
 				368246A4271BB210000F0F57 /* ReporteSesionesTableViewController.swift in Sources */,
 				E5395EA4271F8CAB00EE8530 /* UpdateUsuarioTableViewController.swift in Sources */,
 				3620945427152DC70026A4B9 /* MenuInformacionTAViewController.swift in Sources */,
+				E5395EB8271FDBD700EE8530 /* CreateUserViewController.swift in Sources */,
 				364BD0EE2706CD75002A7002 /* ModuloInformacionController.swift in Sources */,
 				3620945227152DAC0026A4B9 /* MenuInformacionSAViewController.swift in Sources */,
 				3683B73D271DFC7100753029 /* UsuarioActualViewController.swift in Sources */,

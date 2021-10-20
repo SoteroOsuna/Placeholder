@@ -23,10 +23,9 @@ class EncuadreUsuarioViewController: UIViewController {
     @IBOutlet weak var edad: UITextField!
     @IBOutlet weak var sexo: UITextField!
     @IBOutlet weak var hijos: UITextField!
+    @IBOutlet weak var motivoConsulta: UITextView!
     @IBOutlet weak var referencia: UITextField!
-    @IBOutlet weak var motivoConsulta: UITextField!
     @IBOutlet weak var identificacionEtapa: UITextField!
-    
     @IBOutlet weak var actualizarBoton: UIButton!
     @IBAction func actualizarExpediente(_ sender: Any) {
         let nuevaSesion = NuevaSesion(id: sesionEncuadre!.id, nombreTanatologo: sesionEncuadre!.nombreTanatologo, nombreUsuario: sesionEncuadre!.nombreUsuario, ocupacion: ocupacion.text!, religion: religion.text!, procedencia: procedencia.text!, domicilio: domicilio.text!, telefonoCasa: telefonoCasa.text!, estadoCivil: estadoCivil.text!, edad: Int(edad.text!)!, sexo: sexo.text!, hijos: hijos.text!, referencia: referencia.text!, motivoConsulta: motivoConsulta.text!, identificacionEtapa: identificacionEtapa.text!, motivo: sesionEncuadre!.motivo, tipoServicio: sesionEncuadre!.tipoServicio, tipoIntervencion: sesionEncuadre!.tipoIntervencion, herramienta: sesionEncuadre!.herramienta, evaluacion: sesionEncuadre!.evaluacion, cuotaRecuperacion: sesionEncuadre!.cuotaRecuperacion)
@@ -40,6 +39,11 @@ class EncuadreUsuarioViewController: UIViewController {
     }
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        nombre.layer.borderColor = UIColor.init(displayP3Red: 38/255, green: 47/255, blue: 109/255, alpha: 1).cgColor
+        nombre.layer.borderWidth = 2.5
+        nombre.layer.cornerRadius = 10
+        
         nombre.text = sesionEncuadre!.nombreUsuario
         ocupacion.text = sesionEncuadre!.ocupacion
         religion.text = sesionEncuadre!.religion
@@ -67,9 +71,9 @@ class EncuadreUsuarioViewController: UIViewController {
             sexo.isEnabled = false
             hijos.isEnabled = false
             referencia.isEnabled = false
-            motivoConsulta.isEnabled = false
             identificacionEtapa.isEnabled = false
             actualizarBoton.isEnabled = false
+            motivoConsulta.isEditable = false
             actualizarBoton.isHidden = true
         }
     }
