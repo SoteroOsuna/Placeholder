@@ -15,12 +15,15 @@ class CrearNuevaSesionViewController: UIViewController, UITextFieldDelegate, UIP
     var pickerViewServicio = UIPickerView()
     var pickerViewIntervencion = UIPickerView()
     var pickerViewHerramienta = UIPickerView()
+    var pickerViewSexos = UIPickerView()
+    var pickerViewCivil = UIPickerView()
     var sesionController = SesionController()
     let pickerMotivos = listaMotivos
     let pickerServicios = listaServicios
     let pickerIntervencion = listaIntervencion
     let pickerHerramienta = listaHerramienta
-    
+    let pickerSexos = listaSexos
+    let pickerCivil = listaEstadoCivil
     @IBOutlet weak var nombreTanatologo: UITextField!
     @IBOutlet weak var nombreUsuario: UITextField!
     @IBOutlet weak var ocupacion: UITextField!
@@ -60,6 +63,12 @@ class CrearNuevaSesionViewController: UIViewController, UITextFieldDelegate, UIP
         tipoServicio.inputView = pickerViewServicio
         tipoIntervencion.inputView = pickerViewIntervencion
         herramienta.inputView = pickerViewHerramienta
+        sexo.inputView = pickerViewSexos
+        estadoCivil.inputView = pickerViewCivil
+        pickerViewCivil.delegate = self
+        pickerViewCivil.dataSource = self
+        pickerViewSexos.delegate = self
+        pickerViewSexos.dataSource = self
         pickerViewMotivo.delegate = self
         pickerViewMotivo.dataSource = self
         pickerViewServicio.delegate = self
@@ -97,6 +106,14 @@ class CrearNuevaSesionViewController: UIViewController, UITextFieldDelegate, UIP
         {
             row = pickerHerramienta.count
         }
+        else if (pickerView == pickerViewSexos)
+        {
+            row = pickerSexos.count
+        }
+        else if (pickerView == pickerViewCivil)
+        {
+            row = pickerCivil.count
+        }
         return row
     }
     
@@ -121,6 +138,14 @@ class CrearNuevaSesionViewController: UIViewController, UITextFieldDelegate, UIP
         else if (pickerView == pickerViewHerramienta)
         {
             stringPick = pickerHerramienta[row]
+        }
+        else if (pickerView == pickerViewSexos)
+        {
+            stringPick = pickerSexos[row]
+        }
+        else if (pickerView == pickerViewCivil)
+        {
+            stringPick = pickerCivil[row]
         }
         return stringPick
     }
@@ -151,6 +176,16 @@ class CrearNuevaSesionViewController: UIViewController, UITextFieldDelegate, UIP
         {
             herramienta.text = pickerHerramienta[row]
             herramienta.resignFirstResponder()
+        }
+        else if (pickerView == pickerViewSexos)
+        {
+            sexo.text = pickerSexos[row]
+            sexo.resignFirstResponder()
+        }
+        else if (pickerView == pickerViewCivil)
+        {
+            estadoCivil.text = pickerCivil[row]
+            estadoCivil.resignFirstResponder()
         }
     }
     

@@ -16,3 +16,5 @@ let listaIntervencion = ["Acompañamiento Grupal", "Acompañamiento Individual",
 let listaHerramienta = ["Contención", "Dinámica", "Diálogo", "Ejercicio", "Encuadre", "Infografía", "Lectura", "Meditación", "Video", "Otro"]
 
 let listaUsuarios = ["Admin", "Tanatólogo", "Admin Soporte"]
+let listaSexos = ["Masculino", "Femenino", "Otro"]
+let listaEstadoCivil = ["Soltero", "Casado", "Divorciado", "Viudo"]

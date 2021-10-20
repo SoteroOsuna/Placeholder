@@ -107,6 +107,7 @@
 		E5395EB4271FAF3E00EE8530 /* UpdateScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5395EB3271FAF3E00EE8530 /* UpdateScreenViewController.swift */; };
 		E5395EB6271FBFB400EE8530 /* DeleteScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5395EB5271FBFB400EE8530 /* DeleteScreenViewController.swift */; };
 		E5395EB8271FDBD700EE8530 /* CreateUserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5395EB7271FDBD700EE8530 /* CreateUserViewController.swift */; };
+		E577508A27208A6600B77AC1 /* SexosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E577508927208A6600B77AC1 /* SexosViewController.swift */; };
 		E5D8D20C27205E79002150A8 /* MotivosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5D8D20B27205E79002150A8 /* MotivosViewController.swift */; };
 		E5D8D20E27206941002150A8 /* indicadoresPrueba.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5D8D20D27206941002150A8 /* indicadoresPrueba.swift */; };
 		E5D8D21027206A89002150A8 /* IndicadoresController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5D8D20F27206A89002150A8 /* IndicadoresController.swift */; };
@@ -233,6 +234,7 @@
 		E5395EB3271FAF3E00EE8530 /* UpdateScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateScreenViewController.swift; sourceTree = "<group>"; };
 		E5395EB5271FBFB400EE8530 /* DeleteScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeleteScreenViewController.swift; sourceTree = "<group>"; };
 		E5395EB7271FDBD700EE8530 /* CreateUserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateUserViewController.swift; sourceTree = "<group>"; };
+		E577508927208A6600B77AC1 /* SexosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SexosViewController.swift; sourceTree = "<group>"; };
 		E5D8D20B27205E79002150A8 /* MotivosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotivosViewController.swift; sourceTree = "<group>"; };
 		E5D8D20D27206941002150A8 /* indicadoresPrueba.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = indicadoresPrueba.swift; sourceTree = "<group>"; };
 		E5D8D20F27206A89002150A8 /* IndicadoresController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IndicadoresController.swift; sourceTree = "<group>"; };
@@ -322,6 +324,7 @@
 				3683B74A271E7A7B00753029 /* GraficaSexoClientesViewController.swift */,
 				E5D8D20B27205E79002150A8 /* MotivosViewController.swift */,
 				E5D8D2112720746D002150A8 /* ServiciosViewController.swift */,
+				E577508927208A6600B77AC1 /* SexosViewController.swift */,
 			);
 			path = "Modulo 4";
 			sourceTree = "<group>";
@@ -727,6 +730,7 @@
 				364BD0F02706D06C002A7002 /* ModuloInformacionViewController.swift in Sources */,
 				E5395EA2271F674D00EE8530 /* InformacionRequerida.swift in Sources */,
 				E5D8D21027206A89002150A8 /* IndicadoresController.swift in Sources */,
+				E577508A27208A6600B77AC1 /* SexosViewController.swift in Sources */,
 				E5395EAC271F9ECC00EE8530 /* UsuariosDeleteTableViewController.swift in Sources */,
 				E5D8D2122720746D002150A8 /* ServiciosViewController.swift in Sources */,
 				368246A2271B9DAA000F0F57 /* CrearSesionSeguimientoViewController.swift in Sources */,
