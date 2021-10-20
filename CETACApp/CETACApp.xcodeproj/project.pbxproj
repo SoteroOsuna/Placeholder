@@ -87,6 +87,8 @@
 		3696B820271B7F2D0088D7F4 /* CrearNuevaSesionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3696B81F271B7F2D0088D7F4 /* CrearNuevaSesionViewController.swift */; };
 		3696B822271B7F940088D7F4 /* SesionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3696B821271B7F940088D7F4 /* SesionController.swift */; };
 		369D0A952713B63200D14908 /* InformationModuleTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 369D0A942713B63200D14908 /* InformationModuleTest.swift */; };
+		36A0FAFA2720A8590043AB69 /* SesionModuleTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36A0FAF82720A8580043AB69 /* SesionModuleTest.swift */; };
+		36A0FAFB2720A8590043AB69 /* UsersModuleTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36A0FAF92720A8580043AB69 /* UsersModuleTest.swift */; };
 		36D21258271297FC001C76D9 /* Usuario.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36D21257271297FC001C76D9 /* Usuario.swift */; };
 		36D2125A27129B46001C76D9 /* UsuarioController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36D2125927129B46001C76D9 /* UsuarioController.swift */; };
 		36D2125E2713AE63001C76D9 /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36D2125D2713AE63001C76D9 /* LogInViewController.swift */; };
@@ -206,6 +208,8 @@
 		3696B81F271B7F2D0088D7F4 /* CrearNuevaSesionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrearNuevaSesionViewController.swift; sourceTree = "<group>"; };
 		3696B821271B7F940088D7F4 /* SesionController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SesionController.swift; sourceTree = "<group>"; };
 		369D0A942713B63200D14908 /* InformationModuleTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InformationModuleTest.swift; sourceTree = "<group>"; };
+		36A0FAF82720A8580043AB69 /* SesionModuleTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SesionModuleTest.swift; sourceTree = "<group>"; };
+		36A0FAF92720A8580043AB69 /* UsersModuleTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UsersModuleTest.swift; sourceTree = "<group>"; };
 		36D21257271297FC001C76D9 /* Usuario.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Usuario.swift; sourceTree = "<group>"; };
 		36D2125927129B46001C76D9 /* UsuarioController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsuarioController.swift; sourceTree = "<group>"; };
 		36D2125D2713AE63001C76D9 /* LogInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
@@ -456,6 +460,8 @@
 		36F3F74027128EF200E6B0C5 /* CETACAppTests */ = {
 			isa = PBXGroup;
 			children = (
+				36A0FAF82720A8580043AB69 /* SesionModuleTest.swift */,
+				36A0FAF92720A8580043AB69 /* UsersModuleTest.swift */,
 				36F3F74327128EF200E6B0C5 /* Info.plist */,
 				36D2125F2713AEDC001C76D9 /* LogInTest.swift */,
 				369D0A942713B63200D14908 /* InformationModuleTest.swift */,
@@ -743,6 +749,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				36A0FAFB2720A8590043AB69 /* UsersModuleTest.swift in Sources */,
+				36A0FAFA2720A8590043AB69 /* SesionModuleTest.swift in Sources */,
 				36D212652713AFA2001C76D9 /* LogInTest.swift in Sources */,
 				369D0A952713B63200D14908 /* InformationModuleTest.swift in Sources */,
 			);
