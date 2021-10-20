@@ -107,6 +107,11 @@
 		E5395EB4271FAF3E00EE8530 /* UpdateScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5395EB3271FAF3E00EE8530 /* UpdateScreenViewController.swift */; };
 		E5395EB6271FBFB400EE8530 /* DeleteScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5395EB5271FBFB400EE8530 /* DeleteScreenViewController.swift */; };
 		E5395EB8271FDBD700EE8530 /* CreateUserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5395EB7271FDBD700EE8530 /* CreateUserViewController.swift */; };
+		E5D8D20C27205E79002150A8 /* MotivosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5D8D20B27205E79002150A8 /* MotivosViewController.swift */; };
+		E5D8D20E27206941002150A8 /* indicadoresPrueba.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5D8D20D27206941002150A8 /* indicadoresPrueba.swift */; };
+		E5D8D21027206A89002150A8 /* IndicadoresController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5D8D20F27206A89002150A8 /* IndicadoresController.swift */; };
+		E5D8D2122720746D002150A8 /* ServiciosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5D8D2112720746D002150A8 /* ServiciosViewController.swift */; };
+		E5D8D21527207663002150A8 /* IntervencionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5D8D21427207663002150A8 /* IntervencionViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -228,6 +233,11 @@
 		E5395EB3271FAF3E00EE8530 /* UpdateScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateScreenViewController.swift; sourceTree = "<group>"; };
 		E5395EB5271FBFB400EE8530 /* DeleteScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeleteScreenViewController.swift; sourceTree = "<group>"; };
 		E5395EB7271FDBD700EE8530 /* CreateUserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateUserViewController.swift; sourceTree = "<group>"; };
+		E5D8D20B27205E79002150A8 /* MotivosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotivosViewController.swift; sourceTree = "<group>"; };
+		E5D8D20D27206941002150A8 /* indicadoresPrueba.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = indicadoresPrueba.swift; sourceTree = "<group>"; };
+		E5D8D20F27206A89002150A8 /* IndicadoresController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IndicadoresController.swift; sourceTree = "<group>"; };
+		E5D8D2112720746D002150A8 /* ServiciosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiciosViewController.swift; sourceTree = "<group>"; };
+		E5D8D21427207663002150A8 /* IntervencionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntervencionViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -307,8 +317,11 @@
 		3683B747271E4CE400753029 /* Modulo 4 */ = {
 			isa = PBXGroup;
 			children = (
+				E5D8D21427207663002150A8 /* IntervencionViewController.swift */,
 				3683B742271E4B7900753029 /* MenuIndicadoresViewController.swift */,
 				3683B74A271E7A7B00753029 /* GraficaSexoClientesViewController.swift */,
+				E5D8D20B27205E79002150A8 /* MotivosViewController.swift */,
+				E5D8D2112720746D002150A8 /* ServiciosViewController.swift */,
 			);
 			path = "Modulo 4";
 			sourceTree = "<group>";
@@ -420,6 +433,8 @@
 			isa = PBXGroup;
 			children = (
 				36F3926527068C7F0030A87F /* ModuloInformacion.swift */,
+				E5D8D20D27206941002150A8 /* indicadoresPrueba.swift */,
+				E5D8D20F27206A89002150A8 /* IndicadoresController.swift */,
 				364BD0ED2706CD75002A7002 /* ModuloInformacionController.swift */,
 				36F289EB270A88A00052FB5E /* Sesion.swift */,
 				3696B821271B7F940088D7F4 /* SesionController.swift */,
@@ -691,6 +706,7 @@
 				3683B743271E4B7900753029 /* MenuIndicadoresViewController.swift in Sources */,
 				E5395EA6271F8F1200EE8530 /* UsuariosTableViewCell.swift in Sources */,
 				E5395EB4271FAF3E00EE8530 /* UpdateScreenViewController.swift in Sources */,
+				E5D8D20C27205E79002150A8 /* MotivosViewController.swift in Sources */,
 				36D2125A27129B46001C76D9 /* UsuarioController.swift in Sources */,
 				3683B739271CF60200753029 /* DetalleSesionViewController.swift in Sources */,
 				E5395EB6271FBFB400EE8530 /* DeleteScreenViewController.swift in Sources */,
@@ -704,18 +720,22 @@
 				36D2125E2713AE63001C76D9 /* LogInViewController.swift in Sources */,
 				36F289E82709382A0052FB5E /* MenuInformacionViewController.swift in Sources */,
 				3683B74D271EFB3E00753029 /* EncuadreUsuarioViewController.swift in Sources */,
+				E5D8D21527207663002150A8 /* IntervencionViewController.swift in Sources */,
 				36F289EA2709386F0052FB5E /* MenuInformacionCETACViewController.swift in Sources */,
 				368AED2327053F31009EF4F3 /* SceneDelegate.swift in Sources */,
 				3696B822271B7F940088D7F4 /* SesionController.swift in Sources */,
 				364BD0F02706D06C002A7002 /* ModuloInformacionViewController.swift in Sources */,
 				E5395EA2271F674D00EE8530 /* InformacionRequerida.swift in Sources */,
+				E5D8D21027206A89002150A8 /* IndicadoresController.swift in Sources */,
 				E5395EAC271F9ECC00EE8530 /* UsuariosDeleteTableViewController.swift in Sources */,
+				E5D8D2122720746D002150A8 /* ServiciosViewController.swift in Sources */,
 				368246A2271B9DAA000F0F57 /* CrearSesionSeguimientoViewController.swift in Sources */,
 				E5395EAE271F9F0F00EE8530 /* UsuarioDelTableViewCell.swift in Sources */,
 				36D21258271297FC001C76D9 /* Usuario.swift in Sources */,
 				368246A4271BB210000F0F57 /* ReporteSesionesTableViewController.swift in Sources */,
 				E5395EA4271F8CAB00EE8530 /* UpdateUsuarioTableViewController.swift in Sources */,
 				3620945427152DC70026A4B9 /* MenuInformacionTAViewController.swift in Sources */,
+				E5D8D20E27206941002150A8 /* indicadoresPrueba.swift in Sources */,
 				E5395EB8271FDBD700EE8530 /* CreateUserViewController.swift in Sources */,
 				364BD0EE2706CD75002A7002 /* ModuloInformacionController.swift in Sources */,
 				3620945227152DAC0026A4B9 /* MenuInformacionSAViewController.swift in Sources */,

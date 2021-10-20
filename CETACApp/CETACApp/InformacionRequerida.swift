@@ -7,7 +7,7 @@
 
 import Foundation
 
-let listaMotivos = ["Abuso", "Adicción", "Ansiedad", "Baja Autoestima", "Codependencia", "Comunicación Familiar", "Conflicto con Hermano", "Conflicto con Madre", "Conflicto con Padre", "Dependencia", "Divorcio", "Duelo", "Duelo Grupal", "Enfermedad", "Enfermedad Crónico Degenerativa", "Estrés", "Heridas de la Infancia", "Identidad de Género", "Infertilidad", "Infidelidad", "Intento de Suicidio", "Miedo", "Otro", "Pérdida Laboral", "Pérdida de Bienes Materiales", "Pérdida de Identidad", "Relación con los Padres", "Ruptura de Noviazgo", "Trastorno Obsesivo", "Violación", "Violencia Intrafamiliar", "Violencia Psicológica", "Viudez"]
+let listaMotivos = ["Abuso", "Adicción", "Ansiedad", "Baja Autoestima", "Codependencia", "Comunicación Familiar", "Conflicto con Hermano", "Conflicto con Madre", "Conflicto con Padre", "Dependencia", "Divorcio", "Duelo", "Duelo Grupal", "Enfermedad", "Enfermedad Crónico Degenerativa", "Estrés", "Heridas de la Infancia", "Identidad de Género", "Infertilidad", "Infidelidad", "Intento de Suicidio", "Miedo", "Pérdida Laboral", "Pérdida de Bienes Materiales", "Pérdida de Identidad", "Relación con los Padres", "Ruptura de Noviazgo", "Trastorno Obsesivo", "Violación", "Violencia Intrafamiliar", "Violencia Psicológica", "Viudez", "Otro"]
 
 let listaServicios = ["Servicios Acompañamiento", "Servicios Holísticos", "Herramientas Alternativas"]
 
