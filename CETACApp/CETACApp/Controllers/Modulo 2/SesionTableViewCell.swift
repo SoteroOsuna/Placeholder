@@ -10,7 +10,6 @@ import UIKit
 class SesionTableViewCell: UITableViewCell {
     
     @IBOutlet weak var nombre: UILabel!
-    @IBOutlet weak var expediente: UILabel!
     @IBOutlet weak var sesiones: UILabel!
     @IBOutlet weak var fecha: UILabel!
     @IBOutlet weak var tanatologo: UILabel!
@@ -18,9 +17,11 @@ class SesionTableViewCell: UITableViewCell {
     
     func update(with sesion: Sesion) {
         nombre.text = sesion.nombreUsuario
-        expediente.text = sesion.id
         sesiones.text = String(sesion.numeroSesion)
-        fecha.text = "HOYYYY"
+        let formatter = DateFormatter()
+        formatter.timeZone = TimeZone.current
+        formatter.dateFormat = "dd-MM-yyyy"
+        fecha.text = formatter.string(from: Date(timeIntervalSince1970: sesion.fecha))
         tanatologo.text = sesion.nombreTanatologo
     }
 

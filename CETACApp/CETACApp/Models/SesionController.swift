@@ -104,6 +104,7 @@ class SesionController {
         ref = db.collection("Sesiones").addDocument(data: [
 //            "titulo": moduloInformacion.titulo,
             "numeroSesion": sesion.numeroSesion,
+            "fecha": NSDate().timeIntervalSince1970,
             "nombreTanatologo": sesion.nombreTanatologo,
             "nombreUsuario": sesion.nombreUsuario,
             "ocupacion": sesion.ocupacion,
@@ -141,6 +142,7 @@ class SesionController {
         ref = db.collection("Sesiones").addDocument(data: [
 //            "titulo": moduloInformacion.titulo,
             "numeroSesion": sesion.numeroSesion,
+            "fecha": NSDate().timeIntervalSince1970,
             "nombreTanatologo": sesion.nombreTanatologo,
             "nombreUsuario": sesion.nombreUsuario,
             "motivo": sesion.motivo,

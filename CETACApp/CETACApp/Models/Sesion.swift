@@ -10,6 +10,7 @@ import Firebase
 
 protocol Sesion {
     var id: String {get set}
+    var fecha: Double {get set}
     var numeroSesion: Int {get set}
     var nombreTanatologo: String {get set}
     var nombreUsuario: String {get set}
@@ -24,6 +25,7 @@ protocol Sesion {
 struct NuevaSesion: Sesion {
     
     var id: String
+    var fecha: Double
     var numeroSesion = 1
     var nombreTanatologo: String
     var nombreUsuario: String
@@ -52,6 +54,7 @@ struct NuevaSesion: Sesion {
          identificacionEtapa: String, motivo: String, tipoServicio: String, tipoIntervencion: String,
          herramienta: String, evaluacion: String, cuotaRecuperacion: Float) {
         self.id = id
+        fecha = NSDate().timeIntervalSince1970
         numeroSesion = 1
         self.nombreTanatologo = nombreTanatologo
         self.nombreUsuario = nombreUsuario
@@ -82,6 +85,7 @@ struct NuevaSesion: Sesion {
          identificacionEtapa: String, motivo: String, tipoServicio: String, tipoIntervencion: String,
          herramienta: String, evaluacion: String, cuotaRecuperacion: Float) {
         id = "01234567890"
+        fecha = NSDate().timeIntervalSince1970
         numeroSesion = 1
         self.nombreTanatologo = nombreTanatologo
         self.nombreUsuario = nombreUsuario
@@ -109,6 +113,7 @@ struct NuevaSesion: Sesion {
     init(aDoc: DocumentSnapshot) {
         self.id = aDoc.documentID
         numeroSesion = 1
+        self.fecha = aDoc.get("fecha") as? Double ?? 0.0
         self.nombreTanatologo = aDoc.get("nombreTanatologo") as? String ?? ""
         self.nombreUsuario = aDoc.get("nombreUsuario") as? String ?? ""
         self.ocupacion = aDoc.get("ocupacion") as? String ?? ""
@@ -136,6 +141,7 @@ struct NuevaSesion: Sesion {
 struct SesionSeguimiento: Sesion {
     
     var id: String
+    var fecha: Double
     var numeroSesion: Int
     var nombreTanatologo: String
     var nombreUsuario: String
@@ -149,6 +155,7 @@ struct SesionSeguimiento: Sesion {
     init(numeroSesion: Int, nombreTanatologo: String, nombreUsuario: String, motivo: String, tipoServicio: String, tipoIntervencion: String,
          herramienta: String, evaluacion: String, cuotaRecuperacion: Float) {
         id = "01234567890"
+        fecha = NSDate().timeIntervalSince1970
         self.numeroSesion = numeroSesion
         self.nombreTanatologo = nombreTanatologo
         self.nombreUsuario = nombreUsuario
@@ -164,6 +171,7 @@ struct SesionSeguimiento: Sesion {
     init(aDoc: DocumentSnapshot) {
         
         self.id = aDoc.documentID
+        self.fecha = aDoc.get("fecha") as? Double ?? 0.0
         self.numeroSesion = aDoc.get("numeroSesion") as? Int ?? 0
         self.nombreTanatologo = aDoc.get("nombreTanatologo") as? String ?? ""
         self.nombreUsuario = aDoc.get("nombreUsuario") as? String ?? ""
