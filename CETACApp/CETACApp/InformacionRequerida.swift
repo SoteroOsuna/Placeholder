@@ -18,3 +18,4 @@ let listaHerramienta = ["Contención", "Dinámica", "Diálogo", "Ejercicio", "En
 let listaUsuarios = ["Admin", "Tanatólogo", "Admin Soporte"]
 let listaSexos = ["Masculino", "Femenino", "Otro"]
 let listaEstadoCivil = ["Soltero", "Casado", "Divorciado", "Viudo"]
+let listaDuelo = ["Negación", "Ira", "Negociación", "Depresión", "Aceptación"]

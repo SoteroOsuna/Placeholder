@@ -12,6 +12,7 @@ class CrearNuevaSesionViewController: UIViewController, UITextFieldDelegate, UIP
     @IBOutlet weak var scrollView: UIScrollView!
     
     var usuario: Usuario?
+    var pickerViewDuelo = UIPickerView()
     var pickerViewMotivo = UIPickerView()
     var pickerViewServicio = UIPickerView()
     var pickerViewIntervencion = UIPickerView()
@@ -20,6 +21,7 @@ class CrearNuevaSesionViewController: UIViewController, UITextFieldDelegate, UIP
     var pickerViewCivil = UIPickerView()
     var sesionController = SesionController()
     let pickerMotivos = listaMotivos
+    let pickerDuelo = listaDuelo
     let pickerServicios = listaServicios
     let pickerIntervencion = listaIntervencion
     let pickerHerramienta = listaHerramienta
@@ -75,6 +77,9 @@ class CrearNuevaSesionViewController: UIViewController, UITextFieldDelegate, UIP
         herramienta.inputView = pickerViewHerramienta
         sexo.inputView = pickerViewSexos
         estadoCivil.inputView = pickerViewCivil
+        identificacionEtapa.inputView = pickerViewDuelo
+        pickerViewDuelo.delegate = self
+        pickerViewDuelo.dataSource = self
         pickerViewCivil.delegate = self
         pickerViewCivil.dataSource = self
         pickerViewSexos.delegate = self
@@ -171,6 +176,10 @@ class CrearNuevaSesionViewController: UIViewController, UITextFieldDelegate, UIP
         {
             row = pickerCivil.count
         }
+        else if (pickerView == pickerViewDuelo)
+        {
+            row = pickerDuelo.count
+        }
         return row
     }
     
@@ -204,6 +213,11 @@ class CrearNuevaSesionViewController: UIViewController, UITextFieldDelegate, UIP
         {
             stringPick = pickerCivil[row]
         }
+        else if (pickerView == pickerViewDuelo)
+        {
+            stringPick = pickerDuelo[row]
+        }
+    
         return stringPick
     }
     func pickerView(_ pickerView: UIPickerView, didSelectRow row: Int, inComponent component: Int)
@@ -243,6 +257,11 @@ class CrearNuevaSesionViewController: UIViewController, UITextFieldDelegate, UIP
         {
             estadoCivil.text = pickerCivil[row]
             estadoCivil.resignFirstResponder()
+        }
+        else if (pickerView == pickerViewDuelo)
+        {
+            identificacionEtapa.text = pickerDuelo[row]
+            identificacionEtapa.resignFirstResponder()
         }
     }
     
