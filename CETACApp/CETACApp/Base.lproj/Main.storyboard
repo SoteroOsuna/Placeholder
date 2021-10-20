@@ -619,6 +619,7 @@
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="gd4-Jo-ocl"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <gestureRecognizers/>
                         <constraints>
                             <constraint firstItem="J0n-Dj-7Zi" firstAttribute="trailing" secondItem="gd4-Jo-ocl" secondAttribute="trailing" id="09U-AK-hGV"/>
                             <constraint firstItem="J0n-Dj-7Zi" firstAttribute="leading" secondItem="gd4-Jo-ocl" secondAttribute="leading" id="9oe-B5-yeF"/>
@@ -629,6 +630,9 @@
                             <constraint firstItem="J0n-Dj-7Zi" firstAttribute="leading" secondItem="gd4-Jo-ocl" secondAttribute="leading" id="o02-hB-Dyj"/>
                             <constraint firstItem="J0n-Dj-7Zi" firstAttribute="top" secondItem="gd4-Jo-ocl" secondAttribute="top" id="xrA-Bb-Iry"/>
                         </constraints>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="MXH-Ue-laX" appends="YES" id="VFe-E7-5dm"/>
+                        </connections>
                     </view>
                     <navigationItem key="navigationItem" title="Crear Nueva Sesión" id="Vng-aB-5Gl"/>
                     <connections>
@@ -648,6 +652,7 @@
                         <outlet property="procedencia" destination="IOs-6h-iqW" id="qG9-UD-k0h"/>
                         <outlet property="referencia" destination="eea-jC-imM" id="CM4-G0-ohF"/>
                         <outlet property="religion" destination="hAc-S9-5gf" id="5vv-0M-rkH"/>
+                        <outlet property="scrollView" destination="J0n-Dj-7Zi" id="YQw-H5-3aw"/>
                         <outlet property="sexo" destination="kMr-wr-NvA" id="8mA-iB-MB3"/>
                         <outlet property="telefonoCasa" destination="8Ep-2m-0x7" id="oFp-9g-pZL"/>
                         <outlet property="tipoIntervencion" destination="hoa-h3-att" id="Fa1-oX-G6k"/>
@@ -655,6 +660,11 @@
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ACu-IQ-cVS" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="MXH-Ue-laX">
+                    <connections>
+                        <action selector="tapEnVista:" destination="VIE-UR-aqn" id="eLJ-sf-AIO"/>
+                    </connections>
+                </tapGestureRecognizer>
             </objects>
             <point key="canvasLocation" x="2069.6296296296296" y="1497.7777777777778"/>
         </scene>
@@ -976,6 +986,7 @@
                                         </subviews>
                                     </stackView>
                                 </subviews>
+                                <gestureRecognizers/>
                                 <constraints>
                                     <constraint firstItem="gFs-3w-IYd" firstAttribute="width" secondItem="e24-KN-uRN" secondAttribute="width" id="Rji-ti-1l8"/>
                                     <constraint firstItem="gFs-3w-IYd" firstAttribute="top" secondItem="E12-rb-O3b" secondAttribute="top" id="VrO-uK-O6p"/>
@@ -985,6 +996,9 @@
                                 </constraints>
                                 <viewLayoutGuide key="contentLayoutGuide" id="E12-rb-O3b"/>
                                 <viewLayoutGuide key="frameLayoutGuide" id="e24-KN-uRN"/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="271-1S-jVe" appends="YES" id="aX5-w5-hXB"/>
+                                </connections>
                             </scrollView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="I1q-Cu-4G7"/>
@@ -1006,11 +1020,17 @@
                         <outlet property="nombreUsuario" destination="yDv-9T-dbV" id="xcc-uD-7bi"/>
                         <outlet property="numeroSesion" destination="bCC-3c-dtO" id="Ec2-uL-EnQ"/>
                         <outlet property="procedencia" destination="hau-OV-y5W" id="gfZ-Nt-09d"/>
+                        <outlet property="scrollView" destination="IZo-uo-rXC" id="hIZ-bs-oi3"/>
                         <outlet property="tipoIntervencion" destination="VGw-5T-WWp" id="nCz-JY-hm1"/>
                         <outlet property="tipoServicio" destination="d9s-YX-IzN" id="z7m-gM-UmV"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="MTN-lE-iXH" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="271-1S-jVe">
+                    <connections>
+                        <action selector="tapEnVista:" destination="zkW-nK-FrH" id="2G9-Bt-8R8"/>
+                    </connections>
+                </tapGestureRecognizer>
             </objects>
             <point key="canvasLocation" x="2972.5925925925926" y="1533.8888888888889"/>
         </scene>
@@ -2247,6 +2267,7 @@
                     <navigationItem key="navigationItem" id="WrS-pc-G5K"/>
                     <connections>
                         <segue destination="hBg-iN-RKU" kind="show" identifier="irALogin" id="M0K-O7-ee1"/>
+                        <segue destination="EyD-Bp-txt" kind="show" identifier="sinPermiso" id="K0x-t9-3Ev"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="GXk-2h-mxv" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -3473,6 +3494,7 @@
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="YVw-BY-rkw"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <gestureRecognizers/>
                         <constraints>
                             <constraint firstItem="qj0-Jd-kS1" firstAttribute="leading" secondItem="YVw-BY-rkw" secondAttribute="leading" id="0VW-Yx-cFZ"/>
                             <constraint firstItem="qj0-Jd-kS1" firstAttribute="bottom" secondItem="YVw-BY-rkw" secondAttribute="bottom" id="2cI-az-Lkm"/>
@@ -3483,6 +3505,9 @@
                             <constraint firstItem="qj0-Jd-kS1" firstAttribute="leading" secondItem="YVw-BY-rkw" secondAttribute="leading" id="bWU-1a-qYH"/>
                             <constraint firstItem="qj0-Jd-kS1" firstAttribute="top" secondItem="YVw-BY-rkw" secondAttribute="top" id="hHG-g9-Dtr"/>
                         </constraints>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="P3C-QI-gBN" appends="YES" id="6qq-H5-Q5w"/>
+                        </connections>
                     </view>
                     <navigationItem key="navigationItem" title="Encuadre Usuario" id="fSd-pm-mLe"/>
                     <connections>
@@ -3503,13 +3528,19 @@
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="lW6-Se-Ay8" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="P3C-QI-gBN">
+                    <connections>
+                        <action selector="tapEnVista:" destination="LkF-jH-tIE" id="vAc-Ss-GJ9"/>
+                    </connections>
+                </tapGestureRecognizer>
             </objects>
             <point key="canvasLocation" x="5195.5555555555557" y="680"/>
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="M0K-O7-ee1"/>
+        <segue reference="vEG-t1-fh5"/>
         <segue reference="bBD-Ab-8zK"/>
+        <segue reference="K0x-t9-3Ev"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="BackgroundWhiteLogIn" width="1620" height="2160"/>

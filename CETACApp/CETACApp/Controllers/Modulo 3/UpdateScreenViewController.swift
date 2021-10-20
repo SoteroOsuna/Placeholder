@@ -15,6 +15,11 @@ class UpdateScreenViewController: UIViewController, UITextFieldDelegate, UIPicke
     var elUsuario: Usuario?
     var pickerView = UIPickerView()
     let userTypes = listaUsuarios
+    
+    func textFieldShouldReturn(_ textField: UITextField) -> Bool {
+        return textField.resignFirstResponder()
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         namesField.layer.borderWidth = 2.5

@@ -8,10 +8,18 @@
 import UIKit
 
 
-class EncuadreUsuarioViewController: UIViewController {
+class EncuadreUsuarioViewController: UIViewController,UITextFieldDelegate {
     
     var sesionesController = SesionController()
     var sesionEncuadre:NuevaSesion?
+    
+    
+    @IBAction func tapEnVista(_ sender: Any) {
+        self.view.endEditing(true)
+    }
+    func textFieldShouldReturn(_ textField: UITextField) -> Bool {
+        return textField.resignFirstResponder()
+    }
     
     @IBOutlet weak var nombre: UILabel!
     @IBOutlet weak var ocupacion: UITextField!
@@ -76,6 +84,18 @@ class EncuadreUsuarioViewController: UIViewController {
             motivoConsulta.isEditable = false
             actualizarBoton.isHidden = true
         }
+        ocupacion.delegate = self
+        religion.delegate = self
+        procedencia.delegate = self
+        domicilio.delegate = self
+        telefonoCasa.delegate = self
+        estadoCivil.delegate = self
+        edad.delegate = self
+        sexo.delegate = self
+        hijos.delegate = self
+        referencia.delegate = self
+        identificacionEtapa.delegate = self
+        
     }
     
     func displayError(_ error: Error, title: String) {

@@ -11,6 +11,7 @@ class ReporteSesionesTableViewController: UITableViewController {
     
     var sesionesControlador = SesionController()
     var datos = Sesiones()
+    
 
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
@@ -61,6 +62,7 @@ class ReporteSesionesTableViewController: UITableViewController {
                 }
             }
         }
+        
     }
     
     func updateUI(with sesiones: Sesiones) {
