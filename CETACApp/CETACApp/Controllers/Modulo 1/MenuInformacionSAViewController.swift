@@ -26,19 +26,19 @@ class MenuInformacionSAViewController: UIViewController {
         switch segue.identifier {
         
         case "tanatologia":
-            siguiente.indice = 10
+            siguiente.indice = 7
         case "acompanamientoIndividual":
-            siguiente.indice = 11
+            siguiente.indice = 8
         case "acompanamientoGrupal":
-            siguiente.indice = 12
+            siguiente.indice = 9
         case "logoterapia":
-            siguiente.indice = 13
+            siguiente.indice = 10
         default:
-            siguiente.indice = 14
+            siguiente.indice = 11
         }
         
-        siguiente.limiteInferior = 10
-        siguiente.limiteSuperior = 14
+        siguiente.limiteInferior = 7
+        siguiente.limiteSuperior = 11
     }
 
 }

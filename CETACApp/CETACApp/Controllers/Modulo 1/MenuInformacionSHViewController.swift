@@ -26,22 +26,22 @@ class MenuInformacionSHViewController: UIViewController {
         switch segue.identifier {
         
         case "aromaterapia":
-            siguiente.indice = 15
+            siguiente.indice = 12
         case "cristaloterapia":
-            siguiente.indice = 16
+            siguiente.indice = 13
         case "reiki":
-            siguiente.indice = 17
+            siguiente.indice = 14
         case "biomagnetismo":
-            siguiente.indice = 18
+            siguiente.indice = 15
         case "angeloterapia":
-            siguiente.indice = 19
+            siguiente.indice = 16
         case "musicoterapia":
-            siguiente.indice = 20
+            siguiente.indice = 17
         default:
-            siguiente.indice = 21
+            siguiente.indice = 18
         }
-        siguiente.limiteInferior = 15
-        siguiente.limiteSuperior = 21
+        siguiente.limiteInferior = 12
+        siguiente.limiteSuperior = 18
         
     }
 

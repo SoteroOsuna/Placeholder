@@ -26,11 +26,11 @@ class MenuInformacionTAViewController: UIViewController {
         switch segue.identifier {
         
         case "floresDeBach":
-            siguiente.indice = 22
+            siguiente.indice = 19
         default:
-            siguiente.indice = 23
+            siguiente.indice = 20
         }
-        siguiente.limiteInferior = 22
-        siguiente.limiteSuperior = 23
+        siguiente.limiteInferior = 19
+        siguiente.limiteSuperior = 20
     }
 }

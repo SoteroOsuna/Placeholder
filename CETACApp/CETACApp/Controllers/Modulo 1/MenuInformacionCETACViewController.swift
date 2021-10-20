@@ -36,7 +36,7 @@ class MenuInformacionCETACViewController: UIViewController {
             siguiente.indice = 4
         }
         siguiente.limiteInferior = 0
-        siguiente.limiteSuperior = 9
+        siguiente.limiteSuperior = 6
     }
 
 }
