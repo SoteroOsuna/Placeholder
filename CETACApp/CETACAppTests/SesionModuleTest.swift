@@ -63,7 +63,7 @@ class SesionModuleTest: XCTestCase {
         let db = Firestore.firestore()
         var sesiones = Sesiones()
         let expectedSize = 100
-        let exp = self.expectation(description: "InfoTest")
+        let exp = self.expectation(description: "SesionesTest")
         db.collection("Sesiones").getDocuments()  { (querySnapshot, err) in
             if (err != nil) {
                 XCTAssertNil(err)

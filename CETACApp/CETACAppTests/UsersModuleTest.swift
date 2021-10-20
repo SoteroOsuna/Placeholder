@@ -11,6 +11,7 @@ import Firebase
 @testable import CETACApp
 
 class UsersModuleTest: XCTestCase {
+    var idTestUD: String = ""
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.
@@ -110,6 +111,7 @@ class UsersModuleTest: XCTestCase {
                     XCTAssertNil(err)
                 } else {
                     let docID = ref!.documentID
+                    self.idTestUD = ref!.documentID
                     XCTAssertNotNil(db.collection("TestUsuarios").document(docID))
                 }
             exp.fulfill()
@@ -118,44 +120,27 @@ class UsersModuleTest: XCTestCase {
         
     }
     
-    func testDeleteSesion() {
+    func testDeleteUsuario() {
         let db = Firestore.firestore()
         let exp = self.expectation(description: "DeleteUserTest")
-        db.collection("TestUsuarios").document("TESTID").delete() { err in
+        db.collection("TestUsuarios").document("idTestUD").delete() { err in
             if (err != nil) {
-                XCTAssertNotNil(err)
+                XCTAssertNil(err)
             }
             exp.fulfill()
         }
         self.waitForExpectations(timeout: 20.0)
     }
     
-    func testUpdateNuevaSesion() {
+    func testUpdateUsuario() {
         let db = Firestore.firestore()
-        let updateSesion = NuevaSesion(id: "AUbURqQ49ttidbc02FA7", nombreTanatologo: "test", nombreUsuario: "test", ocupacion: "test", religion: "test", procedencia: "test", domicilio: "test", telefonoCasa: "test", estadoCivil: "test", edad: 18, sexo: "test", hijos: "test", referencia: "test", motivoConsulta: "test", identificacionEtapa: "test", motivo: "test", tipoServicio: "test", tipoIntervencion: "test", herramienta: "test", evaluacion: "test", cuotaRecuperacion: 10.0)
-        let exp = self.expectation(description: "UpdateNuevaSesionTest")
-        db.collection("TestSesiones").document(updateSesion.id).updateData([
-            "numeroSesion": updateSesion.numeroSesion,
-            "nombreTanatologo": updateSesion.nombreTanatologo,
-            "nombreUsuario": updateSesion.nombreUsuario,
-            "ocupacion": updateSesion.ocupacion,
-            "religion": updateSesion.religion,
-            "procedencia": updateSesion.procedencia,
-            "domicilio":  updateSesion.domicilio,
-            "telefonoCasa": updateSesion.telefonoCasa,
-            "estadoCivil": updateSesion.estadoCivil,
-            "edad": updateSesion.edad,
-            "sexo": updateSesion.sexo,
-            "hijos": updateSesion.hijos,
-            "referencia": updateSesion.referencia,
-            "motivoConsulta": updateSesion.motivoConsulta,
-            "identificacionEtapa": updateSesion.identificacionEtapa,
-            "motivo": updateSesion.motivo,
-            "tipoServicio": updateSesion.tipoServicio,
-            "tipoIntervencion": updateSesion.tipoIntervencion,
-            "herramienta": updateSesion.herramienta,
-            "evaluacion": updateSesion.evaluacion,
-            "cuotaRecuperacion": updateSesion.cuotaRecuperacion
+        let updateUser = Usuario(nombre: "test", tipoUsuario: "test", usuario: "test", id: "3RdOG4PAeSKIl27Bd4vY", password: "test")
+        let exp = self.expectation(description: "UpdateUserTest")
+        db.collection("TestUsuarios").document(updateUser.id).updateData([
+            "Nombre(s)":updateUser.nombre,
+            "Contraseña":updateUser.password,
+            "Tipo de Usuario":updateUser.tipoUsuario,
+            "Usuario":updateUser.usuario
         ]) { err in
             if err != nil {
               XCTAssertNil(err)
