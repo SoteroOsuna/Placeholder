@@ -91,6 +91,8 @@
 		36D2125A27129B46001C76D9 /* UsuarioController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36D2125927129B46001C76D9 /* UsuarioController.swift */; };
 		36D2125E2713AE63001C76D9 /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36D2125D2713AE63001C76D9 /* LogInViewController.swift */; };
 		36D212652713AFA2001C76D9 /* LogInTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36D2125F2713AEDC001C76D9 /* LogInTest.swift */; };
+		36DF5FB6271F5C2900F78F5A /* SesionModuleTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36DF5FB5271F5C2900F78F5A /* SesionModuleTest.swift */; };
+		36DF5FB8271F7AD800F78F5A /* UsersModuleTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36DF5FB7271F7AD800F78F5A /* UsersModuleTest.swift */; };
 		36F289E82709382A0052FB5E /* MenuInformacionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36F289E72709382A0052FB5E /* MenuInformacionViewController.swift */; };
 		36F289EA2709386F0052FB5E /* MenuInformacionCETACViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36F289E92709386F0052FB5E /* MenuInformacionCETACViewController.swift */; };
 		36F289EC270A88A00052FB5E /* Sesion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36F289EB270A88A00052FB5E /* Sesion.swift */; };
@@ -196,6 +198,8 @@
 		36D2125927129B46001C76D9 /* UsuarioController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsuarioController.swift; sourceTree = "<group>"; };
 		36D2125D2713AE63001C76D9 /* LogInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
 		36D2125F2713AEDC001C76D9 /* LogInTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInTest.swift; sourceTree = "<group>"; };
+		36DF5FB5271F5C2900F78F5A /* SesionModuleTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SesionModuleTest.swift; sourceTree = "<group>"; };
+		36DF5FB7271F7AD800F78F5A /* UsersModuleTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersModuleTest.swift; sourceTree = "<group>"; };
 		36F289E72709382A0052FB5E /* MenuInformacionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuInformacionViewController.swift; sourceTree = "<group>"; };
 		36F289E92709386F0052FB5E /* MenuInformacionCETACViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuInformacionCETACViewController.swift; sourceTree = "<group>"; };
 		36F289EB270A88A00052FB5E /* Sesion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sesion.swift; sourceTree = "<group>"; };
@@ -310,7 +314,7 @@
 			isa = PBXGroup;
 			children = (
 				36F3926327068B8B0030A87F /* Models */,
-				36F3926427068B930030A87F /* Controllers */,
+				36F3926427068B930030A87F /* ViewControllers */,
 				368AED3427053F71009EF4F3 /* Assets */,
 				368AED2027053F31009EF4F3 /* AppDelegate.swift */,
 				368AED2227053F31009EF4F3 /* SceneDelegate.swift */,
@@ -400,7 +404,7 @@
 			path = Models;
 			sourceTree = "<group>";
 		};
-		36F3926427068B930030A87F /* Controllers */ = {
+		36F3926427068B930030A87F /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
 				3683B744271E4C4000753029 /* Modulo 1 */,
@@ -408,7 +412,7 @@
 				3683B746271E4CC900753029 /* Modulo 3 */,
 				3683B747271E4CE400753029 /* Modulo 4 */,
 			);
-			path = Controllers;
+			path = ViewControllers;
 			sourceTree = "<group>";
 		};
 		36F3F74027128EF200E6B0C5 /* CETACAppTests */ = {
@@ -417,6 +421,8 @@
 				36F3F74327128EF200E6B0C5 /* Info.plist */,
 				36D2125F2713AEDC001C76D9 /* LogInTest.swift */,
 				369D0A942713B63200D14908 /* InformationModuleTest.swift */,
+				36DF5FB5271F5C2900F78F5A /* SesionModuleTest.swift */,
+				36DF5FB7271F7AD800F78F5A /* UsersModuleTest.swift */,
 			);
 			path = CETACAppTests;
 			sourceTree = "<group>";
@@ -687,6 +693,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				36DF5FB8271F7AD800F78F5A /* UsersModuleTest.swift in Sources */,
+				36DF5FB6271F5C2900F78F5A /* SesionModuleTest.swift in Sources */,
 				36D212652713AFA2001C76D9 /* LogInTest.swift in Sources */,
 				369D0A952713B63200D14908 /* InformationModuleTest.swift in Sources */,
 			);
